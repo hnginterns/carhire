@@ -1,9 +1,111 @@
+body{
+      font-weight:700;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    margin: 0;
+}
+
+.headcontent{
+    width: 95%;
+    /*background:red;*/
+    margin: 0 auto;
+    margin-top:2%;
+}
+.head1{
+    width: 95%;
+    background: white;
+    height:100px;
+    margin: 0 auto;
+}
+.head1>p{
+    float: left;
+    font-size:3em;
+    color:#007BCA;
+}
+form p{
+    float:left;
+    margin-left:20%;
+    margin-top: 2.5%;
+    color:#4F4F4F;
+}
+.head2{
+    width: 95%;
+    margin: 0 auto;
+    color:grey;
+}
+select{
+    float:right;
+    width: 15%;
+    height:3em;
+    margin-top:2%;
+    margin-right:3%;
+    border-radius: 5px;
+    border: 2px solid grey;
+    color:#4F4F4F;
+}
+
+    /*======= Four boxes styling starts here =======*/
+.rebox1{
+    width: 24.7%;
+    min-height:120px;
+    float: left;
+    border:.5px solid grey;
+    text-align: center;
+    
+}
+.rebox1 img{
+    margin-top: 4%;
+    width: 30%;
+    height: 100%;
+}
+.rebox1 p{
+margin-top:-1.4em;
+}
+.rebox2{
+    width: 25%;
+    min-height:120px;
+    float: left;
+    border:.5px solid grey;
+    text-align: center;
+}
+.rebox2 img{
+    margin-top: 10%;
+    width: 15%;
+    height: 40%;
+}
+.rebox3{
+    width: 24.9%;
+    min-height:120px;
+    float: left;
+    border:.5px solid grey;
+    text-align: center;
+}
+.rebox3 img{
+    margin-top: 10%;
+    width: 15%;
+    height: 45%;
+}
+.rebox4{
+    width: 25%;
+    min-height:120px;
+    float: left;
+    border:.5px solid grey;
+    text-align: center;
+}
+.rebox4 img{
+    margin-top: 10%;
+    width: 15%;
+    height: 40%;
+}
+    /*======= Four boxes styling ends here =======*/
+
 .box{
     width:90%;
     margin:5%;
     border: .5px solid grey;
-    font-family: 'Roboto', sans-serif;
 }
+
 .car{
     float: left;
     width: 42%;
@@ -20,7 +122,7 @@
     margin-top:16%;
 }
 #price{
-    margin-top:29%;
+    margin-top:33%;
     margin-left:16%;
     width:75%;
     margin-bottom: 5%;
