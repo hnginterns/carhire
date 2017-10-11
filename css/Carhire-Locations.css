@@ -15,9 +15,7 @@ body{
 }
 
 .world{
-background-image: url("world.png");
-background-size: contain;
-background-image: url("world.png");
+background-image: url("https://res.cloudinary.com/aiyfee/image/upload/v1507734166/world_wzfoz2.png");
 background-size: contain;
 background-position: center center;
   background-repeat: no-repeat;
