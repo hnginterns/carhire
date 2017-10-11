@@ -15,6 +15,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <style>
     body {
         box-sizing: border-box;
@@ -135,6 +136,9 @@
     content: " Show more";
 }
     </style>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/contactpage.css">
+
 
 </head>
 <body style='background-color: #DCDADA;'>

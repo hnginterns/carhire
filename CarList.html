@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CarHire.africa</title>
+	<style type="text/css">
+	    ul{
+	    	list-style-type: none;
+	    	margin: 4px;
+	    }
+		li{
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<form id="vehicleForm" action="/php/" method="post">
+		<div class="Vehicle"><h1><strong>Vehicle Models</strong></h1></div>
+		   <div id="countryFilter">
+		   	<span>Display models for:</span>
+		   	<span>
+		   		<input type="hidden" name="" id="box1">
+		   		<select id="countryDropDown" class="CDD" onchange="chooseCountry()" name="">
+		   			<optgroup>
+		   				<option value="NG" selected="selected">Nigeria</option>
+		   				<option value="KY">Kenya</option>
+		   			</optgroup>
+		   		</select>
+		   	</span>
+		   	<span>
+		   		<select id="locationDropDown" class="CDD">
+		   			<optgroup>
+		   				<option value="...">...</option>
+		   				<option value="AA">Aba</option>
+		   				<option value="ABK">Abakiliki</option>
+		   				<option value="ABK">Abeokuta</option>
+		   				<option value="ABJ">Abuja</option>
+		   				<option value="ADE">Ado Ekiti</option>
+		   				<option value="AKU">Akure</option>
+		   				<option value="ASB">Asaba</option>
+		   				<option value="AWK">Awka</option>
+		   				<option value="BCH">Buchi</option>
+		   				<option value="BNC">Benin City</option>
+		   				<option value="BDA">Bida</option>
+		   				<option value="BNK">Birnin Kebbi</option>
+		   				<option value="BGM">Buguma</option>
+		   				<option value="CAL">Calabar</option>
+		   				<option value="EKT">Eket</option>
+		   				<option value="ENG">Enugu</option>
+		   				<option value="GSU">Gusau</option>
+		   				<option value="IBD">Ibadan</option>
+		   				<option value="IF">Ife</option>
+		   				<option value="IJO">Ijebu Ode</option>
+		   				<option value="IKJ">Ikeja</option>
+		   				<option value="IKR">Ikorodu</option>
+		   				<option value="IK">Ikot Ekpene</option>
+		   				<option value="ILN">Ilorin</option>
+		   				<option value="JLG">Jalingo</option>
+		   				<option value="JMT">Jimeta</option>
+		   				<option value="JS">Jos</option>
+		   				<option value="KDA">Kaduna</option>
+		   				<option value="KAN">Kano</option>
+		   				<option value="LFA">Lafia</option>
+		   				<option value="LAG">Lagos</option>
+		   				<option value="LKJ">Lokoja</option>
+		   				<option value="MDG">Maiduguri</option>
+		   				<option value="MKD">Makurdi</option>
+		   				<option value="MNA">Minna</option>
+		   				<option value="NSK">Nsukka</option>
+		   				<option value="OGM">Ogbomosho</option>
+		   				<option value="OKN">Okene</option>
+		   				<option value="ONS">Onitsha</option>
+		   				<option value="ORN">oron</option>
+		   				<option value="OSG">Osogbo</option>
+		   				<option value="OWR">Owerri</option>
+		   				<option value="OW">Owo</option>
+		   				<option value="PTK">Potiskum</option>
+		   				<option value="PH">Port Harcourt</option>
+		   				<option value="SPL">Sapele</option>
+		   				<option value="SKT">Sokoto</option>
+		   				<option value="SLJ">Suleja</option>
+		   				<option value="UMA">Umauhia</option>
+		   				<option value="UY">Uyo</option>
+		   				<option value="WAR">Warri</option>
+		   				<option value="YLA">Yola</option>
+		   				<option value="ZRA">Zaria</option>
+		   			</optgroup>
+		   		</select>
+		   	</span>
+		   </div>
+	</form>
+	
+
+</body>
+</html>
