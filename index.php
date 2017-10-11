@@ -1,98 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nav And Footer</title>
+	<title>Nav and Footer
+      <?php 
+    if (isset($pageTitle)) {
+        echo "CarHire - ".$pageTitle;
+    } else {
+        echo "CarHire";
+    }
+    ?>      
+  </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <style type="text/css">
-  		html{
-  			background-color: #ccc;
-  		}
-  		.navbar.navbar-inverse.nav2{
-  			background-color:#fff;
-  			height:80px;
-  			margin-top: -20px;
-  			border-color: #fff;
-   		}
-  		.center.image{
-  			margin-left: 50px;
-  			padding-top: -20px;
-  			
-
-  		}
-  		.center{
-  			margin-top: 15px;
-  			margin-right: 30px;
-  			padding-top: -10px;
-
-  		}
-  		#center{
-  			margin-right:15px;
-  			margin-top: 25px;
-  		}
-  		.center.rent{
-  			margin-right: -10px;
-  			font-size: 30px;
-  		}
-      .center.rent:hover{
-        color:#000;
-      }
-  		.center.new{
-  			margin-left: -30px;
-  			font-size: 30px;
-  		}
-  		.center.line{
-  			
-  			font-size: 50px;
-  		}
-  		
-  		section{
-  			height:90px;
-  			background-color: #bbb;
-  		}
-  		
-   		#span{
-   			padding-left: 15px;
-   			font-size:20px;
-   			font-style: italic;
-   		}
-   		
-   		footer{
-   			background-color: #fff;
-   			height: 20px;
-
-   		}
-   		.navbar.navbar-default.navbar-fixed-bottom{
-   			
-   			background-color: #fff;
-   		}
-   		#footer{
-   			padding-top: 35px;
-   		}
-   		.center.image1{
-   			margin-left: 22px;
-   		}
-   		ul {
-    		list-style-type: none;
-    		margin-left: -15px;
-    	}
-    	span{
-    		margin-left:25px;
-    		font-size: 19px;
-    	}
-       	li{padding-top: 10px;}
-       	.center-block{
-       		text-align: center;
-       		padding-top: 13px;
-       		color: #fff;
-       		background-color: #000;
-       		padding-top: 10px;
-       		padding-bottom: 10px;
-       	}
-       	#icon{
-       		margin-left: 20px;
-       	}
-  </style>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<nav class="navbar navbar-inverse ">
@@ -141,10 +61,35 @@ id="nav2">
     </div>
   </div>
 </nav>
-<sectiion>
+<div class="book">
+<input type="button" name="Bookbutt" value="Book a car">
+ <input type="button" name="modifybutt" value="View or Modify a reservation">
+ <div><h3>pick-up Location</h3></div>
+   <div>
+     <input type="text" class="in" placeholder="City, State or Airport Code"><br>
+   </div>
+ <div><h3>Pick-up Date & Time</h3></div>
+   <div>
+     <input type=integer class="in" placeholder="10.07.2017    16.09"><br>
+   </div>
+ <div><h3>Return Date & Time</h3></div>  
+    <div>
+     <input type=integer class="in" placeholder="10.07.2017    16.09"><br>
+   </div>
+  <input type="button" name="Gobutt" value="GO">
 
-</section>
-	
+   
+
+
+</div>
+
+
+
+
+
+
+
+
 <footer>
 	<nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">
