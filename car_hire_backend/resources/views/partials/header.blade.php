@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Nav and Footer
-      <?php 
-    if (isset($pageTitle)) {
-        echo "CarHire - ".$pageTitle;
-    } else {
-        echo "CarHire";
-    }
-    ?>      
-  </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+
+
+{{--   <link rel="stylesheet" href="css/main.css" --}}
+
+  <header>
 	<nav class="navbar navbar-inverse ">
   <div class="container">
     <div class="navbar-header">
@@ -30,8 +18,8 @@
         <li><a href="#">Home</a></li>
         <li><a href="#about">Location</a></li>
         <li><a href="#">Special Offers</a></li>  
-        <li><a href="#">Cars</a></li>  
-        <li><a href="#">Contact</a></li>  
+        <li><a href="/car-listing">Cars</a></li>  
+        <li><a href="/contact">Contact</a></li>  
         <li><a href="#">Airport Transfer</a></li>   
       </ul>
     </div>
@@ -61,3 +49,4 @@ id="nav2">
     </div>
   </div>
 </nav>
+</header>

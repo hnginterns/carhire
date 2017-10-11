@@ -15,6 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/contact', function () {
+    return view('partials.contact');
+});
+
+Route::get('/car-listing', function () {
+    return view('partials.car-listing');
+});
+
+
+Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
 
 /*
 Index page is route /
@@ -22,3 +32,8 @@ Index page is route /
 // Route::get('/', function () ) {
 // 	return view('index');
 // }
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
