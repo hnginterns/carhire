@@ -16,132 +16,11 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <style>
-    body {
-        box-sizing: border-box;
-        /*margin-top: 20px;
-        margin-bottom: 50px;*/
-    }
-    .img{
-        display:block;
-        max-width: 100%;
-        height: auto;
-        
-    }
-    main .container{
-        background-color: white;
-        max-width:1020px;
-        position: relative;
-                
-        padding:0 30px 60px 30px;
-        margin-top: -30px;
-    }
-    .img-1{
-        margin: 15px 0;
-    }
-    .imgs{
-        margin-top: 20px;
-    }
-    .contact{
-        position: relative;
-        top: 30px;
-        margin-bottom: 10px;
-        padding: 30px 0;
-    }
-    .nav-container{
-        z-index: 0;
-        display: block;
-    }
-    .navi{
-        box-sizing: border-box;
-        border: 1px solid #B0A8A8;
-        position: relative;
-        top: 60px;
-        padding:0;
-        overflow: hidden;
-        margin: 0 0 15px 0;
-        text-align:left;
-        
-    }
-    
-    
-    ul{
-        list-style-type: none;
-        text-align : left;
-        padding: 1px, 0;
-        margin: auto;
-        -webkit-padding-start: 7px;
-        
-
-    }
-   li {
-       display: list-item;
-       margin: 6px 0;
-       
-   }
-   
-   .navbar.navbar-inverse.nav2{
-            background-color:#fff;
-            height:80px;
-            margin-top: -20px;
-            border-color: #fff;
-        }
-
-    .center-block{
-            text-align: center;
-            padding-top: 13px;
-            color: #fff;
-            background-color: #000;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-        #icon{
-            margin-left: 20px;
-        }
-    .navbar.navbar-default{
-            
-            background-color: #fff;
-        }
-   
-   .subnavi1{
-       border: none;
-       padding: 0px 15px 0 15px;
-       margin: auto;
-   }
-   .subnavi1 .ul li {
-       border: none;
-    border-bottom: 1px solid #436BC8;
-    padding: 10px 0;
-    margin: 0;
-
-   }
-   .navbar-toggle {
-    padding: 9px 0px;
-   }
-   .subnavi2{
-    border: none;
-    border-bottom: 1px solid #B0A8A8;
-    padding: 10px 0 10px 0;
-    margin: 0;
-   }
-   a{
-       color: #000000;
-   }
-   .expand:after {
-    content: " Show less";
-}
-    
-/* Icon when the collapsible content is hidden */
-.expand.collapsed:after {
-    content: " Show more";
-}
-    </style>
     <!-- css stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/contactpage.css">
 
-
 </head>
-<body style='background-color: #DCDADA;'>
+<body>
     <header class=''>
         <?php include('header1.php') ?>
     </header>
@@ -220,15 +99,15 @@
                             </a>
                             <h4>Address, Telephone</h4>
                             <p>By telephone or by post, you will find the contact details of our business areas.</p>
-                            <a href="" style="color: #0077BC">All details</a>
+                            <a href="">All details</a>
                         </div>
                         <div class='col-sm-6 imgs'>
-                            <a href="">                            
+                            <a href="form.php">                            
                             <img src="https://www.sixt.com/fileadmin/user_upload/ic_kontakt.jpg" alt="" class='img' height='85' width='70' >
                             </a>
                             <h4>Contact Form</h4>
                             <p>Questions, suggestions, problems, praise or even blame? We are looking forward to hearing from you.</p>
-                            <a href="" style="color: #0077BC">To the form</a>
+                            <a href="contactform.php">To the form</a>
                         </div>
                     </div>
 
@@ -239,7 +118,7 @@
                             </a>
                             <h4>Car Hire on Facebook</h4>
                             <p>Send us a Facebook message. On weekdays, we are there for you from 8am to 5pm.</p>
-                            <a href="" style="color: #0077BC">To Car Hire on Facebook</a>
+                            <a href="">To Car Hire on Facebook</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="">                            
@@ -247,7 +126,7 @@
                             </a>
                             <h4>Car Hire on Twitter</h4>
                             <p>Contact @carhire.africa on Twitter. On weekdays, we are there for you from 8am to 5pm.</p>
-                            <a href="" style="color: #0077BC">To @carhire.africa on Twitter</a>
+                            <a href="">To @carhire.africa on Twitter</a>
                         </div>
                     </div>
 
