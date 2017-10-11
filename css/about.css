@@ -17,14 +17,13 @@
 
   .success {
     background-color: #ECEFF6;
-
-    padding: 50px 20px 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   #succes-write {
     background: #ffffff;
     padding: 50px 50px 100px 50px;
-    margin: 50px 80px 20px 80px;
     height: auto;
     overflow: hidden;
     border-radius: 5px;
