@@ -579,9 +579,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                                         <li>
                                                             </li>
 
-
-
-                                                        <li></li>
+                                                       <li></li>
 
                                                         <li></li>
 
@@ -640,22 +638,10 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                                         <li><strong></strong></li>
                                                         <li>
                                                             </li>
-
-
-
                                                         <li></li>
-
                                                         <li></li>
-
                                                         <li></li>
-
-
-
-
-
-
-
-                                                        <li class="sx-res-topoffer-details-bold">#</li>
+                                                       <li class="sx-res-topoffer-details-bold">#</li>
                                                     </ul>
                         <a href="#" class="sx-res-topoffer-tooltip-button sx-gc-button-cta sx-gc-button-cta-green"></a>
                     </div>
@@ -764,16 +750,12 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                 _val    =  (val !== false)? val : 0;
                 _opt    =  opt? true : false;
 
-                                                var data0 =  ['SX0._trackEvent', cat, act, _label, _val, _opt];
-
-
+                    var data0 =  ['SX0._trackEvent', cat, act, _label, _val, _opt];
                 _gaq.push(data0);
                     }
-
         function sx_track_pageview(page) {
-                                            _gaq.push(['SX0._trackPageview', page]);
+                 _gaq.push(['SX0._trackPageview', page]);
                     }
-
     </script>
     <!-- SiteCatalyst code version: H.25.2.
     Copyright 1996-2012 Adobe, Inc. All Rights Reserved
@@ -803,7 +785,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
         };
         s.charSet       =  "iso-8859-1";
         s.pageName      =  "Reservation-Top_Offer-List";
-        s.server        =  "www.sixt.de";
+        s.server        =  "";
         s.channel       =  "Reservation-Pkw";
         s.eVar4         =  "logged_out|Public";
         s.eVar5         =  "";
@@ -817,7 +799,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
         var sitecatalyst_data =  {
             account:    'sixtracde',
             pagename:   'Reservation-Top_Offer-List',
-            server:     'www.sixt.de',
+            server:     '',
             channel:    'Reservation-Pkw',
             tpl:        'topoffer_list',
             ctyp:       'PKW',
@@ -844,26 +826,10 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 				<!-- /inner part app-->
 			</div>
 			<!-- /background img default -->
-
 		</div>
-
-
-
-<!--FOOTER STARTS -->
 <footer>
-	<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-  	<div class="row">
-  <div class="col-sm-3 footer1" ><img class="center image1" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="50" width="140"><ul><li>About</li><li>Locations</li><li>Contact Us</li><li>Privacy Policy</li></ul></div>
-  <div class="col-sm-3 footer2" id="footer" ><span><b>Product & Services</b></span><ul><li>Vehicles</li><li>Drivers</li><li>Hire Advice</li><li>FAQs</li></ul></div>
-  <div class="col-sm-3 footer3" id="footer"><span><b>Our Partners</b></span><ul><li>Hotels.ng</li><li>FAAN</li></ul></div>
-  <div class="col-sm-3 footer4" id="footer"><span><b>Follow Us</b></span> <br><br><img src="http://res.cloudinary.com/siazo/image/upload/v1507639912/twitter-256_z1pfxb.png" height="45" width="45" ><img src="https://res.cloudinary.com/siazo/image/upload/v1507639847/linkedin_circle-512_hzqz6w.png"  height="45" width="45" id="icon"><img src="https://res.cloudinary.com/siazo/image/upload/v1507639699/youtube_gm3o65.svg"  height="45" width="45" id="icon"></div>
-</div>
-</div>
-<div class="center-block">2017-CarHire-All Rights Reserved </div>
-</footer>								      
-
-<!-- FOOTER ENDS -->
+        <?php include('footer1.php') ?>
+    </footer>
     </div>
 
 </div>
