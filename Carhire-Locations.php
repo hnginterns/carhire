@@ -10,11 +10,9 @@
 </head>
 <body>
 	<?php include('header1.php') ?>
-	<div class = "container">
-		<div class = " world span12">
-			
-		</div>
-
+	<div class="row">
+          <div class="col-md-12" id="img"><img src="http://res.cloudinary.com/siazo/image/upload/v1507690593/WMMimage2_1_exnyoo.png" class="img-responsive" ></div>
+        </div>
 
 
 		<div class = "span 12 country_p">
