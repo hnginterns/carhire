@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>404</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+    <h2>ARRGH!!</h2>
+
+    <img src="http://res.cloudinary.com/thenameisdrey/image/upload/v1507709708/Group_lccdy7.png" height="150px">
+    <img src="Group.png" height="150px">
+    <!--<div class="error">4 <span class="ghost"> </span>4</div>
+    -->
+
+        <p> Sorry the page you are looking for cannot be accessed.
+    <br> Check the options below or feel free to</p>
+
+    <h4><a class="blue" href="#">REPORT THIS ISSUE</a></h4>
+
+    <div class="navigate">
+      <a class="bg-blue" href="#">HOME</a>
+    </div>
+    </div>
+</body>
+</html>
