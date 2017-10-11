@@ -55,3 +55,14 @@ body{
 #extra-services{
 	margin-bottom: 50px;
 }
+.navbar.navbar-inverse.nav2{
+            background-color:#fff;
+            height:80px;
+            margin-top: -20px;
+            border-color: #fff;
+        }
+        
+.navbar.navbar-default{
+            
+            background-color: #fff;
+        }
