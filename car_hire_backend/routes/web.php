@@ -11,14 +11,14 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 
 /*
 Index page is route /
 */
-Route::get('/', function () ) {
-	return view('index');
-}
+// Route::get('/', function () ) {
+// 	return view('index');
+// }
