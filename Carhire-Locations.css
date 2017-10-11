@@ -1,0 +1,109 @@
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.country{
+	
+
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	font-size: 150px;
+	color: #219653;
+	text-align: center;
+}
+
+.world{
+background-image: url("world.png");
+background-size: contain;
+background-image: url("world.png");
+background-size: contain;
+background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+
+
+}
+
+.img.img-fluid{
+
+}
+
+.country_p{
+	text-align: center;
+	border-bottom: 2px solid #333;
+}
+.states{
+
+	width: 170px;
+	height: 157px;
+	list-style: none;
+	font-family: Nunito Sans;
+	font-style: italic;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 30px;
+}
+
+.media{
+	padding: 40px;
+	margin: 30px;
+}
+
+
+
+
+.location h5 {  
+  
+}
+
+.location h5:before {
+  content: '\2022';
+  font-size: xx-large;
+  padding-left: -40px;
+
+}
+
+div .outlet{
+	padding: 20px;
+	margin: 20px;
+
+}
+
+h3{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 25px;
+	color: #219653;
+}
+
+ #navbar2{
+  margin-top:50px;
+  background-color: white;
+  border-color: white;
+ }
+.navbar-inverse .navbar-nav>li>a {
+  color: #B0B0B0;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.nav>li>a {
+  padding: 10px 15px;
+}
+.navbar-default{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+img{
+  width:100px;
+  height: 40px;
+  margin-top: -14px;
+}
