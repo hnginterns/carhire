@@ -1,2 +1,2 @@
-# carhire
-carhire.africa
+# Carhire-Locations
+Locations

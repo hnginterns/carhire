@@ -1,0 +1,79 @@
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	padding:0px; margin:0px;
+}
+
+#header{
+width:100%; 
+min-width:960px; 
+background-color:#fff;
+height:60px;
+border-bottom:#09C solid 1px
+ }
+ #worldMap{
+	 width:100%;
+	 width:100%;
+ }
+ #worldImage {
+	 width:99%;
+	 max-height:450px;
+	 min-width:950px;
+}
+#infoone{
+	text-align:center
+}
+
+#nigeria{
+	width:100%;
+	min-width:960px;
+}
+hr{
+width:80%; 
+min-width:950px;
+}
+.ourmap{
+width:99%;
+}
+#nigmap{
+	width:35%; 
+	max-width:400px;
+	float:left;
+	margin-left:20%
+}
+
+#nigspelling{
+	width:30%; 
+	max-width:400px;
+	float:right;
+	margin-right:15%
+}
+.spell{font-size:100px; color:green}
+.cl{clear:both}
+table{
+width:80%; 
+min-width:920px;
+text-align:center;
+margin-left:10%;
+margin-top:40px;
+}
+td{width:16%}
+
+#loc{width:80%; min-width:900px; margin-left:10%}
+.moreinfo{
+width:40%;
+ min-width:430px;
+float:right
+}
+
+.loczone{
+width:40%;
+ min-width:430px;
+float:left
+}
+
+.cat{width:80%; 
+min-width:920px;
+text-align:center;
+margin-left:10%;
+margin-top:40px;
+}

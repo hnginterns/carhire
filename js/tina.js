@@ -1,0 +1,1 @@
+$('#navbar').load('Nav_and_Footer.html');
