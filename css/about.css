@@ -386,3 +386,31 @@ p {
 p:last-child {
   margin-bottom: 0;
 }
+
+.elem1 {
+    background: white;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+
+.elem2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.elem3 {
+    background: #eceff6;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .quotes {
+    position: relative;
+    marign: 0;
+    padding: 30px 20px;
+    text-align: center;
+  }
+}
