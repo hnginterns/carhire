@@ -452,3 +452,17 @@ p:last-child {
     text-align: center;
   }
 }
+
+/* For the header and footer */
+
+ .navbar.navbar-inverse.nav2{
+            background-color:#fff;
+            height:80px;
+            margin-top: -20px;
+            border-color: #fff;
+        }
+        
+.navbar.navbar-default{
+            
+            background-color: #fff;
+        }
