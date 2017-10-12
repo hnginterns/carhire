@@ -467,7 +467,7 @@ p:last-child {
             background-color: #fff;
         }*/
 
-/*Header*/
+/*=====Header=====*/
 
 .header-blue, .header-below {
   margin-bottom: 0;
@@ -514,7 +514,9 @@ p:last-child {
 .pipe {
   pointer-events: none;
 }
-/*Footer*/
+
+
+/*======Footer=======*/
 #myFooter {
     background-color: #ECEFF6;
     color: #000000;

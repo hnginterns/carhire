@@ -11,7 +11,7 @@
         position: relative;
                 
         padding:0 30px 60px 30px;
-        margin-top: -30px;
+        /*margin-top: -30px;*/
     }
     .img-1{
         margin: 15px 0;
@@ -60,12 +60,12 @@
        color:#007BCA;
    }
    
-   .navbar.navbar-inverse.nav2{
+   /*.navbar.navbar-inverse.nav2{
             background-color:#fff;
             height:80px;
             margin-top: -20px;
             border-color: #fff;
-        }
+        }*/
 
     .center-block{
             text-align: center;
@@ -78,10 +78,10 @@
         #icon{
             margin-left: 20px;
         }
-    .navbar.navbar-default{
+    /*.navbar.navbar-default{
             
             background-color: #fff;
-        }
+        }*/
    
    .subnavi1{
        border: none;
@@ -223,7 +223,9 @@
     width:33%
   }
 
-/*footer*/
+
+
+/*=====footer=====*/
 #myFooter {
     background-color: #ECEFF6;
     color: #000000;
@@ -341,6 +343,8 @@
         text-align: center;
     }
 }
+
+
 /*Header*/
 
 
