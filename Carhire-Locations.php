@@ -9,15 +9,17 @@
 
 </head>
 <body>
-	<?php include('header1.php') ?>
+	<div class="container">
+		<?php include('header1.php') ?>
 	<div class="row">
-          <div class="col-md-12" id="img"><img src="http://res.cloudinary.com/siazo/image/upload/v1507690593/WMMimage2_1_exnyoo.png" class="img-responsive" ></div>
+          <div class="col-md-12 world img-responsive" ></div>
         </div>
 
 
 		<div class = "span 12 country_p">
 			<p>*pick your location to see our offices</p>
 			<p>You have selected Nigeria</p>
+			<hr>
 			<br>
 
 		</div>
@@ -71,7 +73,8 @@
 	  				<li> KEBBI</li>
 	  				<li> KOGI</li>
 	  				<li> KWARA </li>
-	  				<li style="border-bottom:3px solid green"> LAGOS</li>
+	  				<li> LAGOS</li>
+	  				<hr border-width = "4px" border-color="green">
 	  				
 	  			</div>
 	  			<div class = "col-md-2 states" >
@@ -151,7 +154,7 @@
        
     
     </div><!--end loc-->
-
+		<br>
 	</div>
 		<div class="cat">
     	<h3 style="color:blue; text-align:left">Categories and Services</h3>
@@ -164,6 +167,9 @@
 	<?php include('footer1.php') ?>
 
 	</div>
+		
+	</div>
+	
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
