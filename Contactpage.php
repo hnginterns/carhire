@@ -56,7 +56,8 @@
                                     
                                     </li>
                                     <li style='border-bottom: none; float:left; padding: 0;'>  <a href="#myNavbar1" class=" expand navbar-toggle collapsed" data-toggle="collapse"
-                                     aria-expanded="false"><span class='caret'></span></a></li>
+                                     aria-expanded="false"><span class='caret'></span></a>
+                                 	</li>
                                           
                                 </ul>
                         </div>
