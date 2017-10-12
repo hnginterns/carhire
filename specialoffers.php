@@ -30,76 +30,75 @@
     .t3-portalnavi ul.meta li {
       padding: 6px 14px 11px 14px;
     }
-	footer{
+			footer{
    			background-color: #fff;
    			height: 20px;
 
    		}
-   		.navbar.navbar-default.navbar-fixed-bottom{
+   			.navbar.navbar-default.navbar-fixed-bottom{
 
    			background-color: #fff;
    		}
-   		#footer{
+   			#footer{
    			padding-top: 35px;
    		}
-   		.center.image1{
+   			.center.image1{
    			margin-left: 22px;
    		}
-   		ul {
-    		list-style-type: none;
-    		margin-left: -15px;
-    	}
-    	span{
-    		margin-left:25px;
-    		font-size: 19px;
-    	}
-       	li{padding-top: 10px;}
+   			ul {
+    			list-style-type: none;
+    			margin-left: -15px;
+    		}
+    			span{
+    			margin-left:25px;
+    			font-size: 19px;
+    		}
+       			li{padding-top: 10px;}
 			.center-block{
-       		text-align: center;
-       		padding-top: 13px;
-       		color: #fff;
-       		background-color: #000;
-       		padding-top: 10px;
-       		padding-bottom: 10px;
-       	}
-       	#icon{
-       		margin-left: 20px;
-       	}
+       			text-align: center;
+       			padding-top: 13px;
+       			color: #fff;
+       			background-color: #000;
+       			padding-top: 10px;
+       			padding-bottom: 10px;
+       		}
+       			#icon{
+       			margin-left: 20px;
+       		}
 
-    .t3-portalnavi .t3-portalnavi--mr-n18 {
-      margin-right: -14px;
-    }
+    			.t3-portalnavi .t3-portalnavi--mr-n18 {
+      			margin-right: -14px;
+    		}
 
-    @media (max-width: 999px) {
-      .t3-portalnavi ul.meta li {
-        padding: 6px 10px 11px 10px;
-      }
+    			@media (max-width: 999px) {
+     			.t3-portalnavi ul.meta li {
+        		padding: 6px 10px 11px 10px;
+      		}
 
-      .t3-portalnavi .t3-portalnavi--mr-n18 {
-        margin-right: -10px;
-      }
-    }
-
-    @media (max-width: 899px) {
-      .t3-portalnavi ul.meta li {
-        padding: 6px 6px 11px 6px;
-      }
+      			.t3-portalnavi .t3-portalnavi--mr-n18 {
+        		margin-right: -10px;
+      		}
+    		
+    			@media (max-width: 899px) {
+      			.t3-portalnavi ul.meta li {
+        		padding: 6px 6px 11px 6px;
+      		}
 
 			.navbar.navbar-inverse.nav2{
-					 background-color:#fff;
-					 height:80px;
-					 margin-top: -20px;
-					 border-color: #fff;
+			background-color:#fff;
+			height:80px;
+			margin-top: -20px;
+			border-color: #fff;
+		}
+
+			.navbar.navbar-default{
+
+				background-color: #fff;
 			 }
 
-.navbar.navbar-default{
-
-					 background-color: #fff;
-			 }
-
-      .t3-portalnavi .t3-portalnavi--mr-n18 {
-        margin-right: -6px;
-      }
+      				.t3-portalnavi .t3-portalnavi--mr-n18 {
+       				margin-right: -6px;
+      			}
     }
 
 -->
@@ -183,12 +182,11 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
         });
     });
 })(jQuery);
-</script><div class="t3-cookie-notice" style="display: none"><div class="t3-content-division-inner"><div class="t3-cookie-description"> <a href="#" target="_blank" class="internal-link"></a> </div><a role="button" class="t3-cookie-agreement"> <span class="sx-close-icon">x</span></a></div></div>
-
+</script>
+     
+      <div class="t3-cookie-notice" style="display: none"><div class="t3-content-division-inner"><div class="t3-cookie-description"> <a href="#" target="_blank" class="internal-link"></a> </div><a role="button" class="t3-cookie-agreement"> <span class="sx-close-icon">x</span></a></div></div>
 	<div class="t3-portalnavi">
-
-
-            <div class="t3-content-division-inner t3-portalnavi-meta-content">
+           <div class="t3-content-division-inner t3-portalnavi-meta-content">
                 <div class="t3-portalnavi-float--left">
                     <ul class="meta">
                         <li><a href="#" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Home</font></font></a></li><li><a href="#" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Locations</font></font></a></li><li><a href="#" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Special offers</font></font></a></li><li><a href="#" target="_blank"><font style="vertical-align: inherit;">
@@ -198,41 +196,32 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 
                 </div>
             </div>
-					</div>
-				<div class="t3-page-wrapper t3-static-bg">
-
+		</div>
+	<div class="t3-page-wrapper t3-static-bg">
 	<div id="t3-js-main">
 		<!-- static page -->
 		<div class="t3-content-division t3-main-top">
 			<!-- inner part topbar -->
 			<div class="t3-content-division-inner t3-navi-content">
 				<div class="t3-top-bar">
-					<a href="#" id="sx-go-home" title="Car Hire Sixt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Car Hire Sixt</font></font></a>
+					<a href="#" id="sx-go-home" title="Car Hire"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Car Hire</font></font></a>
 
 
 				<!-- navi -->
 					<div class="t3-main-navi">
 						<ul class="t3-main-navi-items">
-
-
-
-
-<img src = "specialoffers/logo.png" align="left" width = "120" height "120"/>
-						<li class="t3-main-navi-item t3-main-navi-hd-login">
+						   <img src = "specialoffers/logo.png" align="left" width = "120" height "120"/>
+						      <li class="t3-main-navi-item t3-main-navi-hd-login">
 							<a class="t3-main-navi-hd" href="#">
-
-								<span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Login</font></font></span>
-							</a>
-						</li>
-						<li class="t3-js-main-navi-item t3-main-navi-item t3-main-navi-hd-menu" data-content="t3-js-sixt-navi">
-							<div class="t3-main-navi-hd">
-								<span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">menu</font></font></span>
-
-
-
+							   <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Get Car</font></font></span>
+						              </a>
+							</li>
+						    <li class="t3-js-main-navi-item t3-main-navi-item t3-main-navi-hd-menu" data-content="t3-js-sixt-navi">
+							 <div class="t3-main-navi-hd">
+							      <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">menu</font></font></span>
 								<img src="specialoffers/icon-menu.png" alt="show more" title="show more" height="27" width="25">
-							</div>
-							<div id="t3-js-sixt-navi" class="t3-main-navi-content" style="display: none; height: auto;">
+							  </div>
+							      <div id="t3-js-sixt-navi" class="t3-main-navi-content" style="display: none; height: auto;">
 
 
 
@@ -291,10 +280,9 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                                     <option value="AKS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Akwa Ibom</font></font></option>
                                                     <option value="LAG"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lagos</font></font></option>
                                                     <option value="ABJ"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Abuja</font></font></option>
-
                                             </select>
                 </div>
-                                <div class="sx-gc-debug">
+                              <div class="sx-gc-debug">
                     <span>IP:</span>
                     <select name="debug_country" class="sx-js-topoffer-filter sx-res-topoffer-select " id="sx-topoffer-ip-country" style="color: blue; border-color: blue;">
                                                     <option value="AKS">Akwa Ibom</option>
@@ -309,28 +297,22 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 
         <div class="sx-res-offerselect-wrapper">
             <ul id="sx-js-res-topoffer-list" class="sx-res-car-offerlist sx-res-topofferlist sx-res-offerselect-all">
-
-
-
           <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
             <a href="#">
-
-
                 <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">                                                                                                  <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/mini-one-3d-ivory-2016.png" alt="Early booking weeks special">
-                    </div>
+                    		</div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
                                 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                                     Off the ground
-                                                                             </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">For the weekend</font></font></span>
-                                                                    </h3>
-                            </div>
-
-                                                    </div>
-                                                    <div class="sx-res-offerlist-discount" style="height: 90px;">
-                                <div class="sx-res-offerlist-discount-cell">
+                                        </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">For the weekend</font></font></span>
+                                            </h3>
+                            		</div>
+                           	   </div>
+                              <div class="sx-res-offerlist-discount" style="height: 90px;">
+                                 <div class="sx-res-offerlist-discount-cell">
                                     <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Save </font></font></strong>
                                     <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">up to</font></font></strong>
                                     <div class="sx-res-offerlist-discount-percent"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
@@ -338,16 +320,16 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                     </font></font></div>
                                 </div>
                             </div>
-                                            </div>
+                       </div>
                 </div>
             </a>
             <div class="sx-res-topoffer-tooltip ">
                 <span class="sx-js-tooltip" data-content="sx-tooltip-data-DEWX3000-P-CCMR-1" "=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More info &gt;</font></font></span>
-                <span class="sx-gc-debug">
-                DEWX3000 - P - CCMR
-                </span>
-                <div id="sx-tooltip-data-DEWX3000-P-CCMR-1" class="sx-js-tooltip-content sx-tooltip-content" style="display: none;">
-                    <h5>Angebotsdetails<span>x</span></h5>
+                	<span class="sx-gc-debug">
+                		DEWX3000 - P - CCMR
+                			</span>
+                		<div id="sx-tooltip-data-DEWX3000-P-CCMR-1" class="sx-js-tooltip-content sx-tooltip-content" style="display: none;">
+                    	<h5>Angebotsdetails<span>x</span></h5>
                     <div class="sx-res-offerlist-offerfeatures">
                                                 <ul>
                                                         <li></li>
@@ -358,23 +340,12 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                             </div>
                     <div class="sx-res-topoffer-conditions-data">
                         <ul>
-                                                                                    <li><strong>Land: Deutschland</strong></li>
+                                             <li><strong>Land: Deutschland</strong></li>
                                                         <li>Anmietung: 31.08.2017 - 31.12.2017
                                                             </li>
 
-                                                        <li>Mindestmietdauer: 5 Tage</li>
-
-
-                                                        <li>Vorausbuchungsfrist: 14 Tage</li>
-
-
-
-
-
-
-
-
-
+                                                        <li></li>
+                                                        <li></li>
                                                         <li class="sx-res-topoffer-details-bold"></li>
                                                     </ul>
                         <a href="#" class="sx-res-topoffer-tooltip-button sx-gc-button-cta sx-gc-button-cta-green"></a>
@@ -382,39 +353,29 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                 </div>
             </div>
         </li>
-
-
-
-
-
-
-                                <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
+          <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
             <a href="#">
-
-
                 <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
-
-						        <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/vw-golf-5d-weiss-2017.png" alt="XXL weekend">
-                                                        </div>
+           		    <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/vw-golf-5d-weiss-2017.png" alt="XXL weekend">
+                     </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
                                 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                                     XXL weekend
-                                                                             </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Extra long weekend, extra small price</font></font></span>
-                                                                    </h3>
-                            </div>
-
-                                                            <div class="sx-res-offerlist-pricing">
-                                    <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        36
+                                      </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Extra long weekend, extra small price</font></font></span>
+                                         </h3>
+                     </div>
+			<div class="sx-res-offerlist-pricing">
+                             <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
+                                  <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        36000
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
-                                                    </div>
-                                                    <div class="sx-res-offerlist-discount" style="height: 90px;">
+                                     </div>
+                                 <div class="sx-res-offerlist-discount" style="height: 90px;">
                                 <div class="sx-res-offerlist-discount-cell">
                                     <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Save </font></font></strong>
                                     <strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">up to</font></font></strong>
@@ -423,13 +384,12 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                     </font></font></div>
                                 </div>
                             </div>
-                                            </div>
+                       </div>
                 </div>
             </a>
             <div class="sx-res-topoffer-tooltip ">
                 <span class="sx-js-tooltip" data-content="sx-tooltip-data-DEWQ2000-O-CLMR-2" "=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More info </font></font></span>
                 <span class="sx-gc-debug">
-
                 </span>
                 <div id="sx-tooltip-data-DEWQ2000-O-CLMR-2" class="sx-js-tooltip-content sx-tooltip-content" style="display: none;">
                     <h5><span>x</span></h5>
@@ -443,39 +403,29 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                             </div>
                     <div class="sx-res-topoffer-conditions-data">
                         <ul>
-                                                                                                <li></li>
-                                                                                                                    <li><strong></strong></li>
-
-
-                                                        <li class="sx-res-topoffer-details-bold"></li>
+                           <li></li>
+                                   <li><strong></strong></li>
+                                         <li class="sx-res-topoffer-details-bold"></li>
                                                     </ul>
                         <a href="#" class="sx-res-topoffer-tooltip-button sx-gc-button-cta sx-gc-button-cta-green"></a>
                     </div>
                 </div>
             </div>
         </li>
-
-
-
-
-
-
-                                <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
+	<li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
             <a href="#">
-
-
-                <div class="sx-res-offerlist-table">
+               <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
                           <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/vw-polo-5d-schwarz-2016.png" alt="Airport Special">
-                                                        </div>
+                              </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
                                 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                                     Off to the ground
-                                                                             </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">For the weekend</font></font></span>
-                                                                    </h3>
-                            </div>
+                                      </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">For the weekend</font></font></span>
+                                         </h3>
+                            		    </div>
 
                                                             <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
@@ -514,24 +464,12 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                             </div>
                     <div class="sx-res-topoffer-conditions-data">
                         <ul>
-                                                                                                <li></li>
-                                                                                                                    <li><strong></strong></li>
+                           <li></li>
+                                  <li><strong></strong></li>
                                                         <li>
-                                                            </li>
-
-
-
-
+                                                          </li>
                                                         <li></li>
-
-
-
-
-
-
-
                                                         <li></li>
-
                                                         <li class="sx-res-topoffer-details-bold"></li>
                                                     </ul>
                         <a href="#" class="sx-res-topoffer-tooltip-button sx-gc-button-cta sx-gc-button-cta-green"></a>
@@ -539,38 +477,29 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                 </div>
             </div>
         </li>
-
-
-
-
-
-
-                                <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
+          <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
             <a href="#">
-
-
                 <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
-                                                                                                                                                    <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/mercyikpe/image/upload/v1507672637/image_4_daftyi.jpg" alt="Off into the terrain">
+                          <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/mercyikpe/image/upload/v1507672637/image_4_daftyi.jpg" alt="Off into the terrain">
                                                         </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
                                 <h3><font style="vertical-align: inherit;"><span><font style="vertical-align: inherit;">Off</font></span><font style="vertical-align: inherit;">
                                     to the ground
-                                                                             </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">For the weekend</font></font></span>
-                                                                    </h3>
-                            </div>
-
-                                                            <div class="sx-res-offerlist-pricing">
+                                       </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">For the weekend</font></font></span>
+                                          </h3>
+                            		</div>
+					<div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
                                                                         <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
                                         15000
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
-                                                    </div>
-                                            </div>
+                                </div>
+                             </div>
                 </div>
             </a>
             <div class="sx-res-topoffer-tooltip ">
@@ -590,24 +519,12 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                             </div>
                     <div class="sx-res-topoffer-conditions-data">
                         <ul>
-                                                                                                <li></li>
-                                                                                                                    <li><strong></strong></li>
+                           <li></li>
+                                 <li><strong></strong></li>
                                                         <li>
-                                                            </li>
-
-
-
-
+                                                         </li>
                                                         <li></li>
-
                                                         <li></li>
-
-
-
-
-
-
-
                                                         <li class="sx-res-topoffer-details-bold"></li>
                                                     </ul>
                         <a href="#" class="sx-res-topoffer-tooltip-button sx-gc-button-cta sx-gc-button-cta-green"></a>
@@ -615,38 +532,29 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                 </div>
             </div>
         </li>
-
-
-
-
-
-
-                                <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
+          <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
             <a href="#">
-
-
-                <div class="sx-res-offerlist-table">
+		<div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
-                                                                                                                                                    <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/bmw_7er-mb_s-audi_a8.png" alt="Guaranteed upper-class models">
-                                                        </div>
+                             <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/bmw_7er-mb_s-audi_a8.png" alt="Guaranteed upper-class models">
+                              </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
                                 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                                     Off to the ground
-                                                                             </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for the weekend</font></font></span>
-                                                                    </h3>
-                            </div>
-
-                                                            <div class="sx-res-offerlist-pricing">
-                                    <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        130000
+                                      </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">for the weekend</font></font></span>
+                                         </h3>
+                            			</div>
+                                                    <div class="sx-res-offerlist-pricing">
+                                    			<span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
+                                                            <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        			130000
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
-                                </div>
-                                                    </div>
-                                            </div>
+                                	</div>
+                                   </div>
+                           </div>
                 </div>
             </a>
             <div class="sx-res-topoffer-tooltip ">
@@ -671,19 +579,11 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                                         <li>
                                                             </li>
 
-
-
-                                                        <li></li>
+                                                       <li></li>
 
                                                         <li></li>
 
                                                         <li></li>
-
-
-
-
-
-
 
                                                         <li class="sx-res-topoffer-details-bold"></li>
                                                     </ul>
@@ -692,38 +592,29 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                 </div>
             </div>
         </li>
-
-
-
-
-
-
-                                <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
+           <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
             <a href="#">
-
-
                 <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
-                                                                                                                                                    <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/mercyikpe/image/upload/v1507672620/image_1_6_xyhgfy.jpg" alt="fajji">
+                           <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/mercyikpe/image/upload/v1507672620/image_1_6_xyhgfy.jpg" alt="fajji">
                                                         </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
                                 <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
                                     Fajji trouper
-                                                                             </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Time to blow them away</font></font></span>
-                                                                    </h3>
-                            </div>
-
-                                                            <div class="sx-res-offerlist-pricing">
+                                     </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Time to blow them away</font></font></span>
+                                     </h3>
+                                     </div>
+                                     <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                      <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
                                         35000
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
-                                                    </div>
-                                            </div>
+                             </div>
+                        </div>
                 </div>
             </a>
             <div class="sx-res-topoffer-tooltip ">
@@ -747,22 +638,10 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                                                         <li><strong></strong></li>
                                                         <li>
                                                             </li>
-
-
-
                                                         <li></li>
-
                                                         <li></li>
-
                                                         <li></li>
-
-
-
-
-
-
-
-                                                        <li class="sx-res-topoffer-details-bold">#</li>
+                                                       <li class="sx-res-topoffer-details-bold">#</li>
                                                     </ul>
                         <a href="#" class="sx-res-topoffer-tooltip-button sx-gc-button-cta sx-gc-button-cta-green"></a>
                     </div>
@@ -826,10 +705,6 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 
         var _gaq = _gaq || [];
 
-
-
-
-
             _gaq.push(['SX0._setAccount', 'UA-6642128-1']);
 
             // alternative for set account: create new tracker
@@ -840,16 +715,11 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 
             // set cookie period
             _gaq.push(['SX0._setCampaignCookieTimeout', 2592000000]);
-
-
-
             // set current template name
             _gaq.push(['SX0._trackPageview', 'topoffer_list']);
 
             // server id
             _gaq.push(['SX0._trackEvent', 'Webseitverhalten', 'Server-ID', '1174', 0, true]);
-
-
                     (function() {
 
                 // check if ga.js is available already...
@@ -880,16 +750,12 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
                 _val    =  (val !== false)? val : 0;
                 _opt    =  opt? true : false;
 
-                                                var data0 =  ['SX0._trackEvent', cat, act, _label, _val, _opt];
-
-
+                    var data0 =  ['SX0._trackEvent', cat, act, _label, _val, _opt];
                 _gaq.push(data0);
                     }
-
         function sx_track_pageview(page) {
-                                            _gaq.push(['SX0._trackPageview', page]);
+                 _gaq.push(['SX0._trackPageview', page]);
                     }
-
     </script>
     <!-- SiteCatalyst code version: H.25.2.
     Copyright 1996-2012 Adobe, Inc. All Rights Reserved
@@ -919,7 +785,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
         };
         s.charSet       =  "iso-8859-1";
         s.pageName      =  "Reservation-Top_Offer-List";
-        s.server        =  "www.sixt.de";
+        s.server        =  "";
         s.channel       =  "Reservation-Pkw";
         s.eVar4         =  "logged_out|Public";
         s.eVar5         =  "";
@@ -933,7 +799,7 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
         var sitecatalyst_data =  {
             account:    'sixtracde',
             pagename:   'Reservation-Top_Offer-List',
-            server:     'www.sixt.de',
+            server:     '',
             channel:    'Reservation-Pkw',
             tpl:        'topoffer_list',
             ctyp:       'PKW',
@@ -960,31 +826,10 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 				<!-- /inner part app-->
 			</div>
 			<!-- /background img default -->
-
 		</div>
-
-
-
-<!--FOOTER STARTS -->
 <footer>
-	<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-  	<div class="row">
-  <div class="col-sm-3 footer1" ><img class="center image1" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="50" width="140"><ul><li>About</li><li>Locations</li><li>Contact Us</li><li>Privacy Policy</li></ul></div>
-  <div class="col-sm-3 footer2" id="footer" ><span><b>Product & Services</b></span><ul><li>Vehicles</li><li>Drivers</li><li>Hire Advice</li><li>FAQs</li></ul></div>
-  <div class="col-sm-3 footer3" id="footer"><span><b>Our Partners</b></span><ul><li>Hotels.ng</li><li>FAAN</li></ul></div>
-  <div class="col-sm-3 footer4" id="footer"><span><b>Follow Us</b></span> <br><br><img src="http://res.cloudinary.com/siazo/image/upload/v1507639912/twitter-256_z1pfxb.png" height="45" width="45" ><img src="https://res.cloudinary.com/siazo/image/upload/v1507639847/linkedin_circle-512_hzqz6w.png"  height="45" width="45" id="icon"><img src="https://res.cloudinary.com/siazo/image/upload/v1507639699/youtube_gm3o65.svg"  height="45" width="45" id="icon"></div>
-</div>
-</div>
-<div class="center-block">2017-CarHire-All Rights Reserved </div>
-</footer>								      
-
-<!-- FOOTER ENDS -->
-
-
-
-
-
+        <?php include('footer1.php') ?>
+    </footer>
     </div>
 
 </div>
