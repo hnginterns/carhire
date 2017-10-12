@@ -25,7 +25,7 @@
 <link href="css/styles.css" type="text/css" rel="stylesheet" media="all">  
 <link href="css/font-awesome.css" rel="stylesheet">  <!-- font-awesome icons -->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<link href="css/dashboard.css" type="text/css" rel="stylesheet" media="all">  
+<link href="css/das.css" type="text/css" rel="stylesheet" media="all">  
 <!-- //Custom Theme files --> 
 <!-- js -->
 <script src="js/jquery-2.2.3.min.js"></script>  
