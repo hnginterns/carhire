@@ -41,11 +41,7 @@ body, html{
    padding-top: 10px;
   }
 
- .navbar.navbar-inverse.nav2{
-            background-color:#fff;
-            height:80px;
-            margin-top: -20px;
-            border-color: #fff;
+
         }
         .center.image{
             margin-left: 50px;
@@ -88,9 +84,6 @@ body, html{
             font-style: italic;
         }
         
-        .navbar.navbar-default{
-            
-            background-color: #fff;
         }
         #footer{
             padding-top: 70px;
@@ -119,7 +112,11 @@ body, html{
             margin-left: 20px;
         }
 
-/*Header*/
+
+
+
+
+/*========Header==========*/
 
 .header-blue, .header-below {
   margin-bottom: 0;
@@ -167,7 +164,10 @@ body, html{
   pointer-events: none;
 }
 
-/*Footer*/
+
+
+
+/*=======Footer============*/
 #myFooter {
     background-color: #ECEFF6;
     color: #000000;
@@ -285,31 +285,4 @@ body, html{
         text-align: center;
     }
 }
-
-
-/* CSS used for positioning the footers at the bottom of the page. */
-/* You can remove this. */
-/* 
-html{
-    height: 100%;
-}
-
-body{
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    height: 100%;
-}
-
-.content{
-   flex: 1 0 auto;
-   -webkit-flex: 1 0 auto;
-   min-height: 200px;
-}
-
-#myFooter{
-   flex: 0 0 auto;
-   -webkit-flex: 0 0 auto;
-} */
 
