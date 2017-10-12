@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nav and Footer
+	<title>Home
       <?php 
     if (isset($pageTitle)) {
         echo "CarHire - ".$pageTitle;
