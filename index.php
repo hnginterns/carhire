@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nav and Footer
+  <title>Home
       <?php 
     if (isset($pageTitle)) {
         echo "CarHire - ".$pageTitle;
@@ -10,25 +10,22 @@
     }
     ?>      
   </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="css/main_css.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main_css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-
-<link rel="stylesheet" type="text/css" href="css/homepage.css">
-<link href="css/styles.css" type="text/css" rel="stylesheet" media="all"> 
-
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link href="css/styles.css" type="text/css" rel="stylesheet" media="all">  
 <link href="css/font-awesome.css" rel="stylesheet">  <!-- font-awesome icons -->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link href="css/index2.css" type="text/css" rel="stylesheet" media="all">  
 <!-- //Custom Theme files --> 
 <!-- js -->
 <script src="js/jquery-2.2.3.min.js"></script>  
@@ -37,11 +34,10 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 <!-- //web-fonts -->
 
-
->>>>>>> 9e8924fa81d8d9c39d41a0743eb165a26ee8e0be
 </head>
 <body>
-	<nav class="navbar navbar-inverse ">
+
+  <nav class="navbar navbar-inverse ">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-    toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -51,21 +47,31 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">Location</a></li>
-        <li><a href="#">Special Offers</a></li>  
-        <li><a href="#">Cars</a></li>  
-        <li><a href="#">Contact</a></li>  
-        <li><a href="#">Airport Transfer</a></li>   
-      </ul>
-    </div>
-  </div>
-  		<!--second nav-->
-  		<!--this nav is described with the center attribute-->
+   <ul class="nav navbar-nav navbar-right">
+    <!-- <div id="navbar" class="navbar-collapse collapse"> -->
+     
+        <li><a href="index.php">Home</a></li>
+        <li><a href="aboutus.html">Location</a></li>
+        <!-- DROPDOWN <li><a hrefclass="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="icons.html">Web Icons</a></li>
+                    <li><a href="codes.html">Short Codes</a></li>
+                  </ul></li>
+         -->
+        <li><a href="specialoffers.php">Special Offers</a></li>  
+        <li><a href="cars.php">Cars</a></li>  
+        <li><a href="contactpage.php">Contact Us</a></li>  
+        <li><a href="airporttransfer.html">Airport Transfer</a></li>
+        <li><a href="airporttransfer.html">Airport Transfer</a></li>   
+    <!-- </div> -->
+</ul>
+  <div class="clearfix"></div>
+</div>
+      <!--second nav-->
+      <!--this nav is described with the center attribute-->
 </nav>
-<<<<<<< HEAD
+
+
 <nav class="navbar navbar-inverse nav2" 
 id="nav2">
   <div class="container-fluid">
@@ -88,351 +94,148 @@ id="nav2">
     </div>
   </div>
 </nav>
-<div class="book">
-=======
 
-<section class="secondnav">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 news-w3grids">
-				<img src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" class="logo">
-			</div>
+  <div class="special-offers container">
+    <div class="row">
+      <h3 calss="center">Special Offers</h3>
+    <div class="row">
+      <p class="col-sm-2">Featured Offers</p>
+      <p class="col-sm-2">Partners Offers</p>
+      <p class="col-sm-2">Local offers</p>
+      <p class="col-sm-2">Van Special</p>
+      <p class="col-sm-2">Global Destination</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="offers">
+          <img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com">
+          <p class="offers-header">Discover Somewhere New</p>
+          <p>Kenya car hire from $200</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="offers">
+          <img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com">
+          <p class="offers-header">Discover Somewhere New</p>
+          <p>Kenya car hire from $200</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="offers">
+          <img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com">
+          <p class="offers-header">Discover Somewhere New</p>
+          <p>Kenya car hire from $200</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="bg-blue">
+    <div class="container">
+      <div class="deals row">
+        <div class="col-sm-6 side-pad row">   
+          <h4>Best Deals on the Go!</h4>
+          <p>Get carHire on your mobile phone</p>
+          <a href="">
+            <p>GET IT ON</p>
+            <p>Google Play</p>
+          </a>
+          <a href="">
+            <p>Download on the</p>
+            <p>App Store</p>
+          </a>
+        </div>
+        <div class="col-sm-6 side-pad center">   
+          <div class="col-sm-6">
+            <i class="fa fa-car"></i>
+            <p>1. Reserve a Car</p>
+          </div>
+          <div class="col-sm-6">
+            <i class="fa fa-map-marker"></i>
+            <p>2. Go to pick-up point</p>
+          </div>
+          <div class="col-sm-6">
+            <i class="fa fa-credit-card"></i>
+            <p>3. Make Payment</p>
+          </div>
+          <div class="col-sm-6">
+            <i class="fa fa-driver"></i>
+            <p>4. Drive yourself</p>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+
+  <div class="why-hire container text-center">
+    <h3>Why Hire a Car with carHire</h3>
+    <div class="col-sm-4">
+      <div class="fa fa-stack">
+        <i class="fa fa-stack-1x fa-car"></i>
+        <i class="fa fa-circle-o fa-stack-2x"></i>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="fa fa-stack">
+        <i class="fa fa-stack-1x"></i>
+        <i class="fa fa-circle-o fa-stack-2x"></i>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="fa fa-stack">
+        <i class="fa fa-stack-1x fa-car"></i>
+        <i class="fa fa-circle-o fa-stack-2x"></i>
+      </div>
+    </div>
+  </div>
+
+  
+
+<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" width="100px"></a></h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Products & Services</h5>
+                    <ul>
+                        <li><a href="#">Vehichles</a></li>
+                        <li><a href="#">Drivers</a></li>
+                        <li><a href="#">Hire Advice</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Our Partners</h5>
+                    <ul>
+                        <li><a href="#">Hotels.ng</a></li>
+                        <li><a href="#">FAAN</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Our Partners</h5>
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-linkedin"></i></a>
+                        <a href="#" class="google"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>2017 - CarHire - All Rights Reserved</p>
+        </div>
+    </footer>
 
-			<div class="col-md-6 news-w3grids margintop">
-				<ul class="find">
-				<li>
-				<a href="find.php">FIND A CAR</a></li>
-				<li><a href="#">NEW CARS</li>
-			</ul>
-			</div>
-
-		</div>
-	</div>
-</section>
-
-
-
-<div class="banner-w3layouts">
-	<div class="flexslider">
-		<ul class="slides">
-			<li>
-				<div class="banner-img2">
-					
-				</div>
-			</li>
-		</ul>
-	</div>
-
-
-
-
-	<div class="banner-w3text">
-	<div class="container">
-		<div class="row">
-			<button value="Book a car" style="color: blue">BCBHVHVH</button>
-		</div>
-	</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="book">
->>>>>>> 9e8924fa81d8d9c39d41a0743eb165a26ee8e0be
-<input type="button" name="Bookbutt" value="Book a car">
- <input type="button" name="modifybutt" value="View or Modify a reservation">
- <div><h3>pick-up Location</h3></div>
-   <div>
-     <input type="text" class="in" placeholder="City, State or Airport Code"><br>
-   </div>
- <div><h3>Pick-up Date & Time</h3></div>
-   <div>
-     <input type=integer class="in" placeholder="10.07.2017    16.09"><br>
-   </div>
- <div><h3>Return Date & Time</h3></div>  
-    <div>
-     <input type=integer class="in" placeholder="10.07.2017    16.09"><br>
-   </div>
-  <input type="button" name="Gobutt" value="GO">
-
-   
-</div> -->
-
-
-
-<div class="skills w3-agileits" style="color: #F1F5FB">
-		<div class="container"> 
-			<div class="skills-agileinfo">
-				<div class="col-md-6 skills-w3left">
-					<h4>Best Deals On The Go!</h4>
-					<p>Get carHire app on the go</p>
-					
-					<div class="reserve">
-						<div class="col-md-6">
-<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
-<p>1. Reserve a car</p>
-		</div>
-
-		<div class="col-md-6">
-<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
-<p>2. Go to Pick-up points</p>
-		</div>
-
-
-
-		<div class="col-md-6">
-<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
-<p>3. Make A payment</p>
-		</div>
-
-		<div class="col-md-6">
-<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
-<p>4. Drive Yourself</p>
-		</div>
-
-
-
-
-<<<<<<< HEAD
-<footer>
-=======
-
-					</div>
-
-
-				<div class="clearfix"> </div>
-			</div>
-			
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-<div class="container">
-	<div class="why">
-		<h3>Why Hire With Car Hire</h3>
-	</div>
-
-	<div class="row">
-		
-		<div class="testimages">
-			<div class="col-md-3"> 
-			<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
-			<p>lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-		</div>
-
-		<div class="col-md-3">
-			<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
-			<p>lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-		</div>
-
-		<div class="col-md-3">
-<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
-<p>lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-		</div>
-
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="container">
-	<div class="testi">
-		<h3>Testimonial</h3>
-
-		<h2 class="awesome">
-			<p>lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</h2>
-	</div>
-
-	<div class="row">
-		
-		<div class="testimages">
-			<div class="col-md-3">
-			<img src="https://i.imgur.com/cxMVYym.jpg" title="source: imgur.com" class="girl" /></a>
-		</div>
-
-		<div class="col-md-3">
-			<img src="https://i.imgur.com/cxMVYym.jpg" title="source: imgur.com" class="girl" /></a>
-		</div>
-
-		<div class="col-md-3">
-			<img src="https://i.imgur.com/cxMVYym.jpg" title="source: imgur.com" class="girl" /></a>
-		</div>
-
-		<div class="col-md-3">
-			<img src="https://i.imgur.com/cxMVYym.jpg" title="source: imgur.com" class="girl" /></a>
-		</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-	<div class="news-w3layouts">
-		<div class="container">
-			
-
-			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-3 news-w3grids">
-					<div class="carlogo">
-					<img src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png">
-				</div>
-					<ul>
-						<li>About</li>
-						<li>Locations</li>
-						<li>Contact Us</li>
-						<li>Privacy Policy</li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-3 news-w3grids">
-					<h3>Products & Services</h3>
-					<ul> 
-						<li ><a href="#">Vehicles</a></li>
-						<li><a href="#">Drivers</a></li>
-						<li><a href="s#">Hire Advice</a></li>
-						<li><a href="#">FAQ</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-3 news-w3grids">
-					<h3>Our Partners</h3>
-					<ul>
-						<li><a href="#">Hotelsng</a></li>
-						<li><a href="#">Airlines</a></li>
-						<li><a href="#">Rails</a></li>
-						<li><a href="#">Hotels</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-3 news-w3grids">
-					<h3>Follow Us</h3>
-					<ul class="socialmedia">
-						<li>
-							<a href="facebook.com">
-							<i class="fa fa-facebook"></i></li></a>
-						<li>
-							<a href="facebook.com">
-							<i class="fa fa-linkedin-square"></i></li></a>
-						<li><a href="facebook.com"><i class="fa fa-twitter"></i></li></a>
-						<li><a href="facebook.com"><i class="fa fa-youtube"></i></li></a>
-					</ul>
-				</div>
-			</div>
-
-
-
-			
-
-
-
-
-
-
-
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <footer>
->>>>>>> 9e8924fa81d8d9c39d41a0743eb165a26ee8e0be
-	<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-  	<div class="row">
-  <div class="col-sm-3 footer1" ><img class="center image1" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="50" width="140"><ul><li>About</li><li>Locations</li><li>Contact Us</li><li>Privacy Policy</li></ul></div>
-  <div class="col-sm-3 footer2" id="footer" ><span><b>Product & Services</b></span><ul><li>Vehicles</li><li>Drivers</li><li>Hire Advice</li><li>FAQs</li></ul></div>
-  <div class="col-sm-3 footer3" id="footer"><span><b>Our Partners</b></span><ul><li>Hotels.ng</li><li>FAAN</li></ul></div>
-  <div class="col-sm-3 footer4" id="footer"><span><b>Follow Us</b></span> <br><br><img src="http://res.cloudinary.com/siazo/image/upload/v1507639912/twitter-256_z1pfxb.png" height="45" width="45" ><img src="https://res.cloudinary.com/siazo/image/upload/v1507639847/linkedin_circle-512_hzqz6w.png"  height="45" width="45" id="icon"><img src="https://res.cloudinary.com/siazo/image/upload/v1507639699/youtube_gm3o65.svg"  height="45" width="45" id="icon"></div>
-</div>
-</div>
-<div class="center-block">2017-CarHire-All Rights Reserved </div>
-</footer>
 </body>
+
 </html>
