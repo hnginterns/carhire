@@ -25,7 +25,10 @@
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 
 <link rel="stylesheet" type="text/css" href="css/homepage.css">
-<link href="css/styles.css" type="text/css" rel="stylesheet" media="all">  
+<link href="css/styles.css" type="text/css" rel="stylesheet" media="all"> 
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <link href="css/font-awesome.css" rel="stylesheet">  <!-- font-awesome icons -->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <!-- //Custom Theme files --> 
@@ -35,6 +38,7 @@
 <!-- web-fonts --> 
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 <!-- //web-fonts -->
+
 
 </head>
 <body>
@@ -73,30 +77,48 @@
   		<!--this nav is described with the center attribute-->
 </nav>
 
+<section class="secondnav">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 news-w3grids">
+				<img src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" class="logo">
+			</div>
+
+			<div class="col-md-6 news-w3grids">
+				<ul class="find">
+				<li>
+				<a href="find.php">FIND A CAR</a></li>
+				<li><a href="#">NEW CARS</li>
+			</ul>
+			</div>
+
+		</div>
+	</div>
+</section>
 
 
-<nav class="navbar navbar-inverse nav2" 
-id="nav2">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span> 
-      </button>
-      
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-       <a class="navbar-brand image" href="#"><img class="center image" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="50" width="158"></a>
-      <ul class="nav navbar-nav navbar-right" id="center">
-        <li><a href="#" class="center rent">Rent a car</a></li>
-      <li><a href="#" class="center line ">|</a></li>
-      <li><a href="#" class="center new">New cars</a></li>
-      
-      </ul>
-    </div>
-  </div>
-</nav>
+
+<div class="banner-w3layouts">
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<div class="banner-img2">
+					
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -163,77 +185,65 @@ id="nav2">
 
 	<div class="news-w3layouts">
 		<div class="container">
+			
+
 			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-2 news-w3grids">
-					<h3>Mobile Phones</h3>
+				<div class="col-md-3 news-w3grids">
+					<div class="carlogo">
+					<img src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png">
+				</div>
 					<ul>
-						<li>Iphone & Ipad</li>
-						<li>Android</li>
+						<li>About</li>
+						<li>Locations</li>
+						<li>Contact Us</li>
+						<li>Privacy Policy</li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-2 news-w3grids">
-					<h3>VEHICLES HIRE</h3>
+				<div class="col-md-3 news-w3grids">
+					<h3>Products & Services</h3>
 					<ul> 
-						<li ><a href="#">Car Hire</a></li>
-						<li><a href="#">Truck Rental</a></li>
-						<li><a href="specialoffers.php">Special Offers Page</a></li>
-						<li><a href="#">Sixt In The US</a></li>
+						<li ><a href="#">Vehicles</a></li>
+						<li><a href="#">Drivers</a></li>
+						<li><a href="s#">Hire Advice</a></li>
+						<li><a href="#">FAQ</a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-2 news-w3grids">
-					<h3>VEHICLE MODEL</h3>
+				<div class="col-md-3 news-w3grids">
+					<h3>Our Partners</h3>
 					<ul>
-						<li><a href="#">Car Fleet</a></li>
-						<li><a href="#">Truck Fleet</a></li>
+						<li><a href="#">Hotelsng</a></li>
+						<li><a href="#">Airlines</a></li>
+						<li><a href="#">Rails</a></li>
+						<li><a href="#">Hotels</a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-2 news-w3grids">
-					<h3>STATION SEARCH</h3>
-					<ul>
-						<li><a href="#">Find A Rental Car</a></li>
-						<li><a href="#">Station</a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-2 news-w3grids">
-					<h3>MOVING SERICES</h3>
-					<ul>
-						<li><a href="#">CHECKLIST</a></li>
-						<li><a href="#">Safe Parking</a></li>
-							<li><a href="#">Driving Tips</a></li>
-						<li><a href="#">Moving Accesories/<a></li>
-					</ul>
-				</div>
-			</div>
-
-			<div class="news-agileinfo w3-agileits">
-				<div class="col-md-2 news-w3grids">
-					<h3>RENTAL SERVICE</h3>
-					<ul>
-						<li><a href="#">Customer</a></li>
-						<li><a href="#">Sixt Customer Cards</a></li>
-						<li><a href="#">Rental Information</a></li>
-						<li><a href="#">Sixt Check-In<a></li>
+				<div class="col-md-3 news-w3grids">
+					<h3>Follow Us</h3>
+					<ul class="socialmedia">
+						<li>
+							<a href="facebook.com">
+							<i class="fa fa-facebook"></i></li></a>
+						<li>
+							<a href="facebook.com">
+							<i class="fa fa-linkedin-square"></i></li></a>
+						<li><a href="facebook.com"><i class="fa fa-twitter"></i></li></a>
+						<li><a href="facebook.com"><i class="fa fa-youtube"></i></li></a>
 					</ul>
 				</div>
 			</div>
 
 
 
-
-
-
+			
 
 
 
