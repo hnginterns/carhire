@@ -19,6 +19,7 @@ class CreateCarsTable extends Migration
             $table->foreign('driver_id')->references('id')->on('drivers')->onDelete('cascade');
             $table->string('brand');
             $table->string('model');
+            $table->string('image');
             $table->timestamps();
         });
     }

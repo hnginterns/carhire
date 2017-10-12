@@ -84,7 +84,7 @@
                             <a href="" style="color: #0077BC">All details</a>
                         </div>
                         <div class='col-sm-6 imgs'>
-                            <a href="">                            
+                            <a href="/contact-form/create">                            
                             <img src="https://www.sixt.com/fileadmin/user_upload/ic_kontakt.jpg" alt="" class='img' height='85' width='70' >
                             </a>
                             <h4>Contact Form</h4>

@@ -1,5 +1,5 @@
 
-	<footer>
+	<footer id="footer-id">
 	  
 		  <nav class="navbar navbar-default"></nav>
 		  <div class="container"  style='padding:10px; border-top:none'>

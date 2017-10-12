@@ -35,5 +35,7 @@ Index page is route /
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('/contact-form', 'ContactController');
+// Route::post('/contact-form', 'ContactController@store');
 
 

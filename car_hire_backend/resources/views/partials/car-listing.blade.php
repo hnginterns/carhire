@@ -2,7 +2,7 @@
   @section('meta-links')
      <link rel="stylesheet" type="text/css" href="{{asset('css/carlisting.css')}}">
   @endsection
-   @section('header')
+    @section('header')
     @include('partials.header')
    @endsection
 @section('content')
