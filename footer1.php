@@ -1,26 +1,42 @@
-<footer>
-  <!--<span style="position:relative; top: 25%; margin:auto;">  &copy; <?php //echo date("Y")?>. A PRODUCT OF SWISEL ENTERPRISE. ||version 1.0 </span>-->
-  <nav class="navbar navbar-default">
-  <div class="container"  style='padding:10px; border-top:none'>
-    <div class="row">
-      <div class="col-sm-3 footer1" ><img class="center image1" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="50" width="140"><ul><li>About</li><li>Locations</li><li>Contact Us</li><li>Privacy Policy</li></ul>
-      </div>
-      <div class="col-sm-3 footer2" id="footer" >
-        <span><b>Product & Services</b></span><ul><li>Vehicles</li><li>Drivers</li><li>Hire Advice</li><li>FAQs</li></ul>
-      </div>
-      <div class="col-sm-3 footer3" id="footer">
-        <span><b>Our Partners</b></span>
-          <ul><li>Hotels.ng</li>
-              <li>FAAN</li>
-          </ul>
-      </div>
-      <div class="col-sm-3 footer4" id="footer">
-        <span><b>Follow Us</b>
-        </span><br><br><img src="http://res.cloudinary.com/siazo/image/upload/v1507639912/twitter-256_z1pfxb.png" height="45" width="45" >
-        <img src="https://res.cloudinary.com/siazo/image/upload/v1507639847/linkedin_circle-512_hzqz6w.png"  height="45" width="45" id="icon">
-        <img src="https://res.cloudinary.com/siazo/image/upload/v1507639699/youtube_gm3o65.svg"  height="45" width="45" id="icon">
-      </div>
-  </div>
-</div>
-<div class="center-block">2017-CarHire-All Rights Reserved </div>
-</footer>
+<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h2 class="logo"><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" width="100px"></a></h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Products & Services</h5>
+                    <ul>
+                        <li><a href="#">Vehichles</a></li>
+                        <li><a href="#">Drivers</a></li>
+                        <li><a href="#">Hire Advice</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Our Partners</h5>
+                    <ul>
+                        <li><a href="#">Hotels.ng</a></li>
+                        <li><a href="#">FAAN</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Our Partners</h5>
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-linkedin"></i></a>
+                        <a href="#" class="google"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>2017 - CarHire - All Rights Reserved</p>
+        </div>
+    </footer>
