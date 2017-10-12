@@ -1,0 +1,100 @@
+.box{
+    width:90%;
+    margin:5%;
+    border: .5px solid grey;
+    font-family: 'Roboto', sans-serif;
+}
+.car{
+    float: left;
+    width: 42%;
+    margin: 0 2%;
+}
+.car img{
+    float: left;
+    width: 60%;
+    height: 60%;
+}
+.text{
+    float: left;
+    font-size: .7em;
+    margin-top:16%;
+}
+#price{
+    margin-top:29%;
+    margin-left:16%;
+    width:75%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#price p{
+border: 2px solid #007BCA;
+}
+#price p .prices{
+    float:left;
+    margin-top:3%;
+    font-weight: lighter;
+    margin-left:20%;
+    color:#007BCA;
+    font-size: .8em;
+    line-height: 2em;
+}
+#price p .NGN{
+    color:#007BCA;
+    font-size: .6em;
+    font-weight: bold;
+    line-height: 5em;
+    margin-left:-8%;
+}
+#price p .number{
+    margin-top:3%;
+    color:#007BCA;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-left:2%;
+}
+
+
+
+
+.car-details{
+    float: right;
+    width: 45%;
+    margin: 0 3%;
+}
+.first{
+    width: 50%;
+    float: left;
+}
+.second{
+    float: right;
+    width: 50%;
+}
+.car-details ul{
+    margin: 12%;
+}
+ li{
+    font-size:1.5em;
+    margin-bottom:30%;
+    color:#007BCA;
+}
+
+li span{
+    font-size:.7em;
+    color:black;
+}
+.reserve{
+    width: 85%;
+    margin: 4%;
+    background: #ECEFF6;
+    height: 3em;
+    margin-bottom: 5%;
+    text-align: center;
+    line-height: 3em;
+    font-weight: bolder;
+}
+.reserve p{
+    top: 10%;
+}
+.clear{
+    clear:both;
+}
