@@ -2,6 +2,22 @@
     body {
     font-family: 'Nunito Sans', sans-serif;
   }
+
+
+  body, html {
+    height: 100%;
+  }
+
+    #top-image {
+      background: url('http://res.cloudinary.com/bogadeji/image/upload/q_auto,f_auto/v1507729051/Rectangle_12_ykepwm.png');
+      height: 40%;
+      background-position: top center;
+      background-repeat: no-repeat;
+      /* background-attachment: fixed; */
+      background-size: cover;
+      background-color: #464646;
+    }
+    
 #campain {
     text-align: center;
     font-style: normal;
@@ -225,7 +241,7 @@
     height: 100px;
   }
 
-  .bg-testimonial {
+  .bg-vision, .bg-testimonial {
     background: #eceff6;
     padding-top: 40px;
     padding-bottom: 40px;
