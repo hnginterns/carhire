@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nav and Footer
+	<title>Home
       <?php 
     if (isset($pageTitle)) {
         echo "CarHire - ".$pageTitle;
@@ -10,9 +10,33 @@
     }
     ?>      
   </title>
+
+
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/styles.css" type="text/css" rel="stylesheet" media="all">  
+<link href="css/font-awesome.css" rel="stylesheet">  <!-- font-awesome icons -->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!-- //Custom Theme files --> 
+<!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script>  
+<!-- //js -->
+<!-- web-fonts --> 
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+<!-- //web-fonts -->
+
+
+
+
 </head>
 <body>
 	<nav class="navbar navbar-inverse ">
