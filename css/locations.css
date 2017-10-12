@@ -1,5 +1,6 @@
 body{
 	font-family: 'Nunito Sans', sans-serif;
+	padding:0px; margin:0px;
 }
 
 .country{
@@ -15,9 +16,7 @@ body{
 }
 
 .world{
-background-image: url("world.png");
-background-size: contain;
-background-image: url("world.png");
+background-image: url("https://res.cloudinary.com/aiyfee/image/upload/v1507734166/world_wzfoz2.png");
 background-size: contain;
 background-position: center center;
   background-repeat: no-repeat;
@@ -34,7 +33,12 @@ background-position: center center;
 
 .country_p{
 	text-align: center;
-	border-bottom: 2px solid #333;
+
+}
+hr{
+	width: 50%;
+	border-width: 2px;
+	border-color: #333;
 }
 .states{
 
@@ -85,25 +89,31 @@ h3{
 	color: #219653;
 }
 
- #navbar2{
-  margin-top:50px;
-  background-color: white;
-  border-color: white;
- }
-.navbar-inverse .navbar-nav>li>a {
-  color: #B0B0B0;
-  font-weight: bold;
-  padding-top: 15px;
+table{
+width:80%; 
+min-width:920px;
+text-align:center;
+margin-left:10%;
+margin-top:40px;
 }
-.nav>li>a {
-  padding: 10px 15px;
+td{width:16%}
+
+#loc{width:80%; min-width:900px; margin-left:10%}
+.moreinfo{
+width:40%;
+ min-width:430px;
+float:right
 }
-.navbar-default{
-  padding-top: 5px;
-  padding-bottom: 5px;
+
+.loczone{
+width:40%;
+ min-width:430px;
+float:left
 }
-img{
-  width:100px;
-  height: 40px;
-  margin-top: -14px;
+
+.cat{width:80%; 
+min-width:920px;
+text-align:center;
+margin-left:10%;
+margin-top:40px;
 }

@@ -1,15 +1,10 @@
     body {
         box-sizing: border-box;
-        font-family: Nunito;
+        background-color: #DCDADA;
         /*margin-top: 20px;
         margin-bottom: 50px;*/
     }
-    .img{
-        display:block;
-        max-width: 100%;
-        height: auto;
-        
-    }
+    
     main .container{
         background-color: white;
         max-width:1020px;
@@ -61,6 +56,9 @@
        margin: 6px 0;
        
    }
+   .offers ul li a{
+       color:#007BCA;
+   }
    
    .navbar.navbar-inverse.nav2{
             background-color:#fff;
@@ -107,7 +105,7 @@
     margin: 0;
    }
    a{
-       color: #000000;
+       color: #0077BC;
    }
    .expand:after {
     content: " Show less";
@@ -116,4 +114,230 @@
 /* Icon when the collapsible content is hidden */
 .expand.collapsed:after {
     content: " Show more";
+}
+
+/*======= Contact Form =======*/
+    form {
+      display: block;
+      text-align: left;
+      padding:25px;
+     
+    }
+    #formDiv {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin-top:5%;
+      margin-bottom: 3%;
+}
+    textarea {
+      border-radius: 5px;
+      background-color: #fff;
+      width: 65%;
+      border-radius: 0 0 0 0;
+      }
+
+    fieldset {
+      padding-top: 20px;
+      padding-right: 5px;
+      padding-bottom: 20px;
+      padding-left: 5px;
+      background-color:#fff;      
+    }
+    .btn-out-area{
+      background-color: #e6e6e6;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+      padding: 20px 10px 20px 10px;
+    margin: 10px;
+    border: 4px solid #ffffff;
+    display: block;
+    }
+    .btn-in-area{
+      background-color: #0077BC;
+      text-transform: uppercase;
+    font-weight: bold;
+    text-align: center !important;
+    border: 1px solid #ffffff;
+    width: 100%;
+    max-width: 354px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: auto;
+    text-decoration: none;
+    line-height: normal;
+    padding: 8px 0 8px 0 !important;
+    }
+    .wrapper{
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      margin-bottom: 1%;
+      vertical-align: middle;
+      color: #636363;
+    }
+    .file-wrapper {
+      display: block;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 0;
+      vertical-align: middle;
+    }
+    .file-wrapper label{
+      float: left;
+      color: #636363;
+      padding: 0 0 10px;
+    }
+    .file {
+      width: 65%;
+      border:1px solid #636363;
+      padding:5px;
+    }
+    input[type='text'] {
+    width: 65%;
+}
+  input {
+    display: inline-block;
+  }
+  select{
+    align-items: center;
+    white-space: pre;
+    display: inline-block;
+    width: 65%;
+    
+  }
+
+  input[type='text'], select, textarea {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    padding-right: 0;
+    border: 1px solid #636363;
+  }
+  label {
+    display: inline-block !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    padding-right: 1% !important;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: right !important;
+    margin-right:3px;
+    width:33%
+  }
+
+/*footer*/
+#myFooter {
+    background-color: #ECEFF6;
+    color: #000000;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#myFooter .logo {
+    font-size: 18px;
+    font-weight: bold;
+    /* margin-top: 30px; */
+    margin-bottom: 18px;
+}
+
+@media only screen and (max-width: 992px) {
+  .logo img {
+    margin: 0 auto;
+  }
+}
+
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #333333;
+}
+
+#myFooter a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    /* text-align: center; */
+    padding-top: 0;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #333333;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
 }
