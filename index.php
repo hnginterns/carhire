@@ -23,6 +23,8 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+
+<link rel="stylesheet" type="text/css" href="css/homepage.css">
 <link href="css/styles.css" type="text/css" rel="stylesheet" media="all">  
 <link href="css/font-awesome.css" rel="stylesheet">  <!-- font-awesome icons -->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
@@ -127,7 +129,138 @@ id="nav2">
 
 
 
-<footer>
+
+<div class="agile-footer">
+	<div class="container">
+		<div class="footer-agileinfo">
+			<div class="col-md-3 col-sm-6 footer-wthree-grid">
+				<h3>Sixt In Germany</h3>
+					<ul>
+						<p>Sixt ist die Nr. 1 der Autovermieter in Deutschland. Unser Stationsnetz umfasst fast 500 Stationen in allen größeren Städten. Wo sie auch hin wollen, wir sind schon da. Egal ob Flughafen, Bahnhof oder Innenstadt. Wir sorgen überall für die perfekte Anbindung. Dabei können Sie sich darauf verlassen, dass wir Ihnen überall perfekten Service und eine reibungslose Anmietung bieten. Unsere Mitarbeiter sind bestens geschult und werden alles in ihrer Macht stehende tun, um den gewünschten Mietwagen zur vereinbarten Mietdauer zu organisieren. Ob Sie nun einen Kleinwagen, einen Wagen der Kompaktklasse oder einen geräumigen Kombi benötigen, unsere Flotte hält für Sie Modelle von führenden Markenherstellern wie BMW, Audi, VW und Mercedes-Benz bereit. Dabei haben Sie auch die Möglichkeit sich für einen Geländewagen oder Van, zum Beispiel 7 und 9 Sitzer, zu entscheiden. Alle Mietwagen sind Top gewartet und selten älter als ein halbes Jahr. Sixt ist aber nicht nur ein PKW Verleiher, an immer mehr Stationen haben wir darüber hinaus ein umfangreiches Angebot an LKW und Transportern in verschiedenen Größen für ihre Zwecke. Sie möchten ein Auto gern länger mieten oder an einem anderen Abholort zurückgeben? Kein Problem, denn wir bieten auch Leihwagen für die Langzeit- und Einwegmiete an.</p>
+					</ul>
+			</div>
+
+			<div class="col-md-3 col-sm-6 footer-wthree-grid">
+				<h3>SIXT IN EUROPA</h3>
+				<ul>
+					
+				</ul>
+			</div>	
+
+
+
+			<div class="col-md-3 col-sm-6 footer-wthree-grid">
+				<h3>SIXT IN EUROPA</h3>
+				<ul>
+					
+				</ul>
+			</div>	
+
+
+
+		</div>
+	</div>
+
+	<div class="news-w3layouts">
+		<div class="container">
+			<div class="news-agileinfo w3-agileits">
+				<div class="col-md-2 news-w3grids">
+					<h3>Mobile Phones</h3>
+					<ul>
+						<li>Iphone & Ipad</li>
+						<li>Android</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="news-agileinfo w3-agileits">
+				<div class="col-md-2 news-w3grids">
+					<h3>VEHICLES HIRE</h3>
+					<ul> 
+						<li ><a href="#">Car Hire</a></li>
+						<li><a href="#">Truck Rental</a></li>
+						<li><a href="specialoffers.php">Special Offers Page</a></li>
+						<li><a href="#">Sixt In The US</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="news-agileinfo w3-agileits">
+				<div class="col-md-2 news-w3grids">
+					<h3>VEHICLE MODEL</h3>
+					<ul>
+						<li><a href="#">Car Fleet</a></li>
+						<li><a href="#">Truck Fleet</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="news-agileinfo w3-agileits">
+				<div class="col-md-2 news-w3grids">
+					<h3>STATION SEARCH</h3>
+					<ul>
+						<li><a href="#">Find A Rental Car</a></li>
+						<li><a href="#">Station</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="news-agileinfo w3-agileits">
+				<div class="col-md-2 news-w3grids">
+					<h3>MOVING SERICES</h3>
+					<ul>
+						<li><a href="#">CHECKLIST</a></li>
+						<li><a href="#">Safe Parking</a></li>
+							<li><a href="#">Driving Tips</a></li>
+						<li><a href="#">Moving Accesories/<a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="news-agileinfo w3-agileits">
+				<div class="col-md-2 news-w3grids">
+					<h3>RENTAL SERVICE</h3>
+					<ul>
+						<li><a href="#">Customer</a></li>
+						<li><a href="#">Sixt Customer Cards</a></li>
+						<li><a href="#">Rental Information</a></li>
+						<li><a href="#">Sixt Check-In<a></li>
+					</ul>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <footer>
 	<nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container">
   	<div class="row">
@@ -138,7 +271,7 @@ id="nav2">
 </div>
 </div>
 <div class="center-block">2017-CarHire-All Rights Reserved </div>
-</footer>
+</footer> -->
 
 
 <script type="text/javascript" src="js/bootstrap.js"></script>
