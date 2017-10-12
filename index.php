@@ -95,6 +95,12 @@ id="nav2">
   </div>
 </nav>
 
+<section>
+	<div class="bg-cover">
+		
+	</div>
+</section>
+
   <div class="special-offers container">
     <div class="row">
       <h3 calss="center">Special Offers</h3>
