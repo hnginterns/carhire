@@ -17,7 +17,17 @@
       background-size: cover;
       background-color: #464646;
     }
-    
+
+.btn-padding {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hero-padding {
+  padding-bottom: 30px;
+}
+
+
 #campain {
     text-align: center;
     font-style: normal;
