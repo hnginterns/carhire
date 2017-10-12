@@ -341,6 +341,12 @@
     }
   }
 
+  @media only screen and (max-width: 992px) {
+    .hide-on-small {
+      display: none;
+    }
+  }
+
   .left-carousel-button {
     padding: 6px 10px 4px 6px;
     color: #fff;
