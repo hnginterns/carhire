@@ -44,7 +44,7 @@ body a:focus {
 	min-height:800px;	
 }
 .banner-img2{
-	background:url(../images/2.jpg)no-repeat center 0px;
+	background: url('../img/1.jpg');
 	background-size:cover;
 } 
 /*-- banner-agileinfo --*/
@@ -528,7 +528,7 @@ p {
 /*-- //subscribe --*/
 /*-- //footer start here --*/ 
 .agile-footer{
-    background-color: #1a1a1a;
+    /*background-color: #1a1a1a;*/
     padding: 4em 0 3em;
 }
 .agile-footer h6 {
