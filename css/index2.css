@@ -1,0 +1,24 @@
+body{
+  font-family: 'Nunito Sans', sans-serif;
+}
+h1,h2,h3,h4,h5{
+	color: #007bca;
+	margin-bottom: 10px;
+}
+.deals, .special-offers, .why-hire{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.bg-blue{
+	background-color: #eceffc;
+}
+.text-blue{
+	color: #436bc8;
+}
+.special-offers .offers{
+	border: 4px solid #efefef;
+	border-radius: 5px;
+}
+.special-offers .offers img{
+	width: 100%;
+}
