@@ -132,6 +132,7 @@
       border-radius: 5px;
       background-color: #fff;
       width: 65%;
+      border-radius: 0 0 0 0;
       }
 
     fieldset {
@@ -139,9 +140,7 @@
       padding-right: 5px;
       padding-bottom: 20px;
       padding-left: 5px;
-      background-color:#fff;
-      
-
+      background-color:#fff;      
     }
     .btn-out-area{
       background-color: #e6e6e6;
@@ -166,9 +165,6 @@
     line-height: normal;
     padding: 8px 0 8px 0 !important;
     }
-    textarea {
-      border-radius: 0 0 0 0;
-    }
     .wrapper{
       position: relative;
       overflow: hidden;
@@ -178,15 +174,19 @@
       color: #636363;
     }
     .file-wrapper {
-      display: inline-grid;
+      display: block;
       position: relative;
-      width: 100%;
-      margin-bottom: 1%;
+      overflow: hidden;
+      margin-bottom: 0;
       vertical-align: middle;
-      
+    }
+    .file-wrapper label{
+      float: left;
+      color: #636363;
+      padding: 0 0 10px;
     }
     .file {
-      width: 100%;
+      width: 65%;
       border:1px solid #636363;
       padding:5px;
     }
