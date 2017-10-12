@@ -133,7 +133,7 @@
 
 
 
-<div class="book">
+<!-- <div class="book">
 <input type="button" name="Bookbutt" value="Book a car">
  <input type="button" name="modifybutt" value="View or Modify a reservation">
  <div><h3>pick-up Location</h3></div>
@@ -151,7 +151,7 @@
   <input type="button" name="Gobutt" value="GO">
 
    
-</div>
+</div> -->
 
 
 
@@ -194,6 +194,7 @@
 
 				<div class="clearfix"> </div>
 			</div>
+			
 		</div>
 	</div>
 </div>
