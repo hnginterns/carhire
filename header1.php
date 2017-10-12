@@ -5,11 +5,11 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Location</a></li>
-          <li><a href="#">Speecial Offers</a></li>
-          <li><a href="#">Cars</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="locations.php">Location</a></li>
+          <li><a href="specialoffers.php">Speecial Offers</a></li>
+          <li><a href="carlisting.php">Cars</a></li>
+          <li><a href="contactpage.php">Contact</a></li>
           <li><a href="#">Airport Transfer</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -35,9 +35,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">FIND A CAR</a></li>
+          <li><a href="carlisting.php">FIND A CAR</a></li>
           <li class="pipe hidden-xs"><a href="#">|</a></li>
-          <li><a href="#">NEW CARS</a></li>
+          <li><a href="carlisting.php">NEW CARS</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
