@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Admin extends Model
+class Drivers extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -12,7 +12,7 @@ class Admin extends Model
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'phone_number',
     ];
 
 }
