@@ -34,11 +34,9 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 <!-- //web-fonts -->
 
-
-
-
 </head>
 <body>
+
 	<nav class="navbar navbar-inverse ">
   <div class="container">
     <div class="navbar-header">
@@ -49,20 +47,32 @@
         <span class="icon-bar"></span>
       </button>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">Location</a></li>
-        <li><a href="#">Special Offers</a></li>  
-        <li><a href="#">Cars</a></li>  
-        <li><a href="#">Contact</a></li>  
-        <li><a href="#">Airport Transfer</a></li>   
-      </ul>
-    </div>
-  </div>
+   <ul class="nav navbar-nav navbar-right">
+    <!-- <div id="navbar" class="navbar-collapse collapse"> -->
+     
+        <li><a href="index.php">Home</a></li>
+        <li><a href="aboutus.html">Location</a></li>
+        <!-- DROPDOWN <li><a hrefclass="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="icons.html">Web Icons</a></li>
+										<li><a href="codes.html">Short Codes</a></li>
+									</ul></li>
+         -->
+        <li><a href="specialoffers.php">Special Offers</a></li>  
+        <li><a href="cars.php">Cars</a></li>  
+        <li><a href="contactpage.php">Contact Us</a></li>  
+        <li><a href="airporttransfer.html">Airport Transfer</a></li>
+        <li><a href="airporttransfer.html">Airport Transfer</a></li>   
+    <!-- </div> -->
+</ul>
+	<div class="clearfix"></div>
+</div>
   		<!--second nav-->
   		<!--this nav is described with the center attribute-->
 </nav>
+
+
+
 <nav class="navbar navbar-inverse nav2" 
 id="nav2">
   <div class="container-fluid">
@@ -85,6 +95,9 @@ id="nav2">
     </div>
   </div>
 </nav>
+
+
+
 <div class="book">
 <input type="button" name="Bookbutt" value="Book a car">
  <input type="button" name="modifybutt" value="View or Modify a reservation">
@@ -126,5 +139,8 @@ id="nav2">
 </div>
 <div class="center-block">2017-CarHire-All Rights Reserved </div>
 </footer>
+
+
+<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
