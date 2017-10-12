@@ -4,13 +4,14 @@
 	<title>Locations</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,400i,700" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/Carhire-Locations.css">
+	<link rel="stylesheet" type="text/css" href="css/locations.css">
 	<link rel="stylesheet" type="text/css" href="header1.php">
 
 </head>
 <body>
+	<?php include('header1.php') ?>
 	<div class="container">
-		<?php include('header1.php') ?>
+		
 	<div class="row">
           <div class="col-md-12 world img-responsive" ></div>
         </div>
@@ -73,8 +74,7 @@
 	  				<li> KEBBI</li>
 	  				<li> KOGI</li>
 	  				<li> KWARA </li>
-	  				<li> LAGOS</li>
-	  				<hr border-width = "4px" border-color="green">
+	  				<li style="border-bottom:5px solid green"> LAGOS</li>
 	  				
 	  			</div>
 	  			<div class = "col-md-2 states" >
