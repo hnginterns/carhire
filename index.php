@@ -84,7 +84,7 @@
 				<img src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" class="logo">
 			</div>
 
-			<div class="col-md-6 news-w3grids">
+			<div class="col-md-6 news-w3grids margintop">
 				<ul class="find">
 				<li>
 				<a href="find.php">FIND A CAR</a></li>
