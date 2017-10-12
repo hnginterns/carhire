@@ -1,0 +1,133 @@
+.news-w3grids ul li {
+
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	font-size: 12px;
+}
+
+.news-w3grid h3 {
+
+	color: white;
+}
+
+.news-w3grids h3 {
+font-size: 14px;
+}
+
+.carlogo{ 
+	width: 120px;
+ }
+ .carlogo img{
+ 	width: 100%;
+ }
+ .socialmedia {
+
+ 	margin: 0;
+ 	padding: 0;
+
+ }
+
+
+ .socialmedia li {
+
+ 	list-style: none;
+ 	display: block;
+ 	float: left;
+ 	padding: 10px;
+ }
+
+ body {
+
+ 	color: white;
+ }
+
+ .find {
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ .find li{
+ 	list-style: none;
+ 	display: block;
+ 	float: right;
+ 	padding: 15px;
+ }
+  .find li:nth-child(2){
+  	border-right: 1px solid #000;
+  }
+
+  .mercpic {
+
+  	width: 100%;
+  	height: 500px;
+  }
+
+  p {
+
+  	color: black;
+  }
+
+  .bg-cover{
+  	background: url('../img/1.jpg');
+  }
+
+  .testi {
+
+  	box-shadow: 
+  	color: rgba(238, 242, 250, 0.8);
+  }
+.testimages {
+
+	width: 70%;
+	/*padding-left: 50px;*/
+}
+  .testimages img {
+
+  	border-radius: 50%;
+  	width: 200px;
+  	height: 200px;
+  }
+ .find li a{
+ 	text-decoration: none;
+ 	color: #000;
+ 	text-align: center;
+ }
+
+ .secondnav {
+
+ 	background: white;
+ }
+ 
+ .logo {
+
+ 	width: 200px;
+
+ }
+
+ .margintop {
+
+ 	margin-top: 15px;
+ }
+
+
+
+ .logo img {
+
+ 	width: 100%;
+ }
+ .socialmedia li a {
+
+ 	text-decoration: none;
+ 	display: block;
+ 	width: 20px;
+ 	height: 20px;
+ 	text-align: center;
+ 	color: white;
+ 	background-color: #436BC8;
+ 	border-radius: 50%;
+
+ }
+
+ .news-agileinfo w3-agileits {
+ 	background: rgba(251, 251, 251, 0.85);
+ }
