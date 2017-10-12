@@ -108,6 +108,17 @@
 			</li>
 		</ul>
 	</div>
+
+
+
+
+	<div class="banner-w3text">
+	<div class="container">
+		<div class="row">
+			<button value="Book a car" style="color: blue">BCBHVHVH</button>
+		</div>
+	</div>
+</div>
 </div>
 
 
@@ -140,8 +151,51 @@
   <input type="button" name="Gobutt" value="GO">
 
    
+</div>
 
 
+
+<div class="skills w3-agileits" style="color: #F1F5FB">
+		<div class="container"> 
+			<div class="skills-agileinfo">
+				<div class="col-md-6 skills-w3left">
+					<h4>Best Deals On The Go!</h4>
+					<p>Get carHire app on the go</p>
+					
+					<div class="reserve">
+						<div class="col-md-6">
+<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
+<p>1. Reserve a car</p>
+		</div>
+
+		<div class="col-md-6">
+<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
+<p>2. Go to Pick-up points</p>
+		</div>
+
+
+
+		<div class="col-md-6">
+<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
+<p>3. Make A payment</p>
+		</div>
+
+		<div class="col-md-6">
+<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
+<p>4. Drive Yourself</p>
+		</div>
+
+
+
+
+
+					</div>
+
+
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
 </div>
 
 
@@ -152,36 +206,114 @@
 
 
 
-<div class="agile-footer">
-	<div class="container">
-		<div class="footer-agileinfo">
-			<div class="col-md-3 col-sm-6 footer-wthree-grid">
-				<h3>Sixt In Germany</h3>
-					<ul>
-						<p>Sixt ist die Nr. 1 der Autovermieter in Deutschland. Unser Stationsnetz umfasst fast 500 Stationen in allen größeren Städten. Wo sie auch hin wollen, wir sind schon da. Egal ob Flughafen, Bahnhof oder Innenstadt. Wir sorgen überall für die perfekte Anbindung. Dabei können Sie sich darauf verlassen, dass wir Ihnen überall perfekten Service und eine reibungslose Anmietung bieten. Unsere Mitarbeiter sind bestens geschult und werden alles in ihrer Macht stehende tun, um den gewünschten Mietwagen zur vereinbarten Mietdauer zu organisieren. Ob Sie nun einen Kleinwagen, einen Wagen der Kompaktklasse oder einen geräumigen Kombi benötigen, unsere Flotte hält für Sie Modelle von führenden Markenherstellern wie BMW, Audi, VW und Mercedes-Benz bereit. Dabei haben Sie auch die Möglichkeit sich für einen Geländewagen oder Van, zum Beispiel 7 und 9 Sitzer, zu entscheiden. Alle Mietwagen sind Top gewartet und selten älter als ein halbes Jahr. Sixt ist aber nicht nur ein PKW Verleiher, an immer mehr Stationen haben wir darüber hinaus ein umfangreiches Angebot an LKW und Transportern in verschiedenen Größen für ihre Zwecke. Sie möchten ein Auto gern länger mieten oder an einem anderen Abholort zurückgeben? Kein Problem, denn wir bieten auch Leihwagen für die Langzeit- und Einwegmiete an.</p>
-					</ul>
-			</div>
-
-			<div class="col-md-3 col-sm-6 footer-wthree-grid">
-				<h3>SIXT IN EUROPA</h3>
-				<ul>
-					
-				</ul>
-			</div>	
 
 
 
-			<div class="col-md-3 col-sm-6 footer-wthree-grid">
-				<h3>SIXT IN EUROPA</h3>
-				<ul>
-					
-				</ul>
-			</div>	
 
 
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+<div class="container">
+	<div class="why">
+		<h3>Why Hire With Car Hire</h3>
+	</div>
+
+	<div class="row">
+		
+		<div class="testimages">
+			<div class="col-md-3"> 
+			<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
+			<p>lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</div>
+
+		<div class="col-md-3">
+			<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
+			<p>lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</div>
+
+		<div class="col-md-3">
+<img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com" class="girl" />
+<p>lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+		</div>
 
 		</div>
 	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+	<div class="testi">
+		<h3>Testimonial</h3>
+
+		<h2 class="awesome">
+			<p>lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</h2>
+	</div>
+
+	<div class="row">
+		
+		<div class="testimages">
+			<div class="col-md-3">
+			<img src="https://i.imgur.com/cxMVYym.jpg" title="source: imgur.com" class="girl" /></a>
+		</div>
+
+		<div class="col-md-3">
+			<img src="https://i.imgur.com/cxMVYym.jpg" title="source: imgur.com" class="girl" /></a>
+		</div>
+
+		<div class="col-md-3">
+			<img src="https://i.imgur.com/cxMVYym.jpg" title="source: imgur.com" class="girl" /></a>
+		</div>
+
+		<div class="col-md-3">
+			<img src="https://i.imgur.com/cxMVYym.jpg" title="source: imgur.com" class="girl" /></a>
+		</div>
+		</div>
+	</div>
+</div>
+
+
+
+
 
 	<div class="news-w3layouts">
 		<div class="container">
