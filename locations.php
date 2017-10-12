@@ -4,7 +4,7 @@
 	<title>Locations</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,400i,700" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/Carhire-Locations.css">
+	<link rel="stylesheet" type="text/css" href="css/locations.css">
 	<link rel="stylesheet" type="text/css" href="header1.php">
 
 </head>
