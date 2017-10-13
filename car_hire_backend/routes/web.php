@@ -26,7 +26,9 @@ Route::get('/car-listing', function () {
 Route::get('/single-car', function () {
     return view('partials.single-car');
 });
-
+Route::get('/faq', function () {
+    return view('partials.faq');
+});
 
 Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
 
