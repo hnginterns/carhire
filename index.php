@@ -44,18 +44,69 @@
   <?php include('header1.php') ?>
  </header>
 
-<section>
 
-	<div class="bg-cover">
-	</div>
+	<div class="top-image"></div>
 
-  <div class="bg-cover">
-    
+
+
+	<!-- special offers -->
+	<div class="special-offers container">
+    <div class="row">
+    <div class="col-sm-1 arrow">
+      <span class="fa-stack fa-md">
+      	<div class="down">
+      <i class="fa fa-chevron-left left-carousel-button"></i>
+      <i class="fa fa-chevron-left left-carousel-button"></i>
+      	</div>
+      </span>
+    </div>
+    <div class="col-sm-9 container">
+      <h3 calss="text-center">Special Offers</h3>
+      <div class="row">
+        <p class="col-sm-2">Featured Offers</p>
+        <p class="col-sm-2">Partners Offers</p>
+        <p class="col-sm-2">Local offers</p>
+        <p class="col-sm-2">Van Special</p>
+        <p class="col-sm-2">Global Destination</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="offers">
+            <img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com">
+              <span class="black-bold">Discover Somewhere New</span>
+              <span>Kenya car hire from $200</span>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="offers">
+            <img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com">
+            <span class="black-bold">Discover Somewhere New</span>
+            <span>Kenya car hire from $200</span>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="offers">
+            <img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com">
+            <span class="black-bold">Discover Somewhere New</span>
+            <span>Kenya car hire from $200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1 arrow">
+      <span class="fa-stack fa-md">
+      <i class="fa fa-chevron-right right-carousel-button"></i>
+      <i class="fa fa-angle-right fa-stack-1x"></i>
+      </span>
+    </div>
+  </div>
   </div>
 
-</section>
+
+
+
 	
-  <div class="special-offers container">
+  <!-- <div class="special-offers container">
     <div class="row">
     <div class="col-sm-1 arrow">
       <span class="fa-stack fa-md">
@@ -103,7 +154,7 @@
       </span>
     </div>
   </div>
-  </div>
+  </div> -->
 
   <div class="bg-blue">
     <div class="container">
