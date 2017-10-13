@@ -60,19 +60,19 @@
          </div>
          <div class="row">
                <div class="col-sm-3 img-responsive text-center carhire-border">
-                  <img class="car-margin1" src="1.png" alt="door">
+                  <img class="car-margin1" src="https://res.cloudinary.com/nedy123/image/upload/v1507909442/1_moauek.png" alt="Models">
                   <p>Models</p>
                </div>
                  <div class="col-sm-3 img-responsive text-center carhire-border">
-                 <img class="car-margin1" src="2.png" alt="door">
+                 <img class="car-margin1" src="https://res.cloudinary.com/nedy123/image/upload/v1507909442/2.1_zy4ow5.png" alt="Doors">
                  <p>Doors</p>
                </div>
                  <div class="col-sm-3 img-responsive text-center carhire-border">
-                 <img class="car-margin1" src="3.png" alt="door">
+                 <img class="car-margin1" src="https://res.cloudinary.com/nedy123/image/upload/v1507909442/3_ltc41q.png" alt="Passenger">
                  <p>Passenger</p>
                </div>
                  <div class="col-sm-3 img-responsive text-center carhire-border">
-                 <img class="car-margin1" src="4.png" alt="door">
+                 <img class="car-margin1" src="https://res.cloudinary.com/nedy123/image/upload/v1507909442/4_nfpwjf.png" alt="Transmission">
                  <p>Transmission</p>
                </div>
          </div>
@@ -84,7 +84,7 @@
                <div class="col-sm-6">
                     <div class="row">
                          <div class="col-sm-6 img-responsive">
-                             <img class="img-responsive" src="car.png" alt="car" >
+                             <img class="img-responsive" src="https://res.cloudinary.com/nedy123/image/upload/v1507909448/car_diksf7.png" alt="car" >
                          </div>
                          <div class="col-sm-6 car-margin text-left">
                               <h4> Car Name | ECAR</h4>
@@ -131,7 +131,7 @@
                <div class="col-sm-6">
                     <div class="row">
                          <div class="col-sm-6 img-responsive">
-                             <img class="img-responsive" src="car.png" alt="car" >
+                             <img class="img-responsive" src="https://res.cloudinary.com/nedy123/image/upload/v1507909448/car_diksf7.png" alt="car" >
                          </div>
                          <div class="col-sm-6 car-margin text-left">
                               <h4> Car Name | ECAR</h4>
@@ -178,7 +178,7 @@
                <div class="col-sm-6">
                     <div class="row">
                          <div class="col-sm-6 img-responsive">
-                             <img class="img-responsive" src="car.png" alt="car" >
+                             <img class="img-responsive" src="https://res.cloudinary.com/nedy123/image/upload/v1507909448/car_diksf7.png" alt="car" >
                          </div>
                          <div class="col-sm-6 car-margin text-left">
                               <h4> Car Name | ECAR</h4>
@@ -225,7 +225,7 @@
                <div class="col-sm-6">
                     <div class="row">
                          <div class="col-sm-6 img-responsive">
-                             <img class="img-responsive" src="car.png" alt="car" >
+                             <img class="img-responsive" src="https://res.cloudinary.com/nedy123/image/upload/v1507909448/car_diksf7.png" alt="car" >
                          </div>
                          <div class="col-sm-6 car-margin text-left">
                               <h4> Car Name | ECAR</h4>
