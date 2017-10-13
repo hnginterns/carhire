@@ -22,7 +22,9 @@
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 <link href="/css/about.css" type="text/css" rel="stylesheet">
-<title>Special Offers</title><link rel="canonical" href="#">
+
+<title>Special Offers</title>
+<link rel="canonical" href="#">
 	<meta property="og:image" content="/typo3conf/ext/sxcorporate/Resources/Public/Images/logo/sixt-rental.png">
             <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
             <link rel="dns-prefetch" href="https://service.maxymiser.net/">
@@ -344,7 +346,7 @@
 <li class="sx-res-offerlist-item sx-res-topoffer-banner">
     <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
         Found no matching offer?
-                    </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More offers.</font></font></span>
+                    </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More offers!.</font></font></span>
                 </h3>
     <div class="sx-res-topoffer-banner-img">
         <img src="http://res.cloudinary.com/archer/image/upload/v1507856038/cars.png" title="even more favorable offers" alt="even more favorable offers">
