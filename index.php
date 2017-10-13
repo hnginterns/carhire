@@ -25,7 +25,7 @@
 <link href="css/styles.css" type="text/css" rel="stylesheet" media="all"> 
 
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
- 
+
 <link href="css/font-awesome.css" rel="stylesheet">  <!-- font-awesome icons -->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <link href="css/index2.css" type="text/css" rel="stylesheet" media="all">  
@@ -100,7 +100,6 @@ id="nav2">
 
 <section>
 	<div class="bg-cover">
-		
 	</div>
 </section>
 
