@@ -91,6 +91,13 @@ p{
 </style>
    
 <body>
+
+
+    <header>
+          <?php include('header1.php') ?>
+  </header>
+    
+
        <div class="headcontent">
         <div class="head1">
             <p>Vehicle Models</p>
@@ -334,7 +341,9 @@ p{
       </div>
       <!--container div for each car ends here-->
 
-
+ <footer>
+    <?php include('footer1.php') ?>
+</footer>
 
 </body>
 </html>
