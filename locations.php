@@ -11,104 +11,103 @@
 <body>
 	<?php include('header1.php') ?>
 	<div class="container-fluid">
-		
-	<div class="row">
-          <div class="col-md-12 world img-responsive" ></div>
-        </div>
+			
+		<div class="row">
+	          <div class="col-md-12 world img-responsive" >
+	          </div>
+	    </div>
 
 
 		<div class = "span 12 country_p">
-			<p>*pick your location to see our offices</p>
-			<p>You have selected Nigeria</p>
-			<hr>
-			<br>
+				<p>*pick your location to see our offices</p>
+				<p>You have selected Nigeria</p>
+				<hr>
+				<br>
 
 		</div>
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<img class="media-object img-responsive" id = "ng-img">
+				<div class="row">
+					<div class="col-sm-4">
+						<img class="media-object img-responsive" id = "ng-img">
+					</div>
+					<div class="col-sm-6">
+						<h1 class = "country media-heading">Nigeria</h1>
+					</div>
 				</div>
-				<div class="col-sm-6">
-					<h1 class = "country media-heading">Nigeria</h1>
-				</div>
-			</div>
-			
-
-
-	  	<div class = "container">
-	  		<div class = "row">
-	  			<div class = "col-md-2 col-sm-1 states" >
-	  				  
-	  				<li> ABIA </li>
-	  				<li> ADAMAWA</li>
-	  				<li> AKWA IBOM</li>
-	  				<li> ANAMBRA</li>
-	  				<li> BAUCHI</li>
-	  				<li> BAYELSA</li>
-	  				
-	  			</div>
-	  			<div class = "col-md-2 col-sm-1 states" >
-	  				     
-	  				<li> BENUE </li>
-	  				<li> BORNO</li>
-	  				<li> CROSS RIVER</li>
-	  				<li> DELTA</li>
-	  				<li> EBONYI </li>
-	  				<li> EDO</li>
-	  				
-	  			</div>
-	  			<div class = "col-md-2 col-sm-1 states" >
-	  				         
-	  				<li> EKITI </li>
-	  				<li> ENUGU</li>
-	  				<li> GOMBE</li>
-	  				<li> IMO</li>
-	  				<li> JIGAWA </li>
-	  				<li> KADUNA</li>
-	  				
-	  			</div>
-	  			<div class = "col-md-2 col-sm-1 states" >
-	  				              
-	  				<li> KANO </li>
-	  				<li> KATSINA</li>
-	  				<li> KEBBI</li>
-	  				<li> KOGI</li>
-	  				<li> KWARA </li>
-	  				<li style="border-bottom:5px solid green"> LAGOS</li>
-	  				
-	  			</div>
-	  			<div class = "col-md-2 col-sm-1 states" >
-	  				                
-	  				<li> NASSARAWA </li>
-	  				<li> NIGER</li>
-	  				<li> OGUN</li>
-	  				<li> ONDO</li>
-	  				<li> OSUN  </li>
-	  				<li> OYO</li>
-	  				
-	  			</div>
-
-	  			<div class = "col-md-2 col-sm-1 states" >
-	  				       
-       
-	  				<li> PLATEAU </li>
-					<li> RIVERS  </li>
-					<li> SOKOTO  </li>
-					<li> TARABA  </li>
-					<li> YOBE </li>
-					<li> ZAMFARA  </li>  
-	  				
-	  			</div>
-	  		</div>
-	  	</div>
-<br>
-<div class="container outlet">
-	<h3>Lagos</h3>
-		<div class="row">
-			
-			<div class="col-md-6 location">
+		</div>
 				
+
+		<div class = "container">
+		  		<div class = "row">
+		  			<div class = "col-md-2 col-sm-1 states" >
+		  				  
+		  				<li> ABIA </li>
+		  				<li> ADAMAWA</li>
+		  				<li> AKWA IBOM</li>
+		  				<li> ANAMBRA</li>
+		  				<li> BAUCHI</li>
+		  				<li> BAYELSA</li>
+		  				
+		  			</div>
+		  			<div class = "col-md-2 col-sm-1 states" >
+		  				     
+		  				<li> BENUE </li>
+		  				<li> BORNO</li>
+		  				<li> CROSS RIVER</li>
+		  				<li> DELTA</li>
+		  				<li> EBONYI </li>
+		  				<li> EDO</li>
+		  				
+		  			</div>
+		  			<div class = "col-md-2 col-sm-1 states" >
+		  				         
+		  				<li> EKITI </li>
+		  				<li> ENUGU</li>
+		  				<li> GOMBE</li>
+		  				<li> IMO</li>
+		  				<li> JIGAWA </li>
+		  				<li> KADUNA</li>
+		  				
+		  			</div>
+		  			<div class = "col-md-2 col-sm-1 states" >
+		  				              
+		  				<li> KANO </li>
+		  				<li> KATSINA</li>
+		  				<li> KEBBI</li>
+		  				<li> KOGI</li>
+		  				<li> KWARA </li>
+		  				<li style="border-bottom:5px solid green"> LAGOS</li>
+		  				
+		  			</div>
+		  			<div class = "col-md-2 col-sm-1 states" >
+		  				                
+		  				<li> NASSARAWA </li>
+		  				<li> NIGER</li>
+		  				<li> OGUN</li>
+		  				<li> ONDO</li>
+		  				<li> OSUN  </li>
+		  				<li> OYO</li>
+		  				
+		  			</div>
+
+		  			<div class = "col-md-2 col-sm-1 states" >
+		  				       
+	       
+		  				<li> PLATEAU </li>
+						<li> RIVERS  </li>
+						<li> SOKOTO  </li>
+						<li> TARABA  </li>
+						<li> YOBE </li>
+						<li> ZAMFARA  </li>  
+		  				
+		  			</div>
+		  		</div>
+		</div>
+		<br>
+		<div class="container outlet">
+			<h3>Lagos</h3>
+			<div class="row">
+				<div class="col-md-6 location">
 					<h5>Location Details Address:</h5>
 					 
 					<p>
@@ -120,28 +119,24 @@
 					<br>
 					SIXT #: 1635
 					</p> 
+				</div>
+				<div class="col-md-6">
+					<p>
+					Opening Hours
+					<br> 
+					Mo. - Su. 07:00 - 18:00 
+					<br>
+					Bank Holiday 07:00 - 18:00 
+					<br>
+					24 h pickup 
+					<br>
+					24 h return
+					</p>
+				</div>
 			</div>
-			<div class="col-md-6">
-				<p>
-				Opening Hours
-				<br> 
-				Mo. - Su. 07:00 - 18:00 
-				<br>
-				Bank Holiday 07:00 - 18:00 
-				<br>
-				24 h pickup 
-				<br>
-				24 h return
-				</p>
-			</div>
-
-		</div>
-		<div class="row">
-	
-			<div class="col-md-6 location">
-				
+			<div class="row">
+				<div class="col-md-6 location">
 					<h5>Location Details Address:</h5>
-					 
 					<p>
 						Old Secretariat Ikeja GRA
 					<br>
@@ -151,27 +146,23 @@
 					<br>
 					SIXT #: 1635
 					</p> 
+				</div>
+				<div class="col-md-6">
+					<p>
+					Opening Hours
+					<br> 
+					Mo. - Su. 07:00 - 18:00 
+					<br>
+					Bank Holiday 07:00 - 18:00 
+					<br>
+					24 h pickup 
+					<br>
+					24 h return
+					</p>
+				</div>
 			</div>
-			<div class="col-md-6">
-				<p>
-				Opening Hours
-				<br> 
-				Mo. - Su. 07:00 - 18:00 
-				<br>
-				Bank Holiday 07:00 - 18:00 
-				<br>
-				24 h pickup 
-				<br>
-				24 h return
-				</p>
-			</div>
-
 		</div>
-
-</div>
-	
 		<br>
-	
 		<div class="container">
 			<div class="cat">
 		    	<h3 style="color:blue; text-align:left">Categories and Services</h3>
@@ -191,19 +182,14 @@
 		    		<div class="col-sm-2">
 		    			24 h return
 		    		</div>
-		    		
 		    	</div>
-		      
 		    </div>
+		</div>
+	    <br>
+	    <br>
 	</div>
-	
-    <br>
-    <br>
-</div>
 	<?php include('footer1.php') ?>
 
-	
-	
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
