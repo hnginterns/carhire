@@ -13,7 +13,7 @@
                 <div class="col-sm-3">
                     <h5>Products & Services</h5>
                     <ul>
-                        <li><a href="#">Vehichles</a></li>
+                        <li><a href="#">Vehicles</a></li>
                         <li><a href="driver-info.php">Drivers</a></li>
                         <li><a href="#">Hire Advice</a></li>
                         <li><a href="FAQ.php">FAQs</a></li>
