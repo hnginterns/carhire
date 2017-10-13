@@ -2,7 +2,7 @@
 <html lang "en">
 
 <head>
-  <title>my page</title>
+  <title>Special-offers</title>
   <link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855989/base.css" media="all">
   <link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855966/typo3-corporate-additions.css" media="all">
   <link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855962/rte.css" media="all">
