@@ -559,7 +559,7 @@
                 <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
-                          <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/archer/image/upload/v1507856033/bmw_7er-mb_s-audi_a8.png" alt="Guaranteed upper-class models">
+                          <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/archer/image/upload/v1507856072/mb-gla-silber-5d-2017.png" alt="Guaranteed upper-class models">
                             </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
