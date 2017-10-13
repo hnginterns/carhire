@@ -21,6 +21,10 @@
 <!-- //web-fonts -->
 </head>
 <body>
+    <header>
+        <?php include('header1.php') ?>
+    </header>
+  
    <div class="container">
          <div class="row">
               <div class="col-sm-6">
@@ -266,5 +270,8 @@
             <!--==========Each Car Section Ends Here==========-->
             <br>
    </div>
+    <footer>
+        <?php include('footer1.php') ?>
+    </footer>
 </body>
 </html>

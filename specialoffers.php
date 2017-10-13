@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
-<link href="css/about.css" rel="stylesheet">
+<link href="/css/about.css" type="text/css" rel="stylesheet">
 <style type="text/css">
 /*<![CDATA[*/
 <!--

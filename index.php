@@ -23,7 +23,7 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
 
-<link href="css/styles.css" type="text/css" rel="stylesheet" media="all"> 
+<!--<link href="css/styles.css" type="text/css" rel="stylesheet" media="all"> -->
 
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -41,7 +41,7 @@
 </head>
 <body>
 <header>
-  <?php include ('/header1.php') or die('Something went wrong') ?>
+  <?php include ('header1.php') ?>
  </header>
 
 

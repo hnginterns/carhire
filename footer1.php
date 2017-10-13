@@ -6,7 +6,7 @@
                     <ul>
                         <li><a href="aboutUs.php">About</a></li>
                         <li><a href="locations.php">Locations</a></li>
-                        <li><a href="contactpage.php">Contact Us</a></li>
+                        <li><a href="Contactpage.php">Contact Us</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
