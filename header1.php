@@ -10,7 +10,7 @@
           <li><a href="specialoffers.php">Speecial Offers</a></li>
           <li><a href="carlisting.php">Cars</a></li>
           <li><a href="contactpage.php">Contact</a></li>
-          <li><a href="#">Airport Transfer</a></li>
+          <!-- <li><a href="#">Airport Transfer</a></li> -->
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
