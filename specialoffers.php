@@ -257,9 +257,9 @@
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse navbar-ex1-collapse">
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="#">FIND A CAR</a></li>
+										<li><a href="carlisting.php">FIND A CAR</a></li>
 										<li class="pipe hidden-xs"><a href="#">|</a></li>
-										<li><a href="#">NEW CARS</a></li>
+										<li><a href="carlisting.php">NEW CARS</a></li>
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</div>
