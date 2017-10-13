@@ -45,9 +45,21 @@
  </header>
 
 
-	<div class="top-image"></div>
+	<div class="top-image" align="center">
+		<img src="http://res.cloudinary.com/bogadeji/image/upload/q_auto,f_auto/v1507729051/Rectangle_12_ykepwm.png" width="100%">
+	</div>
 
+	<div class="container">
+		<div class="row">
 
+			<div class="myshadow">
+				<div class="col-md-9 col-md-offset-2">
+					<p>Hello, World!</p>
+				</div>	
+			</div>
+
+		</div>
+	</div>
 
 	<!-- special offers -->
 	<div class="special-offers container">
