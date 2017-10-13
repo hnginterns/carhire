@@ -407,7 +407,7 @@ h3 {
 }
 
 .quotes:after {
-  top: 0;
+  bottom: 0;
   right: 0;
 
   content: '\201D';
