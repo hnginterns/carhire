@@ -41,7 +41,7 @@
 </head>
 <body>
 <header>
-  <?php include('/header1.php') ?>
+  <?php include('header1.php'); ?>
 
  </header>
 
@@ -167,8 +167,18 @@
 				</div>
 
 				<div class="col-md-6">
-					 <i class="fa fa-address-book fa-5x text-blue"></i><br /><br />
-					 <p>1. Reserve a Car</p>
+					 <i class="fa fa-map-marker fa-5x text-blue"></i><br /><br />
+					 <p>2. Go To Pick Up Point.</p>
+				</div>
+
+				<div class="col-md-6">
+					 <i class="fa fa-car fa-5x text-blue"></i><br /><br />
+					 <p>3. Make Payment</p>
+				</div>
+
+				<div class="col-md-6">
+					 <i class="fa fa-money fa-5x text-blue"></i><br /><br />
+					 <p>4. Drive Yourself</p>
 				</div>
 
 			</div>
