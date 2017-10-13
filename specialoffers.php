@@ -571,7 +571,7 @@
                 </div>
             </div>
         </li>
-<center><img src="http://res.cloudinary.com/archer/image/upload/v1507857589/benefits.png" title="even more favorable offers" alt="even more favorable offers"></center><br><br><br>
+<center><img src="" title="even more favorable offers" alt="even more favorable offers"></center><br><br><br>
 <li class="sx-res-offerlist-item sx-res-topoffer-banner">
     <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
         Found no matching offer?
