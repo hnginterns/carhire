@@ -26,7 +26,7 @@
  @include('partials.header')
 
 
-   <div style="width: 700px; margin-left: 20%">
+   <div style="width: 800px; margin-left: 20%">
 <form class="form-horizontal" method="POST" action="/car/" enctype="multipart/form-data">
                         {{ csrf_field() }}
 
@@ -94,7 +94,7 @@
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-success">
+                                <button type="submit" class="btn btn-primary">
                                  Save
                                 </button>
                             </div>

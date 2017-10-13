@@ -50,19 +50,19 @@
    <ul class="nav navbar-nav navbar-right">
     <!-- <div id="navbar" class="navbar-collapse collapse"> -->
      
-        <li><a href="index.php">Home</a></li>
-        <li><a href="aboutus.html">Location</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/locations">Location</a></li>
         <!-- DROPDOWN <li><a hrefclass="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="icons.html">Web Icons</a></li>
                     <li><a href="codes.html">Short Codes</a></li>
                   </ul></li>
          -->
-        <li><a href="specialoffers.php">Special Offers</a></li>  
+        <li><a href="/specialoffers">Special Offers</a></li>  
         <li><a href="/car-listing">Cars</a></li>  
         <li><a href="/contact">Contact Us</a></li>  
-        <li><a href="airporttransfer.html">Airport Transfer</a></li>
-        <li><a href="airporttransfer.html">Airport Transfer</a></li>   
+        <li><a href="/airporttransfer">Airport Transfer</a></li>
+        <li><a href="/airporttransfer">Airport Transfer</a></li>   
     <!-- </div> -->
 </ul>
   <div class="clearfix"></div>

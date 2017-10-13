@@ -30,6 +30,10 @@ Route::get('/faq', function () {
     return view('partials.faq');
 });
 
+Route::get('/locations', function () {
+    return view('partials.locations');
+});
+
 Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
 
 /*
