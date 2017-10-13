@@ -9,15 +9,15 @@
 <meta name="apple-itunes-app" content="app-id=295079411">
 <meta name="description" content="">
 
-<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855989/base.css" media="all">
-<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855966/typo3-corporate-additions.css" media="all">
-<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855962/rte.css" media="all">
-<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855969/typo3-default-styles.css" media="all">
-<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855972/ui.core.css" media="all">
-<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855990/ui.theme.css" media="all">
-<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855974/ui.datepicker.css" media="all">
-<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855964/jquery.box-res-1.3.css" media="all">
-<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507856001/reservation-corporate.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/base.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/typo3-corporate-additions.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/rte.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/typo3-default-styles.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/ui.core.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/ui.theme.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/ui.datepicker.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/query.box-res-1.3.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/reservation-corporate.css" media="all">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
@@ -230,11 +230,11 @@
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<font color="white"><div class="collapse navbar-collapse navbar-ex1-collapse">
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="index.php">Home</a></li>
-										<li><a href="locations.php">Location</a></li>
+										<li><a href="#">Home</a></li>
+										<li><a href="#">Location</a></li>
 										<li><a href="#">Special Offers</a></li>
 										<li><a href="#">Cars</a></li>
-										<li><a href="contactpage.php">Contact</a></li>
+										<li><a href="#">Contact</a></li>
 										<li><a href="#">Airport Transfer</a></li>
 									</ul>
 								</div><!-- /.navbar-collapse -->
@@ -257,9 +257,9 @@
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse navbar-ex1-collapse">
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="carlisting.php">FIND A CAR</a></li>
+										<li><a href="#">FIND A CAR</a></li>
 										<li class="pipe hidden-xs"><a href="#">|</a></li>
-										<li><a href="carlisting.php">NEW CARS</a></li>
+										<li><a href="#">NEW CARS</a></li>
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</div>
@@ -374,8 +374,8 @@
                             </div>
 														<div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 36000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-
+                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        36
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -421,8 +421,8 @@
                             </div>
                                   <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 90000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-
+                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        90000
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -469,8 +469,8 @@
                             						</div>
                                          <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 15000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-
+                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        15000
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -508,8 +508,8 @@
                             </div>
 														<div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 130000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-
+                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        130000
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -548,8 +548,8 @@
                             </div>
   												   <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day </font></font></span>
-                                      <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 35000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-
+                                      <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        35000
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -602,9 +602,9 @@
 									<div class="col-sm-3">
 											<h2 class="logo"><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" width="100px"></a></h2>
 											<ul>
-													<li><a href="aboutUs.php">About</a></li>
-													<li><a href="locations.php">Locations</a></li>
-													<li><a href="contactpage.php">Contact Us</a></li>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Locations</a></li>
+													<li><a href="#">Contact Us</a></li>
 													<li><a href="#">Privacy Policy</a></li>
 											</ul>
 									</div>
@@ -612,9 +612,9 @@
 											<h5>Products & Services</h5>
 											<ul>
 													<li><a href="#">Vehichles</a></li>
-													<li><a href="driver-info.php">Drivers</a></li>
+													<li><a href="#">Drivers</a></li>
 													<li><a href="#">Hire Advice</a></li>
-													<li><a href="FAQ.php">FAQs</a></li>
+													<li><a href="#">FAQs</a></li>
 											</ul>
 									</div>
 									<div class="col-sm-3">
