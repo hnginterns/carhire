@@ -22,7 +22,10 @@
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
-<link href="css/styles.css" type="text/css" rel="stylesheet" media="all">  
+<link href="css/styles.css" type="text/css" rel="stylesheet" media="all"> 
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+ 
 <link href="css/font-awesome.css" rel="stylesheet">  <!-- font-awesome icons -->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <link href="css/index2.css" type="text/css" rel="stylesheet" media="all">  
@@ -37,7 +40,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-inverse ">
+  <nav class="navbar navbar-inverse " class="back">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-    toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
