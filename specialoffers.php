@@ -9,15 +9,15 @@
 <meta name="apple-itunes-app" content="app-id=295079411">
 <meta name="description" content="">
 
-<link rel="stylesheet" type="text/css" href="css/base.css" media="all">
-<link rel="stylesheet" type="text/css" href="css/typo3-corporate-additions.css" media="all">
-<link rel="stylesheet" type="text/css" href="css/rte.css" media="all">
-<link rel="stylesheet" type="text/css" href="css/typo3-default-styles.css" media="all">
-<link rel="stylesheet" type="text/css" href="css/ui.core.css" media="all">
-<link rel="stylesheet" type="text/css" href="css/ui.theme.css" media="all">
-<link rel="stylesheet" type="text/css" href="css/ui.datepicker.css" media="all">
-<link rel="stylesheet" type="text/css" href="css/query.box-res-1.3.css" media="all">
-<link rel="stylesheet" type="text/css" href="css/reservation-corporate.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855989/base.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855966/typo3-corporate-additions.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855962/rte.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855969/typo3-default-styles.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855972/ui.core.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855990/ui.theme.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855974/ui.datepicker.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855964/jquery.box-res-1.3.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507856001/reservation-corporate.css" media="all">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
