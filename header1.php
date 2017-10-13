@@ -29,7 +29,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-left" href="#"><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="80px"></a></a>
+        <a class="navbar-left" href="index.php"><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="80px"></a></a>
       </div>
   
       <!-- Collect the nav links, forms, and other content for toggling -->
