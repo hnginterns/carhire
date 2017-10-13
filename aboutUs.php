@@ -14,7 +14,7 @@
 
 <body>
   <header>
-        @include('partials.header')
+        <?php include('header1.php') ?>
   </header>
   <!-- top section -->
     <!-- container for top bg image -->
@@ -363,7 +363,7 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <footer>
-        @include('partials.footer')
+        <?php include('footer1.php') ?>
 </footer>
 </body>
 
