@@ -6,6 +6,40 @@ body{
 	width: 688px;
 	height: 293px !important;
 }
+.carhire-border{
+    border: .5px solid grey;
+}
+.car-vehicle{
+    font-weight:900;
+    font-size:3.5em;
+    color: #007BCA;
+}
+.car-font-size{
+    font-size: 1.3em;
+}
+.car-margin{
+    margin-top: 10%;
+    margin-bottom:2%;
+}
+.car-margin1{
+    margin-top: 5%;
+}
+.car-margin3{
+    margin-top: 1%;
+    font-weight:500;
+}
+
+.car-marginer{
+    margin-top: 7%;
+    margin-bottom:2%;
+}
+.glyphicon.glyphicon-one-fine-dot:before {
+    content: "\25cf";
+    font-size: 1.2em;
+    color: #007BCA;
+    margin-right:14px;
+}
+
 .passbook{
 	width: 688px;
 	height: 606px !important;
