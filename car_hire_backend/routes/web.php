@@ -38,6 +38,11 @@ Route::get('/locations', function () {
     return view('partials.locations');
 });
 
+Route::get('/about-us', function () {
+    return view('partials.about-us');
+});
+
+
 Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
 
 /*
