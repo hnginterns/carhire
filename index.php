@@ -41,7 +41,7 @@
 </head>
 <body>
 <header>
-  <?php include ('/header1.php') or die('Something went wrong') ?>
+  <?php include('/header1.php') ?>
  </header>
 
 
@@ -52,32 +52,39 @@
 	<div class="container mid-section white-color">
 		<div class="row">
 
-			<div class="col-md-9 col-md-offset-2">
+			<div class="col-md-9 col-md-offset-1">
 				<div class="myshadow">
 					<button class="btn btn-primary">Book Now</button>&nbsp;&nbsp;&nbsp;&nbsp; |
 					<span>View or Modify a reservation</span>
 				</div>
 			</div>
 
-			<div class="col-md-3 col-md-offset-2">
+			<div class="col-md-3 col-md-offset-1">
 				<div class="myshadow">
-					<p><b>Pick-up Location</b></p>
+					<b>Pick-up Location</b><br /><br />
 					<input class="form-control" type="text" name="location" placeholder="City, State or Airport Code">
 				</div>
 			</div>
 
 			<div class="col-md-3">
 				<div class="myshadow">
-					<b>Pick-up Date &amp; Time</b>
+					<b>Pick-up Date &amp; Time</b><br /><br />
 					<input class="form-control" type="date" name="location" placeholder="City, State or Airport Code">
 				</div>
 			</div>
 
 			<div class="col-md-3">
 				<div class="myshadow">
-					<p>Pick-up Location</p>
+					<b>Return Date</b><br /><br />
+					<input class="mycontrol" type="date" name="location" placeholder="City, State or Airport Code">
+					<button class="btn btn-primary">GO</button>
+
 				</div>
+
 			</div>
+
+
+
 
 		</div>
 	</div>
@@ -134,6 +141,107 @@
     </div>
   </div>
   </div>
+
+
+<div class="container-fluid bg-blue">
+	<div class="row">
+
+		<div class="mypad">
+			<div class="col-md-6">
+				<h3>Best Deals on the Go!</h3><br />
+				<b>Get carHire on your mobile phone</b><br /><br />
+
+				<a href="https://imgur.com/QyMRM8H"><img src="https://i.imgur.com/QyMRM8H.png" title="source: imgur.com" width="20%" /></a>
+
+				<a href="https://imgur.com/lpnZcYb"><img src="https://i.imgur.com/lpnZcYb.png" title="source: imgur.com" width="20%" /></a>
+
+				<br /><br /><br /><br />
+			</div>
+
+			<div class="col-md-6">
+
+				<div class="col-md-6">
+					 <i class="fa fa-car fa-5x text-blue"></i><br /><br />
+					 <p>1. Reserve a Car</p>
+				</div>
+
+				<div class="col-md-6">
+					 <i class="fa fa-address-book fa-5x text-blue"></i><br /><br />
+					 <p>1. Reserve a Car</p>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</div><br /><br /><br /><br /><br />
+
+
+<div class="container-fluid bg-testimonial">
+    <div class="container">
+      <h2 class="text-center team">TESTIMONIALS</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="carousel slide" data-ride="carousel" id="testimonial-carousel">
+            
+            <div class="carousel-inner text-center">
+              <!-- Quote 1 -->
+              <div class="item active">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                      <div class="testimonial">
+                        <h4>Lorem testimonial title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                        <small>Someone famous</small>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 2 -->
+              <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                      <div class="testimonial">
+                        <h4>Lorem testimonial title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                        <small>Some other famous person</small>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 3 -->
+              <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                      <div class="testimonial">
+                        <h4>Lorem testimonial title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                        <small>Another famous person</small>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            
+                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
 
 
 
