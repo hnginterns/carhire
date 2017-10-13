@@ -23,6 +23,10 @@ Route::get('/car-listing', function () {
     return view('partials.car-listing');
 });
 
+Route::get('/single-car', function () {
+    return view('partials.single-car');
+});
+
 
 Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
 
