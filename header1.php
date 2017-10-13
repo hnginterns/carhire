@@ -9,7 +9,7 @@
           <li><a href="locations.php">Location</a></li>
           <li><a href="specialoffers.php">Special Offers</a></li>
           <li><a href="carlisting.php">Cars</a></li>
-          <li><a href="contactpage.php">Contact</a></li>
+          <li><a href="Contactpage.php">Contact</a></li>
           <!-- <li><a href="#">Airport Transfer</a></li> -->
         </ul>
       </div><!-- /.navbar-collapse -->
