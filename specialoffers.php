@@ -9,15 +9,15 @@
 <meta name="apple-itunes-app" content="app-id=295079411">
 <meta name="description" content="">
 
-<link rel="stylesheet" type="text/css" href="specialoffers/css/base.css" media="all">
-<link rel="stylesheet" type="text/css" href="specialoffers/css/typo3-corporate-additions.css" media="all">
-<link rel="stylesheet" type="text/css" href="specialoffers/css/rte.css" media="all">
-<link rel="stylesheet" type="text/css" href="specialoffers/css/typo3-default-styles.css" media="all">
-<link rel="stylesheet" type="text/css" href="specialoffers/css/ui.core.css" media="all">
-<link rel="stylesheet" type="text/css" href="specialoffers/css/ui.theme.css" media="all">
-<link rel="stylesheet" type="text/css" href="pecialoffers/css/ui.datepicker.css" media="all">
-<link rel="stylesheet" type="text/css" href="specialoffers/css/jquery.box-res-1.3.css" media="all">
-<link rel="stylesheet" type="text/css" href="specialoffers/css/reservation-corporate.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855989/base.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855966/typo3-corporate-additions.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855962/rte.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855969/typo3-default-styles.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855972/ui.core.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855990/ui.theme.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855974/ui.datepicker.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507855964/jquery.box-res-1.3.css" media="all">
+<link rel="stylesheet" type="text/css" href="http://res.cloudinary.com/archer/raw/upload/v1507856001/reservation-corporate.css" media="all">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
@@ -262,7 +262,8 @@
 -->
 /*]]>*/
 </style>
-<title>Special Offers</title><link rel="canonical" href="#"><meta property="og:image" content="/typo3conf/ext/sxcorporate/Resources/Public/Images/logo/sixt-rental.png">
+<title>Special Offers</title><link rel="canonical" href="#">
+	<meta property="og:image" content="/typo3conf/ext/sxcorporate/Resources/Public/Images/logo/sixt-rental.png">
             <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
             <link rel="dns-prefetch" href="https://service.maxymiser.net/">
             <link rel="dns-prefetch" href="https://maps-api-ssl.google.com/">
@@ -316,7 +317,7 @@
 
 		<!-- static page -->
 			<div class="sx-res-topoffer-teaser-wrapper">
-				<div class="sx-res-topoffer-teaser" style="background-image: url(&quot;specialoffers/banner.png&quot;);"></div>
+				<div class="sx-res-topoffer-teaser" style="background-image: url(&quot;http://res.cloudinary.com/archer/image/upload/v1507856071/banner.png&quot;);"></div>
 				<div class="sx-res-topoffer-teaser responsive" style="background-image: url("http://res.cloudinary.com/mercyikpe/image/upload/v1507672605/banner_image_zxb3to.jpg">
 				</div>
 			</div>
@@ -377,7 +378,7 @@
                <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
-												 <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/mini-one-3d-ivory-2016.png" alt="Early booking weeks special">
+			 <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/archer/image/upload/v1507856063/mini-one-3d-ivory-2016.png" alt="Early booking weeks special">
                  </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
@@ -422,7 +423,7 @@
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
 
-						        <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/vw-golf-5d-weiss-2017.png" alt="XXL weekend">
+						        <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/archer/image/upload/v1507857165/2.png" alt="XXL weekend">
                                                         </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
@@ -469,7 +470,7 @@
                 <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
-                          <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/vw-polo-5d-schwarz-2016.png" alt="Airport Special">
+                          <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/archer/image/upload/v1507857241/3.png" alt="Airport Special">
                                                         </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
@@ -558,7 +559,7 @@
                 <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
-                          <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/bmw_7er-mb_s-audi_a8.png" alt="Guaranteed upper-class models">
+                          <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="specialoffers/http://res.cloudinary.com/archer/image/upload/v1507856033/bmw_7er-mb_s-audi_a8.png" alt="Guaranteed upper-class models">
                             </div>
                         <div class="sx-res-offerlist-data">
                             <div class="sx-res-offerlist-head">
@@ -634,14 +635,14 @@
                 </div>
             </div>
         </li>
-<center><img src="specialoffers/images/benefits.png" title="even more favorable offers" alt="even more favorable offers"></center><br><br><br>
+<center><img src="http://res.cloudinary.com/archer/image/upload/v1507857589/benefits.png" title="even more favorable offers" alt="even more favorable offers"></center><br><br><br>
 <li class="sx-res-offerlist-item sx-res-topoffer-banner">
     <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
         Found no matching offer?
                     </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More offers.</font></font></span>
                 </h3>
     <div class="sx-res-topoffer-banner-img">
-        <img src="specialoffers/cars.png" title="even more favorable offers" alt="even more favorable offers">
+        <img src="http://res.cloudinary.com/archer/image/upload/v1507856038/cars.png" title="even more favorable offers" alt="even more favorable offers">
     </div>
     <div class="sx-res-topoffer-banner-button">
         <div class="sx-gc-button-wrapper">
