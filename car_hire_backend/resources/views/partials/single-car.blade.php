@@ -1,12 +1,26 @@
-@extends('layouts.app')
-  @section('meta-links')
-     <link rel="stylesheet" type="text/css" href="{{asset('css/singlecar.css')}}">
-  @endsection
-   @section('header')
-    @include('partials.header')
-   @endsection
- @section('content')
-    <div class="container">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Single Car Page</title>
+
+    <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  
+     <link href="{{asset('css/footer.css')}}" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/singlecar.css')}}" rel="stylesheet">
+    <link href="{{asset('css/header.css')}}" rel="stylesheet">
+  </head>
+  <body>
+    <header class=''>
+        @include('partials.header') 
+    </header>
+    <div class="container" id = "single-container">
 
       <!-- services-->
       <div class="row">
@@ -95,11 +109,20 @@
         </div>
           </div>
         </div>
-      
+      </div>
     </div>
 
-   @endsection
-    @section('footer')
-    @include('partials.footer')
-   @endsection
 
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+     <footer>
+        @include('partials.footer') 
+    </footer>
+  </body>
+</html>
