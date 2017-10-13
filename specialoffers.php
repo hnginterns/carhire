@@ -30,119 +30,97 @@
 	.csc-textpic-intext-right-nowrap .csc-textpic-text { margin-right: 490px; }
 	.csc-textpic-intext-left-nowrap .csc-textpic-text { margin-left: 490px; }
 /*additionalTSFEInlineStyle*/
-
     .t3-portalnavi ul.meta li {
       padding: 6px 14px 11px 14px;
     }
 	footer{
    			background-color: #fff;
    			height: 20px;
-
    		}
    		.navbar.navbar-default.navbar-fixed-bottom{
-
    			background-color: #fff;
    		}
-
 			#myFooter {
 			    background-color: #ECEFF6;
 			    color: #000000;
 			    padding-top: 30px;
 			}
-
 			#myFooter .footer-copyright {
 			    background-color: #333333;
 			    padding-top: 3px;
 			    padding-bottom: 3px;
 			    text-align: center;
 			}
-
 			#myFooter .row {
 			    margin-bottom: 60px;
 			}
-
 			#myFooter .navbar-brand {
 			    margin-top: 45px;
 			    height: 65px;
 			}
-
 			#myFooter .footer-copyright p {
 			    margin: 10px;
 			    color: #ccc;
 			}
-
 			#myFooter ul {
 			    list-style-type: none;
 			    padding-left: 0;
 			    line-height: 1.7;
 			}
-
 			#myFooter h5 {
 			    font-size: 18px;
 			    font-weight: bold;
 			    margin-top: 30px;
 			    margin-bottom: 30px;
 			}
-
 			#myFooter .logo {
 			    font-size: 18px;
 			    font-weight: bold;
 			    /* margin-top: 30px; */
 			    margin-bottom: 18px;
 			}
-
 			@media only screen and (max-width: 992px) {
 			  .logo img {
 			    margin: 0 auto;
 			  }
 			}
-
 			#myFooter h2 a{
 			    font-size: 50px;
 			    text-align: center;
 			    color: #333333;
 			}
-
 			#myFooter a {
 			    color: #333333;
 			    text-decoration: none;
 			}
-
 			#myFooter a:hover,
 			#myFooter a:focus {
 			    text-decoration: none;
 			    color: white;
 			}
-
 			#myFooter .social-networks {
 			    /* text-align: center; */
 			    padding-top: 0;
 			    padding-bottom: 16px;
 			}
-
 			#myFooter .social-networks a {
 			    font-size: 32px;
 			    color: #333333;
 			    padding: 10px;
 			    transition: 0.2s;
 			}
-
 			#myFooter .social-networks a:hover {
 			    text-decoration: none;
 			}
-
 			#myFooter .facebook:hover {
 			    color: #0077e2;
 			}
-
 			#myFooter .google:hover {
 			    color: #ef1a1a;
 			}
-
 			#myFooter .twitter:hover {
 			    color: #00aced;
 			}
-
 			#myFooter .btn {
 			    color: white;
 			    background-color: #d84b6b;
@@ -154,7 +132,6 @@
 			    margin-top: 10px;
 			    line-height: 25px;
 			}
-
 			@media screen and (max-width: 767px) {
 			    #myFooter {
 			        text-align: center;
@@ -163,28 +140,22 @@
    		#footer{
    			padding-top: 35px;
    		}
-
 			.header-blue, .header-below {
 			  margin-bottom: 0;
 			}
-
 			.header-blue {
 			  background-color: #007BCA;
 			  color: white;
 			}
-
-
 			@media only screen and (max-width: 992px) {
 			  .header-blue {
 			    display: none;
 			  }
 			}
-
 			.header-below img {
 			  height: 50px;
 			  margin: 15px;
 			}
-
 			.header-below .navbar-nav>li>a {
 			    color: #2e2e2e;
 			    margin-bottom: 15px;
@@ -192,17 +163,14 @@
 			    font-weight: bold;
 			    font-size: 20px;
 			}
-
 			.header-below .navbar-nav>li>a:hover {
 			    color: #007BCA;
 			    background-color: transparent;
 			}
-
 			.navbar-toggle {
 			  margin-top: 23px;
 			  padding: 9px 10px !important;
 			}
-
 			.pipe {
 			  pointer-events: none;
 			}
@@ -217,48 +185,35 @@
     		margin-left:25px;
     		font-size: 19px;
     	}
-
-
        	#icon{
        		margin-left: 20px;
        	}
-
     .t3-portalnavi .t3-portalnavi--mr-n18 {
       margin-right: -14px;
     }
-
     @media (max-width: 999px) {
       .t3-portalnavi ul.meta li {
         padding: 6px 10px 11px 10px;
       }
-
       .t3-portalnavi .t3-portalnavi--mr-n18 {
         margin-right: -10px;
-
     }
-
     @media (max-width: 899px) {
       .t3-portalnavi ul.meta li {
         padding: 6px 6px 11px 6px;
       }
-
 			.navbar.navbar-inverse.nav2{
 					 background-color:#fff;
 					 height:80px;
 					 margin-top: -20px;
 					 border-color: #fff;
 			 }
-
 .navbar.navbar-default{
-
 					 background-color: #fff;
 			 }
-
       .t3-portalnavi .t3-portalnavi--mr-n18 {
         margin-right: -6px;
-
     }
-
 -->
 /*]]>*/
 </style>
@@ -272,7 +227,6 @@
             <link rel="dns-prefetch" href="https://stats.g.doubleclick.net/">
 						<nav class="navbar navbar-default header-blue" role="navigation">
 							<div class="container">
-
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<font color="white"><div class="collapse navbar-collapse navbar-ex1-collapse">
 									<ul class="nav navbar-nav navbar-right">
@@ -287,8 +241,6 @@
 									</div></font>
 						</nav>
 						<!-- END FIRST NAV BAR -->
-
-
 						<!-- SECOND NAV BAR -->
 						<nav class="navbar navbar-default header-below" role="navigation">
 							<div class="container">
@@ -302,7 +254,6 @@
 									</button>
 									<a class="navbar-left" href="#"><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="80px"></a></a>
 								</div>
-
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse navbar-ex1-collapse">
 									<ul class="nav navbar-nav navbar-right">
@@ -313,8 +264,6 @@
 								</div><!-- /.navbar-collapse -->
 							</div>
 						</nav>
-
-
 		<!-- static page -->
 			<div class="sx-res-topoffer-teaser-wrapper">
 				<div class="sx-res-topoffer-teaser" style="background-image: url(&quot;http://res.cloudinary.com/archer/image/upload/v1507856071/banner.png&quot;);"></div>
@@ -325,25 +274,20 @@
 			<div class="t3-content-division">
 				<!-- inner part app -->
 				<div class="t3-content-division-inner t3-booking-content">
-
 <div id="c111242" class="t3-content-wrapper"><!-- ### App Begin ### --><script type="text/javascript">
     var sx_reservation_tpl  =  "topoffer_list";
     var sx_current_liso     =  "EN";
 </script>
-
 <div id="sx-reservation-main">
     <div id="sx-topofferlist-wrapper">
-
 <p class="sx-js-res-login-state sx-res-login-state" style="display:none">
                         <strong class="sx-js-res-login-state-name sx-js-res-login-state-upd"></strong>
                                     <span class="sx-js-res-login-state-txt sx-js-res-login-state-upd"></span>
-
                             <a class="sx-gc-active" href="#">(ausloggen)</a>
                              <span class="sx-res-login-state-corp sx-js-res-login-state-corp sx-js-res-login-state-upd"><!-- ajax --></span>
             </p>
         <div class="sx-res-topoffer-header">
             <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Car hire deals</font></font></h1>
-
             <form id="sx-js-topoffer-filter-form" name="topoffer_filter" action="#">
                 <div class="sx-res-topoffer-select-wrapper">
                     <select name="car_type" class="sx-js-topoffer-filter sx-res-topoffer-select" id="sx-topoffer-ctyp">
@@ -370,7 +314,6 @@
                 <input type="hidden" name="tab_identifier" value="">
             </form>
         </div><br><br><br><br><br><br>
-
         <div class="sx-res-offerselect-wrapper">
             <ul id="sx-js-res-topoffer-list" class="sx-res-car-offerlist sx-res-topofferlist sx-res-offerselect-all">
           <li class="sx-res-offerlist-item sx-js-topoffer-toggle-wrapper">
@@ -387,7 +330,6 @@
                                       </font></font><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">For the weekend</font></font></span>
                                          </h3>
                             </div>
-
                                                     </div>
                                                     <div class="sx-res-offerlist-discount" style="height: 90px;">
                                 <div class="sx-res-offerlist-discount-cell">
@@ -411,7 +353,6 @@
                     <div class="sx-res-offerlist-offerfeatures">
                           </div>
                     <div class="sx-res-topoffer-conditions-data">
-
                         <a href="#" class="sx-res-topoffer-tooltip-button sx-gc-button-cta sx-gc-button-cta-green"></a>
                     </div>
                 </div>
@@ -422,7 +363,6 @@
                 <div class="sx-res-offerlist-table">
                     <div class="sx-res-offerlist-row">
                         <div class="sx-res-offerlist-img">
-
 						        <img class="sx-res-offerlist-offerexample sx-res-offerlist-fleet-img" src="http://res.cloudinary.com/archer/image/upload/v1507857165/2.png" alt="XXL weekend">
                                                         </div>
                         <div class="sx-res-offerlist-data">
@@ -434,8 +374,8 @@
                             </div>
 														<div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        36
+                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 36000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -481,8 +421,8 @@
                             </div>
                                   <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        90000
+                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 90000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -502,7 +442,6 @@
             <div class="sx-res-topoffer-tooltip ">
                 <span class="sx-js-tooltip" data-content="sx-tooltip-data-DEWX0000-P-ECMR-3" "=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More info </font></font></span>
                 <span class="sx-gc-debug">
-
                 </span>
                 <div id="sx-tooltip-data-DEWX0000-P-ECMR-3" class="sx-js-tooltip-content sx-tooltip-content" style="display: none;">
                     <h5><span>x</span></h5>
@@ -530,8 +469,8 @@
                             						</div>
                                          <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        15000
+                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 15000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -542,7 +481,6 @@
             <div class="sx-res-topoffer-tooltip ">
                 <span class="sx-js-tooltip" data-content="sx-tooltip-data-DESO1000-O-SFMR-4" "=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More info </font></font></span>
                 <span class="sx-gc-debug">
-
                 </span>
                 <div id="sx-tooltip-data-DESO1000-O-SFMR-4" class="sx-js-tooltip-content sx-tooltip-content" style="display: none;">
                     <h5><span>x</span></h5>
@@ -570,8 +508,8 @@
                             </div>
 														<div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        130000
+                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 130000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -610,8 +548,8 @@
                             </div>
   												   <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day </font></font></span>
-                                      <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        35000
+                                      <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N 35000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -622,14 +560,12 @@
             <div class="sx-res-topoffer-tooltip ">
                 <span class="sx-js-tooltip" data-content="sx-tooltip-data-DEWQ4000-O-ILAE-6" "=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More info </font></font></span>
                 <span class="sx-gc-debug">
-
                 </span>
                 <div id="sx-tooltip-data-DEWQ4000-O-ILAE-6" class="sx-js-tooltip-content sx-tooltip-content" style="display: none;">
                     <h5><span></span></h5>
                     <div class="sx-res-offerlist-offerfeatures">
                       </div>
                     <div class="sx-res-topoffer-conditions-data">
-
                         <a href="#" class="sx-res-topoffer-tooltip-button sx-gc-button-cta sx-gc-button-cta-green"></a>
                     </div>
                 </div>
@@ -651,20 +587,15 @@
     </div>
 </li>
             </ul>
-
         </div>
     </div>
 </div>
-
 <!-- ### App End ### --></div>
-
 				</div>
 				<!-- /inner part app-->
 			</div>
 			<!-- /background img default -->
-
 		</div>
-
 		<footer id="myFooter">
 					<div class="container">
 							<div class="row">
