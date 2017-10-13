@@ -17,7 +17,7 @@
     <header class=''>
         <?php include('header1.php') ?>
     </header>
-    <div class="container">
+    <div class="container" id = "single-container">
 
       <!-- services-->
       <div class="row">
@@ -106,7 +106,7 @@
         </div>
           </div>
         </div>
-      
+      </div>
     </div>
 
 
