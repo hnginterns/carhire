@@ -187,6 +187,61 @@
 	</div>
 </div><br /><br /><br /><br /><br />
 
+<!-- why hire with car hire -->
+
+	<div class="row">
+		<h2 class="text-center team">Why Hire With Car Hire</h2>
+
+		<div class="mypad">
+			<div class="col-md-6">
+
+				
+				<br /><br /><br /><br />
+			</div>
+
+			<div class="col-md-12">
+
+				<div class="col-md-4">
+					 <i class="fa fa-map-marker fa-5x text-blue"></i><br /><br />
+					 <p>3,467 cars</p>
+					 <div class="col-md-6">
+					 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </p>
+					 </div>
+				</div>
+
+				<div class="col-md-4">
+					 <i class="fa fa fa-smile-o fa-5x text-blue"></i><br /><br />
+					 <p>Happy Customers</p>
+					 <div class="col-md-6">
+					 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </p>
+					 </div>
+				</div>
+
+				<div class="col-md-4">
+					 <i class="fa fa-money fa-5x text-blue"></i><br /><br />
+					 <p>Best Prices</p>
+					 <div class="col-md-6">
+					 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </p>
+					 </div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+<br /><br /><br /><br /><br />
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
 
 <div class="container-fluid bg-testimonial">
     <div class="container">
