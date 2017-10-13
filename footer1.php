@@ -14,7 +14,7 @@
                     <h5>Products & Services</h5>
                     <ul>
                         <li><a href="#">Vehichles</a></li>
-                        <li><a href="#">Drivers</a></li>
+                        <li><a href="driver-info.php">Drivers</a></li>
                         <li><a href="#">Hire Advice</a></li>
                         <li><a href="#">FAQs</a></li>
                     </ul>

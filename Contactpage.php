@@ -21,7 +21,7 @@
 
 </head>
 <body>
-    <header class=''>
+    <header>
         <?php include('header1.php') ?>
     </header>
     <main style=''>
