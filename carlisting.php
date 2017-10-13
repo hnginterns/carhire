@@ -1,349 +1,277 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
 <head>
+  <title>Car Listing</title>
 
-	<title>Car Listing</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/carlisting.css">
-    <link rel="stylesheet" media="only screen and (min-width: 320px)" href="css/carlisting2.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main_css.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script>  
+<!-- //js -->
+<!-- web-fonts --> 
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+<!-- //web-fonts -->
 </head>
-<style>
-@media only screen and (min-width: 450px) {
-      .first, .second, ul{
-        float:left;
-        width:50%;
-        margin:0;
-    }
- .reserve{
-    margin-top: -.6%;
-    margin-left:3%;
-}
-#price{
-    margin-top:2%;
-}
-.head1 p {
-    text-align:center;
-}
-}
-@media only screen and (min-width: 720px) {
-.rebox1, .rebox2, .rebox3, .rebox4{
-    width:24%;
-}
-.head2{
-    margin-left: 3%;
-}
-.rebox1 img{
-    margin-top: 13%;
-}
-.rebox1 p{
-    margin-top:-8%;
-}
-.rebox2 img{
-    margin-top: 20%;
-}
-.rebox3 img{
-    margin-top: 20%;
-}
-.rebox4 img{
-    margin-top: 20%;
-}
- .car img{
-    width: 50%;
-    height: 50%;
-}
-.text{
-    text-align: left;
-    margin-right:13%;
-    float:right;
-    margin-top:-23%;
-}
-#price p .prices{
-    float:left;
-    margin-top:1%;
-    font-weight: lighter;
-    margin-left:30%;
-    color:#007BCA;
-    font-size: .8em;
-    line-height: 2em;
-}
-#price p .NGN{
-    margin-left:-30%;
-}
-.box{
-    font-size:1em;
-}
-}
-
-
-@media only screen and (min-width: 1100px) {
-    body{
-      font-weight:700;
-    font-family: 'Roboto', sans-serif;
-}
-p{
-    margin: 0;
-}
-
-
-</style>
-   
 <body>
-
-
     <header>
-          <?php include('header1.php') ?>
-  </header>
-    
-
-       <div class="headcontent">
-        <div class="head1">
-            <p>Vehicle Models</p>
-            <form>
-                <p>Display models for Nigeria</p>
-                <select>
-                    <option value="red">Nigeria</option>
-                    <option value="red">Kenya</option>
-                    <option value="red">Nairobi</option>
-                </select>
-                <select>
-                    <option value="red">Nigeria</option>
-                    <option value="red">Kenya</option>
-                    <option value="red">Nairobi</option>
-                </select>
-            </form>
-                <p class="clear" />
-        </div>
-        <div class="head2">
-            <p>4 of 8 available vehicle groups are currently shown</p><br>
-            <div class="rebox1">
-                <img src="1.png" alt="door">
-                <p> Models </p>
-            </div>
-            <div class="rebox2">
-                  <img src="2.png" alt="door">
-                <p> Doors</p>
-            </div>
-            <div class="rebox3">
-                  <img src="3.png" alt="door">
-                <p> Passenger </p>
-            </div>
-            <div class="rebox4">
-                  <img src="4.png" alt="door">
-                <p> Transmission</p>
-            </div>
-        </div>
-        
-            <p class="clear" />
-     </div>
-<!--container div for each car starts here-->
-      <div class="box">
-<!--subcontainer div to house car, car name and price-->
-        <div class="car">
-
-        <img src="car.png" alt="car" >
-        <div class="text">
-              <h3> Car Name | ECAR</h3>
-              <h3>Hyundai Accent, Chevrolet Spark</h3>
-        </div>
-      
-            <p class="clear" />
-
-            <div id="price"> 
-                <p>
-                    <span class="prices">prices per day</span> 
-                    <span class="NGN">NGN</span> 
-                    <span class="number">499.26 </span> 
-                    </p>
-             </div>
+        <?php include('header1.php') ?>
+    </header>
+  
+   <div class="container">
+         <div class="row">
+              <div class="col-sm-6">
+            <h1 class="car-vehicle">Vehicle Models</h1>
+              </div>
+              <div class="col-sm-6">
+                  <div class="row car-margin1">
+                       <div class="car-margin3 col-sm-4">
+                           <p>Display models for Nigeria</p>
+                       </div>
+                       <div class="col-sm-4 ">
+                          <form>
+                              <select class="form-control carhire-width">
+                                  <option value="red">Nigeria</option>
+                                  <option value="red">Kenya</option>
+                                  <option value="red">Nairobi</option>
+                              </select>
+                          </form>
+                       </div>
+                       <div class="col-sm-4">
+                          <form>
+                              <select class="form-control ">
+                                  <option value="red">Nigeria</option>
+                                  <option value="red">Kenya</option>
+                                  <option value="red">Nairobi</option>
+                              </select>
+                          </form>
+                       </div>
+                  </div>
+              </div>
          </div>
-    
-<!--subcontainer div to house car details and reserve-->
-        <div class="car-details">
-            <div class="first">
-                <ul >
-                    <li><span>5 Airconditioners</span></li>
-                    <li><span>4 Doors</span></li>
-                    <li><span>1 Air Bag</span></li>
-                    <li><span>5 Seats</span></li>
-                </ul>
-            </div>
-        
-            <div  class="second">
-            <ul>
-                <li><span>5 Children</span></li>
-                <li><span>5 Adults</span></li>
-                <li><span>5 Suitcases</span></li>
-                <li><span>5 Leg Room</span></li>
-           </ul>
-           </div>
-        
-        <p class="clear" />
-            <div class="reserve">
-                <p>RESERVE NOW</p>
-            </div>
-        </div>
-        <p class="clear" />
-      </div>
-      <!--container div for each car ends here-->
-      <!--container div for each car starts here-->
-      <div class="box">
-<!--subcontainer div to house car, car name and price-->
-        <div class="car">
 
-        <img src="car.png" alt="car" >
-        <span class="text">
-              <h3> Car Name | ECAR</h3>
-              <h3>Hyundai Accent, Chevrolet Spark</h3>
-        </span>
-      
-            <p class="clear" />
-
-            <div id="price"> 
-                <p>
-                    <span class="prices">prices per day</span> 
-                    <span class="NGN">NGN</span> 
-                    <span class="number">499.26 </span> 
-                    </p>
-             </div>
+         <div class="row">
+                <div class="col-sm-12">
+                     <h4>4 of 8 available vehicle groups are currently shown</h4>
+                </div>
          </div>
-    
-<!--subcontainer div to house car details and reserve-->
-        <div class="car-details">
-            <div class="first">
-                <ul >
-                    <li><span>5 Airconditioners</span></li>
-                    <li><span>4 Doors</span></li>
-                    <li><span>1 Air Bag</span></li>
-                    <li><span>5 Seats</span></li>
-                </ul>
-            </div>
-        
-            <div  class="second">
-            <ul>
-                <li><span>5 Children</span></li>
-                <li><span>5 Adults</span></li>
-                <li><span>5 Suitcases</span></li>
-                <li><span>5 Leg Room</span></li>
-           </ul>
-           </div>
-        
-        <p class="clear" />
-            <div class="reserve">
-                <p>RESERVE NOW</p>
-            </div>
-        </div>
-        <p class="clear" />
-      </div>
-      <!--container div for each car ends here-->
-
-      <!--container div for each car starts here-->
-      <div class="box">
-<!--subcontainer div to house car, car name and price-->
-        <div class="car">
-
-        <img src="car.png" alt="car" >
-        <span class="text">
-              <h3> Car Name | ECAR</h3>
-              <h3>Hyundai Accent, Chevrolet Spark</h3>
-        </span>
-      
-            <p class="clear" />
-
-            <div id="price"> 
-                <p>
-                    <span class="prices">prices per day</span> 
-                    <span class="NGN">NGN</span> 
-                    <span class="number">499.26 </span> 
-                    </p>
-             </div>
+         <div class="row">
+               <div class="col-sm-3 img-responsive text-center carhire-border">
+                  <img class="car-margin1" src="https://res.cloudinary.com/nedy123/image/upload/v1507909442/1_moauek.png" alt="Models">
+                  <p>Models</p>
+               </div>
+                 <div class="col-sm-3 img-responsive text-center carhire-border">
+                 <img class="car-margin1" src="https://res.cloudinary.com/nedy123/image/upload/v1507909442/2.1_zy4ow5.png" alt="Doors">
+                 <p>Doors</p>
+               </div>
+                 <div class="col-sm-3 img-responsive text-center carhire-border">
+                 <img class="car-margin1" src="https://res.cloudinary.com/nedy123/image/upload/v1507909442/3_ltc41q.png" alt="Passenger">
+                 <p>Passenger</p>
+               </div>
+                 <div class="col-sm-3 img-responsive text-center carhire-border">
+                 <img class="car-margin1" src="https://res.cloudinary.com/nedy123/image/upload/v1507909442/4_nfpwjf.png" alt="Transmission">
+                 <p>Transmission</p>
+               </div>
          </div>
-    
-<!--subcontainer div to house car details and reserve-->
-        <div class="car-details">
-            <div class="first">
-                <ul >
-                    <li><span>5 Airconditioners</span></li>
-                    <li><span>4 Doors</span></li>
-                    <li><span>1 Air Bag</span></li>
-                    <li><span>5 Seats</span></li>
-                </ul>
-            </div>
-        
-            <div  class="second">
-            <ul>
-                <li><span>5 Children</span></li>
-                <li><span>5 Adults</span></li>
-                <li><span>5 Suitcases</span></li>
-                <li><span>5 Leg Room</span></li>
-           </ul>
-           </div>
-        
-        <p class="clear" />
-            <div class="reserve">
-                <p>RESERVE NOW</p>
-            </div>
-        </div>
-        <p class="clear" />
-      </div>
-      <!--container div for each car ends here-->
+         <br>
+         <br>
 
-      <!--container div for each car starts here-->
-      <div class="box">
-<!--subcontainer div to house car, car name and price-->
-        <div class="car">
-
-        <img src="car.png" alt="car" >
-        <span class="text">
-              <h3> Car Name | ECAR</h3>
-              <h3>Hyundai Accent, Chevrolet Spark</h3>
-        </span>
-      
-            <p class="clear" />
-
-            <div id="price"> 
-                <p>
-                    <span class="prices">prices per day</span> 
-                    <span class="NGN">NGN</span> 
-                    <span class="number">499.26 </span> 
-                    </p>
-             </div>
+           <!--==========Each Car Section Starts Here==========-->
+         <div class="row carhire-border">
+               <div class="col-sm-6">
+                    <div class="row">
+                         <div class="col-sm-6 img-responsive">
+                             <img class="img-responsive" src="https://res.cloudinary.com/nedy123/image/upload/v1507909448/car_diksf7.png" alt="car" >
+                         </div>
+                         <div class="col-sm-6 car-margin text-left">
+                              <h4> Car Name | ECAR</h4>
+                              <h4>Hyundai Accent, Chevrolet Spark</h4>
+                         </div>
+                            <br>
+                            <br>
+                         <div class="col-md-8 car-margin col-md-offset-1 text-center">
+                            <button type="button" class="btn btn-primary btn-lg btn-block">Prices Per Pay NGN 499.26</button>
+                        </div>
+                    </div>
+                    
+               </div>
+               <div class="col-sm-6">
+                    <div class=" car-margin1 row">
+                        <div class="col-md-6">
+                             <ul>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 5 Airconditioners</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 4 Doors</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 1 Air Bag</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 5 Seats</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                             <ul>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Children</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Adults</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Suitcases</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Leg Room</li>
+                             </ul>
+                        </div>
+                        <div class="col-md-10 car-marginer col-md-offset-1 text-center">
+                            <button type="button" class="btn btn-primary btn-lg btn-block">RESERVE NOW</button>
+                        </div>
+                    </div>
+               </div>
          </div>
-    
-<!--subcontainer div to house car details and reserve-->
-        <div class="car-details">
-            <div class="first">
-                <ul >
-                    <li><span>5 Airconditioners</span></li>
-                    <li><span>4 Doors</span></li>
-                    <li><span>1 Air Bag</span></li>
-                    <li><span>5 Seats</span></li>
-                </ul>
-            </div>
-        
-            <div  class="second">
-            <ul>
-                <li><span>5 Children</span></li>
-                <li><span>5 Adults</span></li>
-                <li><span>5 Suitcases</span></li>
-                <li><span>5 Leg Room</span></li>
-           </ul>
-           </div>
-        
-        <p class="clear" />
-            <div class="reserve">
-                <p>RESERVE NOW</p>
-            </div>
-        </div>
-        <p class="clear" />
-      </div>
-      <!--container div for each car ends here-->
+            <!--==========Each Car Section Ends Here==========-->
+         <br>
+         <br>
 
- <footer>
-    <?php include('footer1.php') ?>
-</footer>
+           <!--==========Each Car Section Starts Here==========-->
+         <div class="row carhire-border">
+               <div class="col-sm-6">
+                    <div class="row">
+                         <div class="col-sm-6 img-responsive">
+                             <img class="img-responsive" src="https://res.cloudinary.com/nedy123/image/upload/v1507909448/car_diksf7.png" alt="car" >
+                         </div>
+                         <div class="col-sm-6 car-margin text-left">
+                              <h4> Car Name | ECAR</h4>
+                              <h4>Hyundai Accent, Chevrolet Spark</h4>
+                         </div>
+                            <br>
+                            <br>
+                         <div class="col-md-8 car-margin col-md-offset-1 text-center">
+                            <button type="button" class="btn btn-primary btn-lg btn-block">Prices Per Pay NGN 499.26</button>
+                        </div>
+                    </div>
+                    
+               </div>
+               <div class="col-sm-6">
+                    <div class=" car-margin1 row">
+                        <div class="col-md-6">
+                             <ul>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 5 Airconditioners</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 4 Doors</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 1 Air Bag</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 5 Seats</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                             <ul>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Children</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Adults</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Suitcases</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Leg Room</li>
+                             </ul>
+                        </div>
+                        <div class="col-md-10 car-marginer col-md-offset-1 text-center">
+                            <button type="button" class="btn btn-primary btn-lg btn-block">RESERVE NOW</button>
+                        </div>
+                    </div>
+               </div>
+         </div>
+            <!--==========Each Car Section Ends Here==========-->
+         <br>
+         <br>
 
+           <!--==========Each Car Section Starts Here==========-->
+         <div class="row carhire-border">
+               <div class="col-sm-6">
+                    <div class="row">
+                         <div class="col-sm-6 img-responsive">
+                             <img class="img-responsive" src="https://res.cloudinary.com/nedy123/image/upload/v1507909448/car_diksf7.png" alt="car" >
+                         </div>
+                         <div class="col-sm-6 car-margin text-left">
+                              <h4> Car Name | ECAR</h4>
+                              <h4>Hyundai Accent, Chevrolet Spark</h4>
+                         </div>
+                            <br>
+                            <br>
+                         <div class="col-md-8 car-margin col-md-offset-1 text-center">
+                            <button type="button" class="btn btn-primary btn-lg btn-block">Prices Per Pay NGN 499.26</button>
+                        </div>
+                    </div>
+                    
+               </div>
+               <div class="col-sm-6">
+                    <div class=" car-margin1 row">
+                        <div class="col-md-6">
+                             <ul>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 5 Airconditioners</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 4 Doors</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 1 Air Bag</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 5 Seats</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                             <ul>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Children</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Adults</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Suitcases</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Leg Room</li>
+                             </ul>
+                        </div>
+                        <div class="col-md-10 car-marginer col-md-offset-1 text-center">
+                            <button type="button" class="btn btn-primary btn-lg btn-block">RESERVE NOW</button>
+                        </div>
+                    </div>
+               </div>
+         </div>
+            <!--==========Each Car Section Ends Here==========-->
+         <br>
+         <br>
+
+           <!--==========Each Car Section Starts Here==========-->
+         <div class="row carhire-border">
+               <div class="col-sm-6">
+                    <div class="row">
+                         <div class="col-sm-6 img-responsive">
+                             <img class="img-responsive" src="https://res.cloudinary.com/nedy123/image/upload/v1507909448/car_diksf7.png" alt="car" >
+                         </div>
+                         <div class="col-sm-6 car-margin text-left">
+                              <h4> Car Name | ECAR</h4>
+                              <h4>Hyundai Accent, Chevrolet Spark</h4>
+                         </div>
+                            <br>
+                            <br>
+                         <div class="col-md-8 car-margin col-md-offset-1 text-center">
+                            <button type="button" class="btn btn-primary btn-lg btn-block">Prices Per Pay NGN 499.26</button>
+                        </div>
+                    </div>
+                    
+               </div>
+               <div class="col-sm-6">
+                    <div class=" car-margin1 row">
+                        <div class="col-md-6">
+                             <ul>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 5 Airconditioners</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 4 Doors</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 1 Air Bag</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span> 5 Seats</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                             <ul>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Children</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Adults</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Suitcases</li>
+                                  <li class=" car-font-size"><span class="glyphicon glyphicon-one-fine-dot" > </span>5 Leg Room</li>
+                             </ul>
+                        </div>
+                        <div class="col-md-10 car-marginer col-md-offset-1 text-center">
+                            <button type="button" class="btn btn-primary btn-lg btn-block">RESERVE NOW</button>
+                        </div>
+                    </div>
+               </div>
+         </div>
+            <!--==========Each Car Section Ends Here==========-->
+            <br>
+   </div>
+    <footer>
+        <?php include('footer1.php') ?>
+    </footer>
 </body>
 </html>

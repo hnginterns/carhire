@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
-<link href="css/about.css" rel="stylesheet">
+<link href="/css/about.css" type="text/css" rel="stylesheet">
 <style type="text/css">
 /*<![CDATA[*/
 <!--
@@ -571,7 +571,7 @@
                 </div>
             </div>
         </li>
-<center><img src="http://res.cloudinary.com/archer/image/upload/v1507857589/benefits.png" title="even more favorable offers" alt="even more favorable offers"></center><br><br><br>
+<center><img src="" title="even more favorable offers" alt="even more favorable offers"></center><br><br><br>
 <li class="sx-res-offerlist-item sx-res-topoffer-banner">
     <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
         Found no matching offer?
