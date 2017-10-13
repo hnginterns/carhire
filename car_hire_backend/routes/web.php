@@ -44,6 +44,11 @@ Route::get('/single-car', function () {
     return view('partials.single-car');
 });
 
+Route::get('/about-us', function () {
+    return view('partials.about-us');
+});
+
+
 Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
 
 /*
