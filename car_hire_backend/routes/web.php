@@ -30,6 +30,10 @@ Route::get('/faq', function () {
     return view('partials.faq');
 });
 
+Route::get('/driver-info', function () {
+    return view('partials.driver-info');
+});
+
 Route::get('/locations', function () {
     return view('partials.locations');
 });
