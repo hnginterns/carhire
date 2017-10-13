@@ -6,8 +6,8 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/">Home</a></li>
-          <li><a href="#locations">Location</a></li>
-          <li><a href="#specialoffers">Speecial Offers</a></li>
+          <li><a href="/locations">Location</a></li>
+          <li><a href="/specialoffers">Speecial Offers</a></li>
           <li><a href="/car-listing">Cars</a></li>
           <li><a href="/contact">Contact</a></li>
           <!-- <li><a href="#">Airport Transfer</a></li> -->

@@ -5,8 +5,8 @@
                     <h2 class="logo"><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" width="100px"></a></h2>
                     <ul>
                         <li><a href="aboutUs.php">About</a></li>
-                        <li><a href="locations.php">Locations</a></li>
-                        <li><a href="contactpage.php">Contact Us</a></li>
+                        <li><a href="/locations">Locations</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
                 </div>
@@ -16,7 +16,7 @@
                         <li><a href="#">Vehichles</a></li>
                         <li><a href="driver-info.php">Drivers</a></li>
                         <li><a href="#">Hire Advice</a></li>
-                        <li><a href="FAQ.php">FAQs</a></li>
+                        <li><a href="/faq">FAQs</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
