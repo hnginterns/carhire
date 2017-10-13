@@ -11,7 +11,7 @@ class CarController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
+     */
 
     public function index()
     {
@@ -108,16 +108,10 @@ class CarController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
-
-     * @param  int  $id
-     * @return Response
-     */
-    public function update($id)
-
-    {
+     {
         //
-    }
-
+     }
+    
     /**
      * Remove the specified resource from storage.
      *
