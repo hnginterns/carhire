@@ -276,11 +276,11 @@
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<font color="white"><div class="collapse navbar-collapse navbar-ex1-collapse">
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="#">Home</a></li>
-										<li><a href="#">Location</a></li>
+										<li><a href="index.php">Home</a></li>
+										<li><a href="locations.php">Location</a></li>
 										<li><a href="#">Special Offers</a></li>
 										<li><a href="#">Cars</a></li>
-										<li><a href="#">Contact</a></li>
+										<li><a href="contactpage.php">Contact</a></li>
 										<li><a href="#">Airport Transfer</a></li>
 									</ul>
 								</div><!-- /.navbar-collapse -->
@@ -306,9 +306,9 @@
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse navbar-ex1-collapse">
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="#">FIND A CAR</a></li>
+										<li><a href="carlisting.php">FIND A CAR</a></li>
 										<li class="pipe hidden-xs"><a href="#">|</a></li>
-										<li><a href="#">NEW CARS</a></li>
+										<li><a href="carlisting.php">NEW CARS</a></li>
 									</ul>
 								</div><!-- /.navbar-collapse -->
 							</div>
@@ -671,9 +671,9 @@
 									<div class="col-sm-3">
 											<h2 class="logo"><a href="#"><img class="img-responsive" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" width="100px"></a></h2>
 											<ul>
-													<li><a href="#">About</a></li>
-													<li><a href="#">Locations</a></li>
-													<li><a href="#">Contact Us</a></li>
+													<li><a href="aboutUs.php">About</a></li>
+													<li><a href="locations.php">Locations</a></li>
+													<li><a href="contactpage.php">Contact Us</a></li>
 													<li><a href="#">Privacy Policy</a></li>
 											</ul>
 									</div>
@@ -681,9 +681,9 @@
 											<h5>Products & Services</h5>
 											<ul>
 													<li><a href="#">Vehichles</a></li>
-													<li><a href="#">Drivers</a></li>
+													<li><a href="driver-info.php">Drivers</a></li>
 													<li><a href="#">Hire Advice</a></li>
-													<li><a href="#">FAQs</a></li>
+													<li><a href="FAQ.php">FAQs</a></li>
 											</ul>
 									</div>
 									<div class="col-sm-3">

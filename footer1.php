@@ -16,7 +16,7 @@
                         <li><a href="#">Vehichles</a></li>
                         <li><a href="driver-info.php">Drivers</a></li>
                         <li><a href="#">Hire Advice</a></li>
-                        <li><a href="#">FAQs</a></li>
+                        <li><a href="FAQ.php">FAQs</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
