@@ -29,6 +29,9 @@ Route::get('/single-car', function () {
 Route::get('/faq', function () {
     return view('partials.faq');
 });
+Route::get('/specialoffers', function () {
+    return view('partials.specialoffers');
+});
 
 Route::get('/driver-info', function () {
     return view('partials.driver-info');
