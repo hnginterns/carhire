@@ -34,7 +34,7 @@
 	<div class="container">
 		<div class="row">
 		<div class="col-sm-4 side-pad">
-			<div class="img-round" style="background-image: url('../img/mypic.png');">
+			<div class="img-round" style="background-image: url('https://res.cloudinary.com/mofopeojosh/image/upload/t_media_lib_thumb/v1507878092/mypic.png');">
 			</div>
 			<div class="profile-info"><span>Mofope Ojosh</span></div>
 			<p class="text-blue">Name</p>
@@ -44,7 +44,7 @@
 			<p class="text-blue">Email</p>
 		</div>
 		<div class="col-sm-4 side-pad">
-			<div class="img-round" style="background-image: url('../img/mercedes_logos_PNG18.png');">
+			<div class="img-round" style="background-image: url('https://res.cloudinary.com/mofopeojosh/image/upload/t_media_lib_thumb/v1507878092/mercedes_logos_PNG18_fa2ceh.png');">
 			</div>
 			<div class="profile-info"><span>Sudan</span></div>
 			<p class="text-blue">Type</p>
@@ -54,7 +54,7 @@
 			<p class="text-blue">Car No</p>
 		</div>
 		<div class="col-sm-4 side-pad">
-			<div class="img-round" style="background-image: url('../img/nigeria_640.png');"></div>
+			<div class="img-round" style="background-image: url('https://res.cloudinary.com/mofopeojosh/image/upload/t_media_lib_thumb/v1507878092/nigeria_640.png');"></div>
 			<div class="profile-info"><span>15, </span></div>
 			<p class="text-blue">Address</p>
 			<div class="profile-info"><span>Lagos</span></div>
