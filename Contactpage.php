@@ -64,16 +64,16 @@
                         <div class="collapse navbar-collapse" id="myNavbar1">
                             <div class='subnavi2'>
                                 <ul class='ul'>
-                                    <li> <strong><a href="">Contacts</a></strong> </li>
-                                    <li> <a href="">Career with Car.Africa</a> </li>
+                                    <li> <strong><a href="#">Contacts</a></strong> </li>
+                                    <li> <a href="/car-listing">Career with Car.Africa</a> </li>
                                     <li> <a href="">Car.Africa partners</a> </li>
                                     <li> <a href="">Privacy</a> </li>
                                     <li> <a href="">Terms and Conditions</a> </li>
                                 </ul> 
                             </div>    
                             <ul class='ul'>
-                                <li> <a href="">Help</a> </li>
-                                <li> <a href="">FAQ</a> </li>
+                                <li> <a href="/help">Help</a> </li>
+                                <li> <a href="/faq">FAQ</a> </li>
                             </ul>
                         </div>
                      
@@ -108,7 +108,7 @@
                             </a>
                             <h4>Contact Form</h4>
                             <p>Questions, suggestions, problems, praise or even blame? We are looking forward to hearing from you.</p>
-                            <a href="contactform.php">To the form</a>
+                            <a href="/contact/create">To the form</a>
                         </div>
                     </div>
 

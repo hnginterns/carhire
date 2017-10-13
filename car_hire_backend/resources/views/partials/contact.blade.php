@@ -1,12 +1,32 @@
- @extends('layouts.app')
-  @section('meta-links')
-     <link rel="stylesheet" type="text/css" href="{{asset('css/contactpage.css')}}">
-  @endsection
-   @section('header')
-    @include('partials.header')
-   @endsection
- @section('content')
- <main style=''>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CarHire|Contact Us</title>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    </script>
+    <![endif]-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- css stylesheet -->
+      <link rel="stylesheet" type="text/css" href="{{asset('/css/header.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{asset('/css/contactpage.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('/css/footer.css')}}">
+
+</head>
+<body>
+    <header>
+        @include('partials.header')
+    </header>
+    <main style=''>
     <div class=''>
         <section class='container'>
             <div class='row'>
@@ -38,14 +58,15 @@
                                     
                                     </li>
                                     <li style='border-bottom: none; float:left; padding: 0;'>  <a href="#myNavbar1" class=" expand navbar-toggle collapsed" data-toggle="collapse"
-                                     aria-expanded="false"><span class='caret'></span></a></li>
+                                     aria-expanded="false"><span class='caret'></span></a>
+                                    </li>
                                           
                                 </ul>
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar1">
                             <div class='subnavi2'>
                                 <ul class='ul'>
-                                    <li> <strong><a href="">Contacts</a></strong> </li>
+                                    <li> <strong><a href="/contact">Contacts</a></strong> </li>
                                     <li> <a href="">Career with Car.Africa</a> </li>
                                     <li> <a href="">Car.Africa partners</a> </li>
                                     <li> <a href="">Privacy</a> </li>
@@ -81,7 +102,7 @@
                             </a>
                             <h4>Address, Telephone</h4>
                             <p>By telephone or by post, you will find the contact details of our business areas.</p>
-                            <a href="" style="color: #0077BC">All details</a>
+                            <a href="">All details</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="/contact-form/create">                            
@@ -89,7 +110,7 @@
                             </a>
                             <h4>Contact Form</h4>
                             <p>Questions, suggestions, problems, praise or even blame? We are looking forward to hearing from you.</p>
-                            <a href="" style="color: #0077BC">To the form</a>
+                            <a href="/contact-form/create">To the form</a>
                         </div>
                     </div>
 
@@ -100,7 +121,7 @@
                             </a>
                             <h4>Car Hire on Facebook</h4>
                             <p>Send us a Facebook message. On weekdays, we are there for you from 8am to 5pm.</p>
-                            <a href="" style="color: #0077BC">To Car Hire on Facebook</a>
+                            <a href="">To Car Hire on Facebook</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="">                            
@@ -108,7 +129,7 @@
                             </a>
                             <h4>Car Hire on Twitter</h4>
                             <p>Contact @carhire.africa on Twitter. On weekdays, we are there for you from 8am to 5pm.</p>
-                            <a href="" style="color: #0077BC">To @carhire.africa on Twitter</a>
+                            <a href="">To @carhire.africa on Twitter</a>
                         </div>
                     </div>
 
@@ -117,7 +138,9 @@
         </section>       
     </div>
     </main>
-    @endsection
-    @section('footer')
-    @include('partials.footer')
-   @endsection
+    <footer>
+        @include('partials.footer')
+    </footer>
+    
+</body>
+</html>

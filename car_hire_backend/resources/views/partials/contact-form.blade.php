@@ -131,7 +131,7 @@
                             <label for="email" class="col-md-4 control-label"><span style="color: #18BC9C;" ></span></label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" placeholder="your full name  e.g jone Doe">
+                                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" placeholder="your full name  e.g jone Doe" autofocus>
 
                                 @if ($errors->has('name'))
                                     <span class="help-block">
@@ -187,7 +187,7 @@
 
                             <div class="col-md-6">
                                 <textarea id="name" type="text" rows="6" class="form-control" name="message" value="{{ old('message') }}"
-                                placeholder="Let us here you! "  autofocus></textarea>
+                                placeholder="Let us here you! "  ></textarea>
 
                                 @if ($errors->has('message'))
                                     <span class="help-block">
@@ -214,7 +214,7 @@
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
-                                <button type="submit" class="btn btn-success">
+                                <button type="submit" class="btn btn-primary">
                                  Send
                                 </button>
                             </div>
