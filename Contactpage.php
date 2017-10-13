@@ -15,12 +15,13 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <!-- css stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/contactpage.css">
 
 </head>
-<body style='background-color: #DCDADA;'>
-    <header class=''>
+<body>
+    <header>
         <?php include('header1.php') ?>
     </header>
     <main style=''>
@@ -55,7 +56,8 @@
                                     
                                     </li>
                                     <li style='border-bottom: none; float:left; padding: 0;'>  <a href="#myNavbar1" class=" expand navbar-toggle collapsed" data-toggle="collapse"
-                                     aria-expanded="false"><span class='caret'></span></a></li>
+                                     aria-expanded="false"><span class='caret'></span></a>
+                                 	</li>
                                           
                                 </ul>
                         </div>
@@ -98,15 +100,15 @@
                             </a>
                             <h4>Address, Telephone</h4>
                             <p>By telephone or by post, you will find the contact details of our business areas.</p>
-                            <a href="" style="color: #0077BC">All details</a>
+                            <a href="">All details</a>
                         </div>
                         <div class='col-sm-6 imgs'>
-                            <a href="">                            
+                            <a href="form.php">                            
                             <img src="https://www.sixt.com/fileadmin/user_upload/ic_kontakt.jpg" alt="" class='img' height='85' width='70' >
                             </a>
                             <h4>Contact Form</h4>
                             <p>Questions, suggestions, problems, praise or even blame? We are looking forward to hearing from you.</p>
-                            <a href="" style="color: #0077BC">To the form</a>
+                            <a href="contactform.php">To the form</a>
                         </div>
                     </div>
 
@@ -117,7 +119,7 @@
                             </a>
                             <h4>Car Hire on Facebook</h4>
                             <p>Send us a Facebook message. On weekdays, we are there for you from 8am to 5pm.</p>
-                            <a href="" style="color: #0077BC">To Car Hire on Facebook</a>
+                            <a href="">To Car Hire on Facebook</a>
                         </div>
                         <div class='col-sm-6 imgs'>
                             <a href="">                            
@@ -125,7 +127,7 @@
                             </a>
                             <h4>Car Hire on Twitter</h4>
                             <p>Contact @carhire.africa on Twitter. On weekdays, we are there for you from 8am to 5pm.</p>
-                            <a href="" style="color: #0077BC">To @carhire.africa on Twitter</a>
+                            <a href="">To @carhire.africa on Twitter</a>
                         </div>
                     </div>
 

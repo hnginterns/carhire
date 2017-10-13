@@ -6,18 +6,148 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/carlisting.css">
+    <link rel="stylesheet" media="only screen and (min-width: 320px)" href="css/carlisting2.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
 </head>
+<style>
+@media only screen and (min-width: 450px) {
+      .first, .second, ul{
+        float:left;
+        width:50%;
+        margin:0;
+    }
+ .reserve{
+    margin-top: -.6%;
+    margin-left:3%;
+}
+#price{
+    margin-top:2%;
+}
+.head1 p {
+    text-align:center;
+}
+}
+@media only screen and (min-width: 720px) {
+.rebox1, .rebox2, .rebox3, .rebox4{
+    width:24%;
+}
+.head2{
+    margin-left: 3%;
+}
+.rebox1 img{
+    margin-top: 13%;
+}
+.rebox1 p{
+    margin-top:-8%;
+}
+.rebox2 img{
+    margin-top: 20%;
+}
+.rebox3 img{
+    margin-top: 20%;
+}
+.rebox4 img{
+    margin-top: 20%;
+}
+ .car img{
+    width: 50%;
+    height: 50%;
+}
+.text{
+    text-align: left;
+    margin-right:13%;
+    float:right;
+    margin-top:-23%;
+}
+#price p .prices{
+    float:left;
+    margin-top:1%;
+    font-weight: lighter;
+    margin-left:30%;
+    color:#007BCA;
+    font-size: .8em;
+    line-height: 2em;
+}
+#price p .NGN{
+    margin-left:-30%;
+}
+.box{
+    font-size:1em;
+}
+}
+
+
+@media only screen and (min-width: 1100px) {
+    body{
+      font-weight:700;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    margin: 0;
+}
+
+
+</style>
+   
+<body>
+
+
+    <header>
+          <?php include('header1.php') ?>
+  </header>
+    
+
+       <div class="headcontent">
+        <div class="head1">
+            <p>Vehicle Models</p>
+            <form>
+                <p>Display models for Nigeria</p>
+                <select>
+                    <option value="red">Nigeria</option>
+                    <option value="red">Kenya</option>
+                    <option value="red">Nairobi</option>
+                </select>
+                <select>
+                    <option value="red">Nigeria</option>
+                    <option value="red">Kenya</option>
+                    <option value="red">Nairobi</option>
+                </select>
+            </form>
+                <p class="clear" />
+        </div>
+        <div class="head2">
+            <p>4 of 8 available vehicle groups are currently shown</p><br>
+            <div class="rebox1">
+                <img src="1.png" alt="door">
+                <p> Models </p>
+            </div>
+            <div class="rebox2">
+                  <img src="2.png" alt="door">
+                <p> Doors</p>
+            </div>
+            <div class="rebox3">
+                  <img src="3.png" alt="door">
+                <p> Passenger </p>
+            </div>
+            <div class="rebox4">
+                  <img src="4.png" alt="door">
+                <p> Transmission</p>
+            </div>
+        </div>
+        
+            <p class="clear" />
+     </div>
 <!--container div for each car starts here-->
       <div class="box">
 <!--subcontainer div to house car, car name and price-->
         <div class="car">
 
         <img src="car.png" alt="car" >
-        <span class="text">
+        <div class="text">
               <h3> Car Name | ECAR</h3>
               <h3>Hyundai Accent, Chevrolet Spark</h3>
-        </span>
+        </div>
       
             <p class="clear" />
 
@@ -211,7 +341,9 @@
       </div>
       <!--container div for each car ends here-->
 
-<body>
+ <footer>
+    <?php include('footer1.php') ?>
+</footer>
 
 </body>
 </html>

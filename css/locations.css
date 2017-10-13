@@ -1,0 +1,290 @@
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	padding:0px; margin:0px;
+}
+
+.country{
+	
+
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	font-size: 150px;
+	color: #219653;
+	text-align: center;
+}
+
+.world{
+background-image: url("https://res.cloudinary.com/aiyfee/image/upload/v1507734166/world_wzfoz2.png");
+background-size: contain;
+background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+
+
+}
+
+.img.img-fluid{
+
+}
+
+.country_p{
+	text-align: center;
+
+}
+hr{
+	width: 50%;
+	border-width: 2px;
+	border-color: #333;
+}
+.states{
+
+	width: 170px;
+	height: 157px;
+	list-style: none;
+	font-family: Nunito Sans;
+	font-style: italic;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 30px;
+}
+
+.media{
+	padding: 40px;
+	margin: 30px;
+}
+
+
+
+
+.location h5 {  
+  
+}
+
+.location h5:before {
+  content: '\2022';
+  font-size: xx-large;
+  padding-left: -40px;
+
+}
+
+div .outlet{
+	padding: 20px;
+	margin: 20px;
+
+}
+
+h3{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 25px;
+	color: #219653;
+}
+
+table{
+width:80%; 
+min-width:920px;
+text-align:center;
+margin-left:10%;
+margin-top:40px;
+}
+td{width:16%}
+
+#loc{width:80%; min-width:900px; margin-left:10%}
+.moreinfo{
+width:40%;
+ min-width:430px;
+float:right
+}
+
+.loczone{
+width:40%;
+ min-width:430px;
+float:left
+}
+
+.cat{width:80%; 
+min-width:920px;
+text-align:center;
+margin-left:10%;
+margin-top:40px;
+}
+
+/*====Header=====*/
+
+
+.header-blue, .header-below {
+  margin-bottom: 0;
+}
+
+.header-blue {
+  background-color: #007BCA;
+  color: white;
+}
+
+.header-blue .navbar-nav>li>a {
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-blue {
+    display: none;
+  }
+}
+
+.header-below img {
+  height: 50px;
+  margin: 15px;
+}
+
+.header-below .navbar-nav>li>a {
+    color: #2e2e2e;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-below .navbar-nav>li>a:hover {
+    color: #007BCA;
+    background-color: transparent;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+.pipe {
+  pointer-events: none;
+}
+
+
+/*======footer======*/
+
+#myFooter {
+    background-color: #ECEFF6;
+    color: #000000;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#myFooter .logo {
+    font-size: 18px;
+    font-weight: bold;
+    /* margin-top: 30px; */
+    margin-bottom: 18px;
+}
+
+@media only screen and (max-width: 992px) {
+  .logo img {
+    margin: 0 auto;
+  }
+}
+
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #333333;
+}
+
+#myFooter a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    /* text-align: center; */
+    padding-top: 0;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #333333;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
