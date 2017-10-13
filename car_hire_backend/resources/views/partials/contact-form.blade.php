@@ -73,8 +73,8 @@
                           </ul> 
                       </div>    
                       <ul class='ul'>
-                          <li> <a href="">Help</a> </li>
-                          <li> <a href="">FAQ</a> </li>
+                          <li> <a href="/faq">Help</a> </li>
+                          <li> <a href="/faq">FAQ</a> </li>
                       </ul>
                   </div>
                

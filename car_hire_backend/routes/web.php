@@ -40,6 +40,9 @@ Route::get('/driver-info', function () {
 Route::get('/locations', function () {
     return view('partials.locations');
 });
+Route::get('/single-car', function () {
+    return view('partials.single-car');
+});
 
 Route::get('/about-us', function () {
     return view('partials.about-us');
