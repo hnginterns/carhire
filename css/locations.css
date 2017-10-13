@@ -5,7 +5,7 @@ body{
 
 .country{
 	font-weight: 800;
-	font-size: 10.0em;
+	font-size: 9.0em;
 	color: #219653;
 	text-align: center;
 }
@@ -14,7 +14,7 @@ body{
         font-size:4.0em;
         text-align: left;
   }
-
+}
 .world{
 background-image: url("https://res.cloudinary.com/aiyfee/image/upload/v1507734166/world_wzfoz2.png");
 background-size: contain;
@@ -31,8 +31,8 @@ background-position: center center;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  width: 40vw;
-  height: 40vh;
+  width: 30vw;
+  height: 30vh;
 }
 
 .country_p{
