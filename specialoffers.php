@@ -374,8 +374,8 @@
                             </div>
 														<div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        36
+                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N36000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -421,8 +421,8 @@
                             </div>
                                   <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        90000
+                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N90000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -469,8 +469,8 @@
                             						</div>
                                          <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        15000
+                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N15000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
@@ -508,7 +508,7 @@
                             </div>
 														<div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day * </font></font></span>
-                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                                                        <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N15000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
                                         130000
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
@@ -548,8 +548,8 @@
                             </div>
   												   <div class="sx-res-offerlist-pricing">
                                     <span class="sx-res-offerlist-unit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">per day </font></font></span>
-                                      <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
-                                        35000
+                                      <font style="vertical-align: inherit;"><span class="sx-res-offerlist-currency"><small><font style="vertical-align: inherit;">N35000</font></small></span><span class="sx-res-offerlist-currency"><font style="vertical-align: inherit;">
+                                        
                                     </font></span></font><span class="sx-res-offerlist-currency">
                                         <small><font style="vertical-align: inherit;"></font></small><font style="vertical-align: inherit;"></font></span>
                                 </div>
