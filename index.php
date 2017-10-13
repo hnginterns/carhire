@@ -51,7 +51,7 @@
     <!-- <div id="navbar" class="navbar-collapse collapse"> -->
      
         <li><a href="index.php">Home</a></li>
-        <li><a href="aboutus.html">Location</a></li>
+        <li><a href="aboutus.php">Location</a></li>
         <!-- DROPDOWN <li><a hrefclass="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="icons.html">Web Icons</a></li>
@@ -59,10 +59,10 @@
                   </ul></li>
          -->
         <li><a href="specialoffers.php">Special Offers</a></li>  
-        <li><a href="cars.php">Cars</a></li>  
+        <li><a href="carlisting.php">Cars</a></li>  
         <li><a href="contactpage.php">Contact Us</a></li>  
-        <li><a href="airporttransfer.html">Airport Transfer</a></li>
-        <li><a href="airporttransfer.html">Airport Transfer</a></li>   
+        <!-- <li><a href="airporttransfer.html">Airport Transfer</a></li>
+        <li><a href="airporttransfer.html">Airport Transfer</a></li> -->   
     <!-- </div> -->
 </ul>
   <div class="clearfix"></div>
@@ -87,8 +87,8 @@ id="nav2">
        <a class="navbar-brand image" href="#"><img class="center image" src="http://res.cloudinary.com/siazo/image/upload/v1507562729/car_jyrdnk.png" height="50" width="158"></a>
       <ul class="nav navbar-nav navbar-right" id="center">
         <li><a href="#" class="center rent">Rent a car</a></li>
-      <li><a href="#" class="center line ">|</a></li>
-      <li><a href="#" class="center new">New cars</a></li>
+      <li><a href="carlisting.php" class="center line ">|</a></li>
+      <li><a href="carlisting.php" class="center new">New cars</a></li>
       
       </ul>
     </div>
