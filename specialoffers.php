@@ -274,17 +274,17 @@
 							<div class="container">
 
 								<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse navbar-ex1-collapse">
+								<font color="white"><div class="collapse navbar-collapse navbar-ex1-collapse">
 									<ul class="nav navbar-nav navbar-right">
 										<li><a href="#">Home</a></li>
 										<li><a href="#">Location</a></li>
-										<li><a href="#">Speecial Offers</a></li>
+										<li><a href="#">Special Offers</a></li>
 										<li><a href="#">Cars</a></li>
 										<li><a href="#">Contact</a></li>
 										<li><a href="#">Airport Transfer</a></li>
 									</ul>
 								</div><!-- /.navbar-collapse -->
-							</div>
+									</div></font>
 						</nav>
 						<!-- END FIRST NAV BAR -->
 
