@@ -41,7 +41,7 @@
 </head>
 <body>
 <header>
-  <?php include('header1.php') ?>
+  <?php include ('/header1.php') or die('Something went wrong') ?>
  </header>
 
 
@@ -49,13 +49,34 @@
 		<img src="http://res.cloudinary.com/bogadeji/image/upload/q_auto,f_auto/v1507729051/Rectangle_12_ykepwm.png" width="100%">
 	</div>
 
-	<div class="container">
+	<div class="container mid-section white-color">
 		<div class="row">
 
-			<div class="myshadow">
-				<div class="col-md-9 col-md-offset-2">
-					<p>Hello, World!</p>
-				</div>	
+			<div class="col-md-9 col-md-offset-2">
+				<div class="myshadow">
+					<button class="btn btn-primary">Book Now</button>&nbsp;&nbsp;&nbsp;&nbsp; |
+					<span>View or Modify a reservation</span>
+				</div>
+			</div>
+
+			<div class="col-md-3 col-md-offset-2">
+				<div class="myshadow">
+					<p><b>Pick-up Location</b></p>
+					<input class="form-control" type="text" name="location" placeholder="City, State or Airport Code">
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="myshadow">
+					<b>Pick-up Date &amp; Time</b>
+					<input class="form-control" type="date" name="location" placeholder="City, State or Airport Code">
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="myshadow">
+					<p>Pick-up Location</p>
+				</div>
 			</div>
 
 		</div>
