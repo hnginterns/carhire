@@ -45,6 +45,10 @@ Route::get('/about-us', function () {
     return view('partials.about-us');
 });
 
+Route::get('/bookings', function () {
+    return view('partials.bookings');
+});
+
 
 Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
 
