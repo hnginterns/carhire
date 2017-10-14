@@ -6,6 +6,40 @@ body{
 	width: 688px;
 	height: 293px !important;
 }
+.carhire-border{
+    border: .5px solid grey;
+}
+.car-vehicle{
+    font-weight:900;
+    font-size:3.5em;
+    color: #007BCA;
+}
+.car-font-size{
+    font-size: 1.3em;
+}
+.car-margin{
+    margin-top: 10%;
+    margin-bottom:2%;
+}
+.car-margin1{
+    margin-top: 5%;
+}
+.car-margin3{
+    margin-top: 1%;
+    font-weight:500;
+}
+
+.car-marginer{
+    margin-top: 7%;
+    margin-bottom:2%;
+}
+.glyphicon.glyphicon-one-fine-dot:before {
+    content: "\25cf";
+    font-size: 1.2em;
+    color: #007BCA;
+    margin-right:14px;
+}
+
 .passbook{
 	width: 688px;
 	height: 606px !important;
@@ -24,12 +58,6 @@ body{
    padding-top: 10px;
   }
 
- .navbar.navbar-inverse.nav2{
-            background-color:#fff;
-            height:80px;
-            margin-top: -20px;
-            border-color: #fff;
-        }
         .center.image{
             margin-left: 50px;
             padding-top: -20px;
@@ -71,10 +99,6 @@ body{
             font-style: italic;
         }
         
-        .navbar.navbar-default{
-            
-            background-color: #fff;
-        }
         #footer{
             padding-top: 70px;
         }
@@ -220,3 +244,53 @@ body{
         text-align: center;
     }
 }
+
+/*=====Header======*/
+
+
+.header-blue, .header-below {
+  margin-bottom: 0;
+}
+
+.header-blue {
+  background-color: #007BCA;
+  color: white;
+}
+
+.header-blue .navbar-nav>li>a {
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-blue {
+    display: none;
+  }
+}
+
+.header-below img {
+  height: 50px;
+  margin: 15px;
+}
+
+.header-below .navbar-nav>li>a {
+    color: #2e2e2e;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-below .navbar-nav>li>a:hover {
+    color: #007BCA;
+    background-color: transparent;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+.pipe {
+  pointer-events: none;
+}
+

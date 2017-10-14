@@ -4,31 +4,35 @@ body{
 }
 
 .country{
-	
-
-	font-family: Nunito Sans;
-	font-style: normal;
 	font-weight: 800;
-	line-height: normal;
-	font-size: 150px;
+	font-size: 9.0em;
 	color: #219653;
 	text-align: center;
 }
-
+@media screen and (max-width: 568px) {
+    .country {
+        font-size:4.0em;
+        text-align: left;
+  }
+}
 .world{
 background-image: url("https://res.cloudinary.com/aiyfee/image/upload/v1507734166/world_wzfoz2.png");
 background-size: contain;
 background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
   width: 100vw;
   height: 100vh;
 
 
 }
 
-.img.img-fluid{
-
+#ng-img{
+  background-image: url("https://res.cloudinary.com/aiyfee/image/upload/v1507734166/Nigeria_i3lcxb.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30vw;
+  height: 30vh;
 }
 
 .country_p{
@@ -70,7 +74,8 @@ hr{
 .location h5:before {
   content: '\2022';
   font-size: xx-large;
-  padding-left: -40px;
+  
+  color: #219653;
 
 }
 
@@ -98,21 +103,19 @@ margin-top:40px;
 }
 td{width:16%}
 
-#loc{width:80%; min-width:900px; margin-left:10%}
+
 .moreinfo{
 width:40%;
- min-width:430px;
-float:right
+ float:right
 }
 
 .loczone{
-width:40%;
- min-width:430px;
+
 float:left
 }
 
-.cat{width:80%; 
-min-width:920px;
+
+
 text-align:center;
 margin-left:10%;
 margin-top:40px;

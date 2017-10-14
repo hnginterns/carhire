@@ -22,6 +22,11 @@
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
+
+<!--<link href="css/styles.css" type="text/css" rel="stylesheet" media="all"> -->
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 <link href="css/font-awesome.css" rel="stylesheet">  <!-- font-awesome icons -->
 <link href="css/index2.css" type="text/css" rel="stylesheet" media="all">  
 <!-- //Custom Theme files --> 
@@ -35,16 +40,280 @@
 
 </head>
 <body>
+<header>
+  <?php include('header1.php'); ?>
 
-  <?php include('header1.php') ?>
+ </header>
 
-<section>
-  <div class="bg-cover">
-    
+
+	<div class="top-image" align="center">
+		<img src="http://res.cloudinary.com/bogadeji/image/upload/q_auto,f_auto/v1507729051/Rectangle_12_ykepwm.png" width="100%">
+	</div>
+
+	<div class="container mid-section white-color">
+		<div class="row">
+
+			<div class="col-md-9 col-md-offset-1">
+				<div class="myshadow">
+					<button class="btn btn-primary">Book Now</button>&nbsp;&nbsp;&nbsp;&nbsp; |
+					<span>View or Modify a reservation</span>
+				</div>
+			</div>
+
+			<div class="col-md-3 col-md-offset-1">
+				<div class="myshadow">
+					<b>Pick-up Location</b><br /><br />
+					<input class="form-control" type="text" name="location" placeholder="City, State or Airport Code">
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="myshadow">
+					<b>Pick-up Date &amp; Time</b><br /><br />
+					<input class="form-control" type="date" name="location" placeholder="City, State or Airport Code">
+				</div>
+			</div>
+
+			<div class="col-md-3">
+				<div class="myshadow">
+					<b>Return Date</b><br /><br />
+					<input class="mycontrol" type="date" name="location" placeholder="City, State or Airport Code">
+					<button class="btn btn-primary">GO</button>
+
+				</div>
+
+			</div>
+
+
+
+
+		</div>
+	</div>
+
+	<!-- special offers -->
+	<div class="special-offers container">
+    <div class="row">
+    <div class="col-sm-1 arrow">
+      <span class="fa-stack fa-md">
+      	<div class="down">
+      <i class="fa fa-chevron-left left-carousel-button"></i>
+      <i class="fa fa-chevron-left left-carousel-button"></i>
+      	</div>
+      </span>
+    </div>
+    <div class="col-sm-9 container">
+      <h3 calss="text-center">Special Offers</h3>
+      <div class="row">
+        <p class="col-sm-2">Featured Offers</p>
+        <p class="col-sm-2">Partners Offers</p>
+        <p class="col-sm-2">Local offers</p>
+        <p class="col-sm-2">Van Special</p>
+        <p class="col-sm-2">Global Destination</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="offers">
+            <img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com">
+              <span class="black-bold">Discover Somewhere New</span>
+              <span>Kenya car hire from $200</span>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="offers">
+            <img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com">
+            <span class="black-bold">Discover Somewhere New</span>
+            <span>Kenya car hire from $200</span>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="offers">
+            <img src="https://i.imgur.com/OlPFtq1.jpg" title="source: imgur.com">
+            <span class="black-bold">Discover Somewhere New</span>
+            <span>Kenya car hire from $200</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1 arrow">
+      <span class="fa-stack fa-md">
+      <i class="fa fa-chevron-right right-carousel-button"></i>
+      <i class="fa fa-angle-right fa-stack-1x"></i>
+      </span>
+    </div>
   </div>
-</section>
+  </div>
+
+
+<div class="container-fluid bg-blue">
+	<div class="row">
+
+		<div class="mypad">
+			<div class="col-md-6">
+				<h3>Best Deals on the Go!</h3><br />
+				<b>Get carHire on your mobile phone</b><br /><br />
+
+				<a href="https://imgur.com/QyMRM8H"><img src="https://i.imgur.com/QyMRM8H.png" title="source: imgur.com" width="20%" /></a>
+
+				<a href="https://imgur.com/lpnZcYb"><img src="https://i.imgur.com/lpnZcYb.png" title="source: imgur.com" width="20%" /></a>
+
+				<br /><br /><br /><br />
+			</div>
+
+			<div class="col-md-6">
+
+				<div class="col-md-6">
+					 <i class="fa fa-car fa-5x text-blue"></i><br /><br />
+					 <p>1. Reserve a Car</p>
+				</div>
+
+				<div class="col-md-6">
+					 <i class="fa fa-map-marker fa-5x text-blue"></i><br /><br />
+					 <p>2. Go To Pick Up Point.</p>
+				</div>
+
+				<div class="col-md-6">
+					 <i class="fa fa-car fa-5x text-blue"></i><br /><br />
+					 <p>3. Make Payment</p>
+				</div>
+
+				<div class="col-md-6">
+					 <i class="fa fa-money fa-5x text-blue"></i><br /><br />
+					 <p>4. Drive Yourself</p>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</div><br /><br /><br /><br /><br />
+
+<!-- why hire with car hire -->
+
+	<div class="row">
+		<h2 class="text-center team">Why Hire With Car Hire</h2>
+
+		<div class="mypad">
+			<div class="col-md-6">
+
+				
+				<br /><br /><br /><br />
+			</div>
+
+			<div class="col-md-12">
+
+				<div class="col-md-4">
+					 <i class="fa fa-map-marker fa-5x text-blue"></i><br /><br />
+					 <p>3,467 cars</p>
+					 <div class="col-md-6">
+					 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </p>
+					 </div>
+				</div>
+
+				<div class="col-md-4">
+					 <i class="fa fa fa-smile-o fa-5x text-blue"></i><br /><br />
+					 <p>Happy Customers</p>
+					 <div class="col-md-6">
+					 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </p>
+					 </div>
+				</div>
+
+				<div class="col-md-4">
+					 <i class="fa fa-money fa-5x text-blue"></i><br /><br />
+					 <p>Best Prices</p>
+					 <div class="col-md-6">
+					 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </p>
+					 </div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+<br /><br /><br /><br /><br />
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid bg-testimonial">
+    <div class="container">
+      <h2 class="text-center team">TESTIMONIALS</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="carousel slide" data-ride="carousel" id="testimonial-carousel">
+            
+            <div class="carousel-inner text-center">
+              <!-- Quote 1 -->
+              <div class="item active">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                      <div class="testimonial">
+                        <h4>Lorem testimonial title</h4>
+                        <p>Lora ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                        <small>Someone famous</small>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 2 -->
+              <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                      <div class="testimonial">
+                        <h4>Lorem testimonial title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                        <small>Some other famous person</small>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <!-- Quote 3 -->
+              <div class="item">
+                <blockquote>
+                  <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                      <div class="testimonial">
+                        <h4>Lorem testimonial title</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                        <small>Another famous person</small>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+            
+                      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
 	
-  <div class="special-offers container">
+  <!-- <div class="special-offers container">
     <div class="row">
     <div class="col-sm-1 arrow">
       <span class="fa-stack fa-md">
@@ -92,7 +361,7 @@
       </span>
     </div>
   </div>
-  </div>
+  </div> -->
 
   <div class="bg-blue">
     <div class="container">
